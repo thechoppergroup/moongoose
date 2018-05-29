@@ -1,6 +1,6 @@
 {
   "name": "moon-goose",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Simple vue.js icon library",
   "main": "dist/bundle.js",
   "scripts": {
