@@ -19,13 +19,12 @@
 import Icons from '../icons_all.js'
 
 export default {
+    name: 'moongoose'.
     props: ['name'],
-
     data: function() {
         var out = { rawHtml: '' };
         return out;
     },
-
     created: function() {
         this.rawHtml = Icons[this.name];
     }
