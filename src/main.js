@@ -2,9 +2,7 @@ import moongoose from './components/icon.vue'
 
 const Moongoose = {
     install(Vue, options) {
-        Vue.mixin({
-            component: {moongoose},
-        });
+        Vue.component({moongoose});
     }
 };
 

@@ -107,13 +107,12 @@ var _icons_all2 = _interopRequireDefault(_icons_all);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = {
+    name: 'moongoose',
     props: ['name'],
-
     data: function data() {
         var out = { rawHtml: '' };
         return out;
     },
-
     created: function created() {
         this.rawHtml = _icons_all2.default[this.name];
     }
@@ -1291,9 +1290,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Moongoose = {
     install: function install(Vue, options) {
-        Vue.mixin({
-            component: { moongoose: _icon2.default }
-        });
+        Vue.component({ moongoose: _icon2.default });
     }
 };
 

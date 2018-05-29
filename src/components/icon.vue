@@ -19,7 +19,7 @@
 import Icons from '../icons_all.js'
 
 export default {
-    name: 'moongoose'.
+    name: 'moongoose',
     props: ['name'],
     data: function() {
         var out = { rawHtml: '' };
