@@ -1,0 +1,42 @@
+{
+  "name": "moon-goose",
+  "version": "0.0.0",
+  "description": "Simple vue.js icon library",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.js",
+    "buildIcons": "node icons.js",
+    "build": "npm run buildIcons; webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thechoppergroup/moon-goose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thechoppergroup/moon-goose/issues"
+  },
+  "homepage": "https://github.com/thechoppergroup/moon-goose#readme",
+  "devDependencies": {
+    "cross-env": "^5.1.6",
+    "css-loader": "^0.28.11",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "style-loader": "^0.21.0",
+    "vue-loader": "^15.2.2",
+    "vue-style-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.10.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue": "^2.5.16",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
