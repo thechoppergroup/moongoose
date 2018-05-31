@@ -3,8 +3,8 @@
 var FS = require('fs');
 var path = require('path');
 var SVGO = require('svgo');
-var filesPath = path.resolve(__dirname, 'svg');
-var filesDist = path.resolve(__dirname, 'dist/svg_all.js');
+var filesPath = path.resolve(__dirname, 'src/icons');
+var filesDist = path.resolve(__dirname, 'src/icons_all.js');
 var dimension = 512;
 
 var svgo = new SVGO({
@@ -95,7 +95,7 @@ var svgo = new SVGO({
 
 FS.readdir(filesPath, function (err, files) {
     var output = [];
-    output.push("module.exports = {")
+    output.push("export default {")
 
     if (err) {
         throw err;
