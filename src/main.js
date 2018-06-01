@@ -2,7 +2,7 @@ import moongoose from './moongoose.vue';
 
 const Moongoose = {
     install(Vue, options) {
-        Vue.component('moonGoose', {moongoose});
+        Vue.component(moongoose.name, {moongoose});
     }
 };
 

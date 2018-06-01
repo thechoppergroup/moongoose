@@ -1126,9 +1126,11 @@ var _moongoose2 = _interopRequireDefault(_moongoose);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+console.log(_moongoose2.default.name);
+
 var Moongoose = {
     install: function install(Vue, options) {
-        Vue.component('moonGoose', { moongoose: _moongoose2.default });
+        Vue.component(_moongoose2.default.name, { moongoose: _moongoose2.default });
     }
 };
 
