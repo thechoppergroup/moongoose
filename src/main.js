@@ -1,4 +1,4 @@
-import moongoose from './icon.vue';
+import moongoose from './moongoose.vue';
 
 const Moongoose = {
     install(Vue, options) {
