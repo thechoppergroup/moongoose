@@ -1128,7 +1128,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Moongoose = {
     install: function install(Vue, options) {
-        Vue.component({ moongoose: _moongoose2.default });
+        Vue.component('moonGoose', { moongoose: _moongoose2.default });
     }
 };
 
