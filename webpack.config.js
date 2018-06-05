@@ -54,7 +54,7 @@ module.exports = [
     }),
 
     merge(config, {
-        entry: path.resolve(__dirname + '/src/wrapper.js'),
+        entry: path.resolve(__dirname + '/src/moongoose.vue'),
         output: {
             filename: 'moongoose.js',
             libraryTarget: 'umd',

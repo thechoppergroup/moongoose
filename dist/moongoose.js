@@ -91,7 +91,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/wrapper.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/moongoose.vue");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1193,36 +1193,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_moongoose_vue_vue_type_template_id_1c506f2f__WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
-
-/***/ }),
-
-/***/ "./src/wrapper.js":
-/*!************************!*\
-  !*** ./src/wrapper.js ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _moongoose = __webpack_require__(/*! ./moongoose.vue */ "./src/moongoose.vue");
-
-var _moongoose2 = _interopRequireDefault(_moongoose);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Moongoose = {
-    install: function install(Vue, options) {
-        Vue.component(_moongoose2.default.name, { moongoose: _moongoose2.default });
-    }
-};
-
-exports.default = Moongoose;
 
 /***/ })
 
