@@ -7,7 +7,7 @@ SVG Icon Library
 - `yarn add https://github.com/thechoppergroup/moon-goose.git`
 - `import Moongoose from 'moongoose';`
 
-~or~
+~ or ~
 
 - `<script src="moon-goose/dist/moongoose.min.js"></script>`
 
