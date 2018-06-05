@@ -4,7 +4,7 @@ SVG Icon Library
 
 ## Getting Started
 
-- `yarn add https://github.com/thechoppergroup/moon-goose.git`
+- `yarn add https://github.com/thechoppergroup/moongoose.git`
 - `import Moongoose from 'moongoose';`
 
 ~ or ~
@@ -13,6 +13,7 @@ SVG Icon Library
 
 ## Adding new Icons
 
+- Run `yarn install`
 - Drop your new SVG icon into `src/icons/`
 - Run `yarn run build`
 - Commit changes to GitHub
