@@ -20,7 +20,7 @@ export default {
         var out = { rawHtml: '' };
         return out;
     },
-    created: function() {
+    mounted: function() {
         this.rawHtml = Icons[this.name];
     }
 }
