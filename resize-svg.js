@@ -4,6 +4,7 @@ const SVGO = require('svgo');
 const filesPath = path.resolve(__dirname, 'src/icons');
 const dimension = 512;
 const svgConfig = {
+    js2svg: { pretty: true, indent: 4 },
     plugins: [
         { cleanupAttrs: true },
         { removeDoctype: true },
