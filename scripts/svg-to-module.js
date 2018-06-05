@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
-const icons_path = './src/icons';
-const output_path = './src/icons_all.js';
+const icons_path = path.resolve(__dirname, '../src/icons');
+const output_path = path.resolve(__dirname, '../src/icons_all.js');
 
 function main() {
     fs.readdir(icons_path, function (err, files) {

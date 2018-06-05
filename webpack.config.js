@@ -1,13 +1,10 @@
+const merge = require('webpack-merge');
 const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
-module.exports = {
-    entry: {
-        app: './src/main.js',
-    },
+const config = {
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'bundle.js'
     },
     mode: 'development',
     devtool: 'source-map', // 'cheap-module-eval-source-map', 'inline-source-map'
@@ -45,3 +42,24 @@ module.exports = {
         new VueLoaderPlugin()
     ]
 };
+
+module.exports = [
+    merge(config, {
+        entry: path.resolve(__dirname + '/src/wrapper.js'),
+        output: {
+            filename: 'moongoose.min.js',
+            libraryTarget: 'window',
+            library: 'Moongoose'
+        }
+    }),
+
+    merge(config, {
+        entry: path.resolve(__dirname + '/src/wrapper.js'),
+        output: {
+            filename: 'moongoose.js',
+            libraryTarget: 'umd',
+            library: 'moongoose',
+            umdNamedDefine: true
+        }
+    })
+];

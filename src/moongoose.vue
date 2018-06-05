@@ -1,14 +1,4 @@
 <style lang="scss">
-    /*
-    span.svg-icon svg {
-        color: #8c8c8c;
-        cursor: pointer;
-
-        &:hover {
-            color: #ffffff;
-        }
-    }
-    */
 </style>
 
 <template>

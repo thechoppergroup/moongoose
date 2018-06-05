@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const SVGO = require('svgo');
-const filesPath = path.resolve(__dirname, 'src/icons');
+const filesPath = path.resolve(__dirname, '../src/icons');
 const dimension = 512;
 const svgConfig = {
     js2svg: { pretty: true, indent: 4 },
