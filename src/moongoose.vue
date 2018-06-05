@@ -16,12 +16,26 @@ import Icons from './icons_all'
 export default {
     name: 'moongoose',
     props: ['name'],
+
     data: function() {
         var out = { rawHtml: '' };
         return out;
     },
+
+    watch: {
+        name: function(newVal, oldVal) {
+            this.updateHtml();
+        }
+    },
+
     mounted: function() {
-        this.rawHtml = Icons[this.name];
+        this.updateHtml();
+    },
+
+    methods: {
+        updateHtml: function() {
+            this.rawHtml = Icons[this.name];
+        }
     }
 }
 </script>
