@@ -1,13 +1,21 @@
 <style lang="scss">
-    .svg-icon svg {
-        width: 1em;
+    .moongoose {
+        display: inline-block;
         height: 1em;
-        fill: currentColor;
+        width: 1em;
+
+        svg {
+            height: 1.4em;
+            width: 1em;
+            fill: currentColor;
+            display: block;
+            vertical-align: middle;
+        }
     }
 </style>
 
 <template>
-  <span class="svg-icon" v-html="rawHtml"></span>
+  <i class="moongoose" v-html="rawHtml"></i>
 </template>
 
 <script>
