@@ -1,5 +1,5 @@
 module.exports = {
-    "1x1": '<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">    <path fill-rule="evenodd" d="M24 24h236v236H24z"/></svg>',
+    "1x1": '<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">    <path d="M0 0h512v512H0V0z"/></svg>',
     "1x2": '<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">    <path fill-rule="evenodd" d="M24 24h106v236H24zm130 0h106v236H154z"/></svg>',
     "1x3": '<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">    <path fill-rule="evenodd" d="M24 24h63v236H24zm87 0h63v236h-63zm86 0h63v236h-63z"/></svg>',
     "1x4": '<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">    <path fill-rule="evenodd" d="M216 24h44v236h-44zm-64 0h44v236h-44zm-64 0h44v236H88zm-64 0h44v236H24z"/></svg>',

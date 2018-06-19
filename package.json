@@ -3,10 +3,13 @@
     "version": "0.1.0",
     "description": "SVG Icon Library",
     "main": "dist/moongoose.js",
-    "files": ["dist"],
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "dev": "webpack --config webpack.config.js",
-        "build": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js"
+        "build": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js",
+        "demo": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.demo.js --watch"
     },
     "repository": {
         "type": "git",
@@ -18,7 +21,10 @@
         "url": "https://github.com/thechoppergroup/moongoose/issues"
     },
     "homepage": "https://github.com/thechoppergroup/moongoose#readme",
-    "dependencies": {},
+    "dependencies": {
+        "browser-sync": "^2.24.4",
+        "browser-sync-webpack-plugin": "^2.2.2"
+    },
     "devDependencies": {
         "babel-core": "^6.26.3",
         "babel-loader": "^7.1.4",
