@@ -6,18 +6,12 @@
 
         svg {
             display: inline-block;
-            width: 1em;
-            height: 1em;
             stroke-width: 0;
             stroke: currentColor;
             fill: currentColor;
-            /*
+            vertical-align: middle;
             height: 1.4em;
             width: 1em;
-            fill: currentColor;
-            display: block;
-            vertical-align: middle;
-            */
         }
     }
 </style>
