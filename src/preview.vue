@@ -32,10 +32,12 @@
     <div class="icons">
         <h1>Moongoose Icons</h1>
         <input class="icons-search" v-model="filter" placeholder="Search icons..."/>
-        <span class="icons-icon" v-for="icon in filteredIcons">
-            <moongoose :name="icon"/>
-            {{ icon }}
-        </span>
+        <ul>
+            <li class="icons-icon" v-for="icon in filteredIcons">
+                <moongoose :name="icon"/>{{ icon }}
+            </li >
+        </ul>
+        
     </div>
 </template>
 

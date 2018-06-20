@@ -10,7 +10,7 @@
             stroke: currentColor;
             fill: currentColor;
             vertical-align: middle;
-            height: 1.4em;
+            height: 1.2em;
             width: 1em;
         }
     }
