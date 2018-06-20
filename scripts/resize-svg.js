@@ -47,9 +47,9 @@ const svgConfig = {
                 {height: dimension},
                 {viewBox: `0 0 ${dimension} ${dimension}`}
             ]
-        }}]
+        }}
+    ]
 };
-
 
 function getFiles() {
     var files = fs.readdirSync(filesPath);

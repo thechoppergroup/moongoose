@@ -7,9 +7,8 @@
         "dist"
     ],
     "scripts": {
-        "dev": "webpack --config webpack.config.js",
-        "build": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js",
-        "demo": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.demo.js --watch"
+        "build": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --disable-browser-sync-plugin",
+        "watch": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --watch"
     },
     "repository": {
         "type": "git",
@@ -23,7 +22,9 @@
     "homepage": "https://github.com/thechoppergroup/moongoose#readme",
     "dependencies": {
         "browser-sync": "^2.24.4",
-        "browser-sync-webpack-plugin": "^2.2.2"
+        "browser-sync-webpack-plugin": "^2.2.2",
+        "lodash": "^4.17.10",
+        "vue": "^2.5.16"
     },
     "devDependencies": {
         "babel-core": "^6.26.3",
@@ -36,7 +37,6 @@
         "sass-loader": "^7.0.1",
         "style-loader": "^0.21.0",
         "svgo": "^1.0.5",
-        "vue": "^2.5.16",
         "vue-loader": "^15.2.2",
         "vue-style-loader": "^4.1.0",
         "vue-template-compiler": "^2.5.16",

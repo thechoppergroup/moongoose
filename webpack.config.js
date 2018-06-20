@@ -20,5 +20,14 @@ module.exports = [
             library: 'moongoose',
             umdNamedDefine: true
         }
+    }),
+
+    merge(config, {
+        entry: path.resolve(__dirname + '/src/preview.js'),
+        output: {
+            filename: 'preview.min.js',
+            libraryTarget: 'window',
+            library: 'Preview'
+        }
     })
 ];

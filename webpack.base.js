@@ -1,5 +1,6 @@
 const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
     output: {
@@ -38,6 +39,25 @@ module.exports = {
         }]
     },
     plugins: [
-        new VueLoaderPlugin()
+		{
+			name: 'vue-loader',
+			plugin: new VueLoaderPlugin()
+        },
+		{
+			name: 'browser-sync',
+			plugin: new BrowserSyncPlugin({
+				port: 3000,
+				host: 'localhost',
+                server: { baseDir: ['dist'] }
+			})
+		}
     ]
 };
+
+module.exports.plugins.forEach(function(p,i) {
+	if (process.argv.indexOf( '--disable-' + p.name + '-plugin') === -1) {
+		module.exports.plugins[i] = p.plugin;
+	} else {
+		module.exports.plugins[i] = function() {}
+	}
+});
