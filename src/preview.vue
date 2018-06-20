@@ -9,25 +9,28 @@
     &-icon {
         display: inline-block;
         margin: 0.5em;
-        font-size: 18px;
         width: 22%;
         background-color: rgb(248, 249, 250);
         color: rgb(57, 63, 73);
         padding: 1em;
+        border-radius: 5px;
     }
 
     &-search {
         display: block;
         width: 100%;
+        font-size: 1em;
         padding: .25em;
         outline: none;
-        font-size: 1.25em;
+        border-radius: 5px;
+        border: solid 3px #d2d2d2;
     }
 }
 </style>
 
 <template>
     <div class="icons">
+        <h1>Moongoose Icons</h1>
         <input class="icons-search" v-model="filter" placeholder="Search icons..."/>
         <span class="icons-icon" v-for="icon in filteredIcons">
             <moongoose :name="icon"/>
