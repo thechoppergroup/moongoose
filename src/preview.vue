@@ -32,7 +32,7 @@
     <div class="icons">
         <h1>Moongoose Icons</h1>
         <input class="icons-search" v-model="filter" placeholder="Search icons..."/>
-        <ul>
+        <ul class="unstyle">
             <li class="icons-icon" v-for="icon in filteredIcons">
                 <moongoose :name="icon"/>{{ icon }}
             </li >
