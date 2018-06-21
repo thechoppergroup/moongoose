@@ -26,6 +26,7 @@ module.exports = [
         entry: path.resolve(__dirname + '/src/preview.js'),
         output: {
             filename: 'preview.min.js',
+            path: path.join(__dirname, 'docs'),
             libraryTarget: 'window',
             library: 'Preview'
         }
