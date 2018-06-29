@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Preview from './preview.vue';
+import Preview from 'Docs/index.vue';
 
 window.App = new Vue(Preview);

@@ -38,6 +38,12 @@ module.exports = {
             }]
         }]
     },
+    resolve: {
+        alias: {
+            Docs: path.resolve(__dirname, 'src/docs/'),
+            Moongoose: path.resolve(__dirname, 'src')
+        }
+    },
     plugins: [
 		{
 			name: 'vue-loader',

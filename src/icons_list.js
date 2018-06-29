@@ -113,6 +113,7 @@ module.exports = [
 'ios-personadd',
 'ios-telephone-hang-up',
 'ios-telephone',
+'junk-email',
 'link',
 'load-d',
 'locked',
