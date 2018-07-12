@@ -1,4 +1,5 @@
 <style lang="scss" scoped>
+@import '../scss/color.scss';
     button {
         padding: .5rem;
         margin: .5rem;
@@ -19,17 +20,20 @@
 
         &:hover {
             background-color:#D8D8D8;
-
             span {
                 opacity: 1;
             }
+        }
+
+        &:active {
+            outline: 3px solid $primary-color;
         }
     }
 </style>
 
 <template>
-    <button @mouseover="showNow()">
-        <moongoose :name="name" class="a1" v-if="show"></moongoose>
+    <button>
+        <moongoose :name="name" class="a1"></moongoose>
         <span>{{name}}</span>
     </button>
 </template>
@@ -39,21 +43,11 @@ import Moongoose from 'Moongoose/moongoose.vue'
 
 export default {
     name: 'icon-preview',
-    data: () => {
-        return {
-            show: false
-        }
-    },
     props: {
         name: ''
     },
     components: {
         Moongoose
-    },
-    methods: {
-        showNow: function () {
-            this.show = true
-        }
     }
 }
 </script>
