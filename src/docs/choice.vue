@@ -1,6 +1,6 @@
 <template lang="html">
     <div class="select">
-        <select v-model="selected">
+        <select v-model="model" @change="changeHandler">
             <option v-for="option in options" v-bind:value="option.value">
                 {{ option.text }}
             </option>
@@ -17,17 +17,18 @@ export default {
     components: {
         Moongoose
     },
-    data: function() {
-        return {
-            selected: 'A',
-            options: [
-                { text: '18 dp', value: 'A' },
-                { text: '24 dp', value: 'B' },
-                { text: '36 dp', value: 'C' },
-                { text: '48 dp', value: 'D' },
-                { text: 'iOS', value: 'E' },
-                { text: 'Android', value: 'F' }
-            ]
+    data: function () {
+            return {
+                model: ''
+            }
+    },
+    props: {
+        options: [],
+        selected: ''
+    },
+    methods: {
+        changeHandler: function () {
+            this.$emit('input', this.model);
         }
     }
 }
@@ -35,9 +36,10 @@ export default {
 
 <style lang="scss" scoped>
 .select {
-    display: flex;
-    align-items: center;
     box-shadow: 0 0 0 .5px black;
+    position: relative;
+    height: 2.25em;
+
     select {
         -moz-appearance: none;
         -webkit-appearance: none;
@@ -46,10 +48,16 @@ export default {
         border: none;
         padding: .5rem;
         outline: none;
-        padding-right: 2rem;
+        width: 100%;
     }
+
     &-arrow {
         margin-right: .25rem;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+        pointer-events: none;
     }
 }
 </style>

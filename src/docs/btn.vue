@@ -7,6 +7,10 @@
         align-items: center;
         justify-content: center;
 
+        &.fill {
+            width: 100%;
+        }
+
         &.solid-black {
             background-color: black;
             .text-color, .icon-color {
@@ -38,7 +42,7 @@
 </style>
 
 <template lang="html">
-    <button :class="variation">
+    <button :class="classList">
         <span class="text-color">{{pretext}}</span>
         <moongoose :name="icon" class="icon-color c0"></moongoose>
         <span class="text-color">{{sutext}}</span>
@@ -56,6 +60,12 @@ export default {
         textcolor: '',
         pretext: '',
         sutext: '',
+        fill: false
+    },
+    computed: {
+        classList: function () {
+            return this.variation + (this.fill ? ' fill': '' );
+        }
     },
     components: {
         Moongoose

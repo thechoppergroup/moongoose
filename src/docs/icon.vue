@@ -32,8 +32,8 @@
 </style>
 
 <template>
-    <button>
-        <moongoose :name="name" class="a1"></moongoose>
+    <button @click="$emit('click', name)" :class="{'is-current': name === currentIcon}">
+        <moongoose :name="name" :style="{fontSize: size}"></moongoose>
         <span>{{name}}</span>
     </button>
 </template>
@@ -44,7 +44,9 @@ import Moongoose from 'Moongoose/moongoose.vue'
 export default {
     name: 'icon-preview',
     props: {
-        name: ''
+        name: '',
+        size: '',
+        currentIcon: ''
     },
     components: {
         Moongoose

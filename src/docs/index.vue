@@ -80,13 +80,13 @@ main {
             <h1>Moongoose Icons</h1>
             <input class="icons-search" v-model="filter" placeholder="Search icons..."/>
             <ul class="icons-list unstyle">
-                <li class="icons-list-icon " v-for="icon in filteredIcons">
-                    <icon :name="icon"/>
+                <li class="icons-list-icon "  v-for="icon in filteredIcons">
+                    <icon @click="clickHandler" :name="icon" :size="iconSize" :current-icon="currentIcon"/>
                 </li>
             </ul>
         </div>
         <div class="sidebar">
-            <sidebar></sidebar>
+            <sidebar @iconSizeChanged="sizeChangeHandler" :current-icon="currentIcon"></sidebar>
         </div>
     </main>
 </template>
@@ -114,7 +114,9 @@ export default {
         var out = {
             icons: [],
             btn: [],
-            filter: ''
+            filter: '',
+            iconSize: 'a1',
+            currentIcon: ''
         };
         return out;
     },
@@ -133,6 +135,23 @@ export default {
     },
 
     methods: {
+        sizeChangeHandler: function (newSize) {
+            switch (newSize) {
+                case "A":
+                    this.iconSize = '18px'
+                    break;
+                case "B":
+                    this.iconSize = '24px'
+                    break;
+                default:
+                    this.iconSize = 'a-1'
+                    break;
+            }
+
+        },
+        clickHandler: function (iconName) {
+            this.currentIcon = iconName;
+        }
     }
 }
 </script>

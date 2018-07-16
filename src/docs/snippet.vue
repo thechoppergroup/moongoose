@@ -21,10 +21,20 @@
 </template>
 
 <script>
+import Icons from '../icons_all';
+
 export default {
     data: function () {
         return {
-            code: "<div class='test'>Hello Code this is a long code that needs to be copied and pasted</div>"
+            code: "No Icon Selected"
+        }
+    },
+    props: {
+        currentIcon: ""
+    },
+    watch: {
+        currentIcon: function (newVal) {
+            this.code = Icons[newVal];
         }
     }
 }
