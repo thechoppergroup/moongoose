@@ -16,12 +16,17 @@
 <template>
 <div class="snippet">
     <p>language</p>
-    <input v-model="code"></input>
+    <div class="flx">
+        <input v-model="code"></input>
+        <btn @click.native="copyToClipboard" icon="ios-copy"></btn>
+    </div>
 </div>
 </template>
 
 <script>
 import Icons from '../icons_all';
+import Copy from 'copy-to-clipboard';
+import Btn from './btn.vue';
 
 export default {
     data: function () {
@@ -29,12 +34,20 @@ export default {
             code: "No Icon Selected"
         }
     },
+    components: {
+            Btn
+    },
     props: {
-        currentIcon: ""
+        currentIcon: ''
+    },
+    methods: {
+            copyToClipboard: function () {
+                Copy(`<moongoose :name="${this.currentIcon}"></moongoose>`);
+            }
     },
     watch: {
         currentIcon: function (newVal) {
-            this.code = Icons[newVal];
+            this.code = `<moongoose :name="${newVal}"></moongoose>`;
         }
     }
 }

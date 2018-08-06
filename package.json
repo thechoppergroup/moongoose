@@ -23,6 +23,7 @@
     "dependencies": {
         "browser-sync": "^2.24.4",
         "browser-sync-webpack-plugin": "^2.2.2",
+        "copy-to-clipboard": "^3.0.8",
         "lodash": "^4.17.10",
         "vue": "^2.5.16"
     },

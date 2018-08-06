@@ -25,7 +25,7 @@
             }
         }
 
-        &:active {
+        &.is-current {
             outline: 3px solid $primary-color;
         }
     }

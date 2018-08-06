@@ -1,7 +1,7 @@
 <template lang="html">
     <aside class="sidebar" v-show="currentIcon !== ''">
         <div class="sidebar-preview">
-            <i class="sidebar-preview-icon c1"><moongoose :name="currentIcon"></moongoose></i>
+            <i class="sidebar-preview-icon c1" :class="{'is-white': isWhite}"><moongoose :name="currentIcon"></moongoose></i>
             <span class="sidebar-preview-label">{{currentIcon}}</span>
         </div>
         <div class="sidebar-props">
@@ -10,10 +10,10 @@
                     <choice :options="sizeOptions" v-model="size"></choice>
                 </div>
                 <div class="">
-                    <btn variation="solid-black" icon="checkmark"></btn>
+                    <btn variation="solid-black" :icon="blackCheck" @click.native="isWhite = false"></btn>
                 </div>
                 <div class="">
-                    <btn variation="solid-white"></btn>
+                    <btn variation="solid-white" :icon="whiteCheck" @click.native="isWhite = true"></btn>
                 </div>
             </div>
         </div>
@@ -55,7 +55,10 @@ export default {
                 { text: 'iOS', value: 'E' },
                 { text: 'Android', value: 'F' }
             ],
-            size: 'A'
+            size: 'A',
+            isWhite: false,
+            whiteCheck: '',
+            blackCheck: 'checkmark'
         }
     },
     components: {
@@ -70,6 +73,15 @@ export default {
     watch: {
         size: function (newVal) {
             this.$emit('iconSizeChanged', newVal);
+        },
+        isWhite: function (newVal) {
+            if (newVal) {
+                this.whiteCheck = 'checkmark';
+                this.blackCheck = '';
+            } else {
+                this.blackCheck = 'checkmark';
+                this.whiteCheck = '';
+            }
         }
     }
 }
@@ -104,6 +116,10 @@ export default {
             top: 60%;
             left: 50%;
             transform: translate(-50%);
+        }
+
+        .is-white {
+            color: white;
         }
     }
 
