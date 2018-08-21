@@ -42,7 +42,7 @@
         </ul>
 
         <button @click="$emit('click', name)" :class="{'is-current': name === currentIcon}">
-            <moongoose :name="name" :style="{fontSize: iconSize}"></moongoose>
+            <img :src="svgData" :title="name" :style="{width: iconSize}">
             <span>{{name}}</span>
         </button>
         <span v-show="success">Copied!</span>
@@ -52,6 +52,8 @@
 <script>
 import Moongoose from 'Moongoose/moongoose.vue';
 import Copy from 'copy-to-clipboard';
+import svgToDataURL from 'svg-to-dataurl';
+import Icons from '../icons_all';
 
 export default {
     name: 'icon-preview',
@@ -63,6 +65,12 @@ export default {
     computed: {
         iconSize: function () {
             return this.size + 'px';
+        },
+        svg: function () {
+            return Icons[this.name];
+        },
+        svgData: function () {
+            return `data:image/svg+xml;utf8,${this.svg}`
         }
     },
     data: function() {
@@ -72,6 +80,14 @@ export default {
     },
     components: {
         Moongoose
+    },
+    mounted: function () {
+        var context = this;
+        this.$refs.copyImage.addEventListener('click', function () {
+            SelectText(context.$refs.svgData);
+            document.execCommand('copy');
+            window.getSelection().removeAllRanges();
+        })
     },
     methods: {
         copyToClipboard: function () {
