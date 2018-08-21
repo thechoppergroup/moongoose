@@ -1,12 +1,14 @@
 <style lang="scss" scoped>
 @import '../scss/color.scss';
-    button {
+
+.icon {
+    &-icons {
         padding: .5rem;
         margin: .5rem;
         display: inline-block;
         position: relative;
 
-        span {
+        &-name {
             position: absolute;
             top: calc(100% + .25rem);
             left: 50%;
@@ -30,22 +32,44 @@
         }
     }
 
-    .icon-menu {
-        transform: translate(0, -100%);
+    &-menu {
+
+        &-copy {
+            transform: translate(-50%, -85%);
+            padding: .25rem .5rem;
+            background: $primary-color;
+            color: white;
+            font-size: 10px;
+            border-radius: 9999px;
+            &:hover {
+                background-color: darken($primary-color, 10%);
+            }
+        }
+
+        &-copied {
+            transform: translate(-50%, -85%);
+            padding: .25rem .5rem;
+            background: $primary-color;
+            color: white;
+            font-size: 10px;
+            border-radius: 9999px;
+            pointer-events: none;
+        }
     }
+}
+
 </style>
 
 <template>
     <div class="icon origin">
-        <ul v-show="name === currentIcon" class="icon-menu unstyle flx abs--top-right">
-            <li><button type="button" name="button" @click="copyToClipboard"><moongoose name="ios-copy" :style="{fontSize: '20px'}"></moongoose></button></li>
-        </ul>
-
-        <button @click="$emit('click', name)" :class="{'is-current': name === currentIcon}">
+        <div v-show="name === currentIcon" class="icon-menu abs--top-center origin">
+            <button class="abs--top-center icon-menu-copy" @click="copyToClipboard">Copy</button>
+            <span class="abs--top-center icon-menu-copied" v-show="success">Copied!</span>
+        </div>
+        <button class="icon-icons" @click="$emit('click', name)" :class="{'is-current': name === currentIcon}">
             <moongoose :name="name" :style="{fontSize: iconSize}"></moongoose>
-            <span>{{name}}</span>
+            <span class="icon-icons-name">{{name}}</span>
         </button>
-        <span v-show="success">Copied!</span>
     </div>
 </template>
 
@@ -79,7 +103,7 @@ export default {
             this.success = true;
             setTimeout(() => {
                 this.success = false;
-            }, 3000)
+            }, 800)
         }
     }
 }
