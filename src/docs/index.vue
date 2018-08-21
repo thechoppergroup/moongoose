@@ -1,8 +1,8 @@
 <style lang="scss" scoped>
 @import '../scss/color.scss';
 
-$sidebar-width: 20rem;
 $identity-width: 3rem;
+$bottombar-height: 10rem;
 
 main {
     background-color: $smokewhite;
@@ -15,16 +15,15 @@ main {
     position: fixed;
     overflow-y: auto;
     overflow-x: hidden;
-    top: 2rem;
-    right: calc(2rem + #{$sidebar-width});
+    top: 123px;
     left: calc(2rem + #{$identity-width});
-    bottom: 2rem;
+    right: 2rem;
+    bottom: $bottombar-height;
     font-size: 18px;
 
     &-list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
 
         &-icon {
             z-index: 1;
@@ -35,19 +34,6 @@ main {
         }
     }
 
-    &-search {
-        position: sticky;
-        display: block;
-        top: 0;
-        width: 100%;
-        font-size: 1em;
-        margin: 1em 0;
-        padding: .75em;
-        outline: none;
-        background-color: white;
-        border: none;
-        z-index: 3;
-    }
 }
 
 .identity {
@@ -60,12 +46,43 @@ main {
     bottom: 0;
 }
 
-.sidebar {
+.header {
     position: fixed;
-    width: $sidebar-width;
-    top: 0;
+    width: calc(100% - #{$identity-width});
+    left: $identity-width;
+    padding: 2rem;
+    padding-bottom: 0;
+    &-headers {
+        align-items: center;
+        &-search {
+            position: sticky;
+            display: block;
+            top: 0;
+            width: 100%;
+            font-size: 1em;
+            margin: 1em 0;
+            padding: .75em;
+            outline: none;
+            background-color: white;
+            border: none;
+            z-index: 3;
+        }
+        &-slider {
+            padding: 0 2rem;
+        }
+        &-sizedisplay {
+
+        }
+    }
+}
+
+.bottombar {
+    position: fixed;
+    height: $bottombar-height;
+    width: calc(100% - #{$identity-width});
+    left: $identity-width;
+    right: 0;
     bottom: 0;
-    left: calc(100% - #{$sidebar-width});
     padding: 0 2rem;
 }
 
@@ -76,18 +93,22 @@ main {
         <div class="identity">
             <identity></identity>
         </div>
-        <div class="icons">
+        <div class="header">
             <h1>Moongoose Icons</h1>
-            <input class="icons-search" v-model="filter" placeholder="Search icons..."/>
+            <div class="flx header-headers">
+                <input class="header-headers-search" v-model="filter" placeholder="Search icons..."/>
+                <slider class="header-headers-slider" v-model="iconSize"></slider>
+                <p class="header-headers-sizedisplay">{{iconSize}}px</p>
+            </div>
+        </div>
+        <div class="icons">
             <ul class="icons-list unstyle">
                 <li class="icons-list-icon "  v-for="icon in filteredIcons">
-                    <icon @click="clickHandler" :name="icon" :size="iconSize" :current-icon="currentIcon"/>
+                    <icon @click="setCurrentIcon" :name="icon" :size="iconSize" :current-icon="currentIcon"/>
                 </li>
             </ul>
         </div>
-        <div class="sidebar">
-            <sidebar @iconSizeChanged="sizeChangeHandler" :current-icon="currentIcon"></sidebar>
-        </div>
+        <bottombar @setCurrentIcon="setCurrentIcon" :current-icon="currentIcon" :similar="similar" iconSize="1rem"></bottombar>
     </main>
 </template>
 
@@ -96,8 +117,10 @@ import _ from 'lodash';
 import Icons from 'Moongoose/icons_all.js';
 import Icon from './icon.vue';
 import Btn from './btn.vue';
-import Sidebar from './sidebar.vue';
+import Bottombar from './bottombar.vue';
 import Identity from './identity.vue';
+import Meta from './meta.json';
+import Slider from './slider.vue';
 
 export default {
     name: 'preview',
@@ -106,19 +129,20 @@ export default {
     components: {
         Icon,
         Btn,
-        Sidebar,
-        Identity
+        Bottombar,
+        Identity,
+        Slider
     },
 
     data: function() {
-        var out = {
+        return {
             icons: [],
             btn: [],
             filter: '',
-            iconSize: 'a1',
-            currentIcon: ''
-        };
-        return out;
+            iconSize: '24',
+            currentIcon: '',
+            similar: [],
+        }
     },
 
     created: function() {
@@ -128,30 +152,35 @@ export default {
     computed: {
         filteredIcons: function() {
             var self = this;
-            return _.filter(_.keys(Icons), function(icon) {
-                return icon.indexOf(self.filter) !== -1;
-            });
+
+            function search(icons, searchString) {
+                searchString = searchString.toLowerCase();
+                if (searchString === '') {
+                    return Object.keys(icons);
+                }
+
+                var foundIcons = _.filter(_.keys(icons), function(key) {
+                  var search = icons[key].searchTerms;
+                  var results = _.filter(search, function(term) {
+                      return _.includes(term, searchString);
+                  })
+                  return (results.length > 0);
+                });
+
+                return foundIcons;
+            }
+
+            return search(Meta, self.filter);
         }
     },
 
     methods: {
-        sizeChangeHandler: function (newSize) {
-            switch (newSize) {
-                case "A":
-                    this.iconSize = '18px'
-                    break;
-                case "B":
-                    this.iconSize = '24px'
-                    break;
-                default:
-                    this.iconSize = 'a-1'
-                    break;
-            }
-
-        },
-        clickHandler: function (iconName) {
+        setCurrentIcon: function (iconName) {
+            this.similar = Meta[iconName].similar;
             this.currentIcon = iconName;
         }
     }
+
+
 }
 </script>

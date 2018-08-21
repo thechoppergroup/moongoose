@@ -221,7 +221,7 @@
     },
     "bug": {
         "searchTerms": ["bug", "ladybird", "beetle"],
-        "similar": []
+        "similar": ["earth"]
     },
     "camera": {
         "searchTerms": ["camera", "shoot", "picture"],
@@ -561,7 +561,7 @@
     },
     "play": {
         "searchTerms": ["play", "continue", "start"],
-        "similar": ["arrow-right-b", "arrow-right-b", "chevron-right-double", "chevron-right", "stop", "forward", "reply", "reply-all"]
+        "similar": ["arrow-right-b", "chevron-right-double", "chevron-right", "stop", "forward", "reply", "reply-all"]
     },
     "plus-circled": {
         "searchTerms": ["plus", "circled", "add", "increase"],
@@ -766,6 +766,5 @@
     "workstorm": {
         "searchTerms": ["workstorm", "logo", "trademark", "company"],
         "similar": ["company"]
-    },
-
+    }
 }

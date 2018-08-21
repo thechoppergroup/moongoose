@@ -1,24 +1,10 @@
-<style lang="scss" scoped>
-    .snippet {
-        width: 100%;
-        input {
-            width: 100%;
-            padding: .5rem .75rem;
-            border-radius: 2px;
-            background-color: black;
-            color: white;
-            border: none;
-            overflow-y: auto;
-        }
-    }
-</style>
-
 <template>
 <div class="snippet">
-    <p>language</p>
-    <div class="flx">
+    <p>Snippet</p>
+    <div class="flx snippet-code">
         <input v-model="code"></input>
         <btn @click.native="copyToClipboard" icon="ios-copy"></btn>
+        <span v-show="success">Copied</span>
     </div>
 </div>
 </template>
@@ -31,7 +17,8 @@ import Btn from './btn.vue';
 export default {
     data: function () {
         return {
-            code: "No Icon Selected"
+            code: "No Icon Selected",
+            success: false
         }
     },
     components: {
@@ -43,6 +30,10 @@ export default {
     methods: {
             copyToClipboard: function () {
                 Copy(`<moongoose :name="${this.currentIcon}"></moongoose>`);
+                this.success = true;
+                setTimeout(() => {
+                    this.success = false;
+                }, 3000)
             }
     },
     watch: {
@@ -52,3 +43,25 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+    .snippet {
+        width: 100%;
+        input {
+            width: 100%;
+            padding: .5rem .75rem;
+            border-radius: 2px;
+            background-color: black;
+            color: white;
+            border: none;
+            overflow-y: auto;
+        }
+        &-code {
+            align-items: center;
+        }
+        span {
+            color: #42b0bd;
+            margin-left: -60px;
+        }
+    }
+</style>

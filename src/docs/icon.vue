@@ -29,17 +29,29 @@
             outline: 3px solid $primary-color;
         }
     }
+
+    .icon-menu {
+        transform: translate(0, -100%);
+    }
 </style>
 
 <template>
-    <button @click="$emit('click', name)" :class="{'is-current': name === currentIcon}">
-        <moongoose :name="name" :style="{fontSize: size}"></moongoose>
-        <span>{{name}}</span>
-    </button>
+    <div class="icon origin">
+        <ul v-show="name === currentIcon" class="icon-menu unstyle flx abs--top-right">
+            <li><button type="button" name="button" @click="copyToClipboard"><moongoose name="ios-copy" :style="{fontSize: '20px'}"></moongoose></button></li>
+        </ul>
+
+        <button @click="$emit('click', name)" :class="{'is-current': name === currentIcon}">
+            <moongoose :name="name" :style="{fontSize: iconSize}"></moongoose>
+            <span>{{name}}</span>
+        </button>
+        <span v-show="success">Copied!</span>
+    </div>
 </template>
 
 <script>
-import Moongoose from 'Moongoose/moongoose.vue'
+import Moongoose from 'Moongoose/moongoose.vue';
+import Copy from 'copy-to-clipboard';
 
 export default {
     name: 'icon-preview',
@@ -48,8 +60,27 @@ export default {
         size: '',
         currentIcon: ''
     },
+    computed: {
+        iconSize: function () {
+            return this.size + 'px';
+        }
+    },
+    data: function() {
+        return {
+            success: false
+        }
+    },
     components: {
         Moongoose
+    },
+    methods: {
+        copyToClipboard: function () {
+            Copy(`<moongoose :name="${this.name}"></moongoose>`);
+            this.success = true;
+            setTimeout(() => {
+                this.success = false;
+            }, 3000)
+        }
     }
 }
 </script>
