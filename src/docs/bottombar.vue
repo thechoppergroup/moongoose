@@ -4,7 +4,7 @@
             <snippet :current-icon="currentIcon"></snippet>
         </div>
         <div class="bottombar-similar">
-            <p>Similar</p>
+            <p>Similar {{iconSize}}</p>
             <ul class="flx unstyle" v-if="similar.length > 0">
                 <li v-for="icon in similar">
                     <icon @click="clickHandler" :name="icon" :size="iconSize" :current-icon="currentIcon"/>

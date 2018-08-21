@@ -62,6 +62,7 @@
 
 <template>
     <div class="icon origin">
+<<<<<<< HEAD
         <div v-show="name === currentIcon" class="icon-menu abs--top-center origin">
             <button class="abs--top-center icon-menu-copy" @click="copyToClipboard">Copy</button>
             <span class="abs--top-center icon-menu-copied" v-show="success">Copied!</span>
@@ -69,6 +70,15 @@
         <button class="icon-icons" @click="$emit('click', name)" :class="{'is-current': name === currentIcon}">
             <moongoose :name="name" :style="{fontSize: iconSize}"></moongoose>
             <span class="icon-icons-name">{{name}}</span>
+=======
+        <ul v-show="name === currentIcon" class="icon-menu unstyle flx abs--top-right">
+            <li><button type="button" name="button" @click="copyToClipboard"><moongoose name="ios-copy" :style="{fontSize: '20px'}"></moongoose></button></li>
+        </ul>
+
+        <button @click="$emit('click', name)" :class="{'is-current': name === currentIcon}">
+            <img :src="svgData" :title="name" :style="{width: iconSize}">
+            <span>{{name}}</span>
+>>>>>>> 2006c13d404c89719fb02f357c963b1729ffadf3
         </button>
     </div>
 </template>
@@ -76,6 +86,8 @@
 <script>
 import Moongoose from 'Moongoose/moongoose.vue';
 import Copy from 'copy-to-clipboard';
+import svgToDataURL from 'svg-to-dataurl';
+import Icons from '../icons_all';
 
 export default {
     name: 'icon-preview',
@@ -87,6 +99,12 @@ export default {
     computed: {
         iconSize: function () {
             return this.size + 'px';
+        },
+        svg: function () {
+            return Icons[this.name];
+        },
+        svgData: function () {
+            return `data:image/svg+xml;utf8,${this.svg}`
         }
     },
     data: function() {
@@ -96,6 +114,14 @@ export default {
     },
     components: {
         Moongoose
+    },
+    mounted: function () {
+        var context = this;
+        this.$refs.copyImage.addEventListener('click', function () {
+            SelectText(context.$refs.svgData);
+            document.execCommand('copy');
+            window.getSelection().removeAllRanges();
+        })
     },
     methods: {
         copyToClipboard: function () {

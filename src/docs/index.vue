@@ -104,12 +104,12 @@ main {
         </div>
         <div class="icons">
             <ul class="icons-list unstyle">
-                <li class="icons-list-icon "  v-for="icon in filteredIcons">
+                <li v-bind:key="icon" class="icons-list-icon" v-for="icon in filteredIcons">
                     <icon @click="setCurrentIcon" :name="icon" :size="iconSize" :current-icon="currentIcon"/>
                 </li>
             </ul>
         </div>
-        <bottombar @setCurrentIcon="setCurrentIcon" :current-icon="currentIcon" :similar="similar" iconSize="1rem"></bottombar>
+        <bottombar @setCurrentIcon="setCurrentIcon" :current-icon="currentIcon" :similar="similar" iconSize="24"></bottombar>
     </main>
 </template>
 
