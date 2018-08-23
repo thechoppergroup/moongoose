@@ -1,11 +1,11 @@
 <template lang="html">
-    <aside class="bottombar" v-show="currentIcon !== ''">
-        <div class="bottombar-snippet">
+    <aside class="bottombar origin" v-show="currentIcon !== ''">
+        <div class="bottombar-snippet abs--top-left">
             <snippet :current-icon="currentIcon"></snippet>
         </div>
-        <div class="bottombar-similar">
-            <p>Similar {{iconSize}}</p>
-            <ul class="flx unstyle" v-if="similar.length > 0">
+        <div class="bottombar-similar abs--top-right">
+            <p>Similar</p>
+            <ul class="bottombar-similar-list flx unstyle scroll--h" v-if="similar.length > 0">
                 <li v-for="icon in similar">
                     <icon @click="clickHandler" :name="icon" :size="iconSize" :current-icon="currentIcon"/>
                 </li>
@@ -55,16 +55,18 @@ export default {
     height: 100%;
     background-color: $lightgray;
     position: relative;
-    display: flex;
-    align-items: center;
 
     &-snippet {
         width: 66.6666%;
+        padding: 2rem 1rem 0rem 2rem
     }
 
     &-similar {
         width: 33.3333%;
-        margin-left: 2rem;
+        padding: 2rem 2rem 0 1rem;
+        &-list {
+            height: 6rem;
+        }
     }
 
 

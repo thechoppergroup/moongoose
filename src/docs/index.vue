@@ -19,7 +19,7 @@ main {
     left: calc(2rem + #{$identity-width});
     right: 2rem;
     bottom: $bottombar-height;
-    padding-top: 1.5rem; 
+    padding-top: 1.5rem;
     font-size: 18px;
 
     &-list {

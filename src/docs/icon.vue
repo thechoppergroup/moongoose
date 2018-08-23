@@ -8,6 +8,10 @@
         display: inline-block;
         position: relative;
 
+        img {
+            transform: translate(0, 14%);
+        }
+
         &-name {
             position: absolute;
             top: calc(100% + .25rem);
@@ -18,6 +22,7 @@
             padding: .5rem;
             background: #E7E7E7;
             box-shadow: 0 2px 2px rgba(black, 0.6);
+            white-space: nowrap;
         }
 
         &:hover {
@@ -38,7 +43,7 @@
             transform: translate(-50%, -85%);
             padding: .25rem .5rem;
             background: $primary-color;
-            color: white;
+            color: #F8F8F8;
             font-size: 10px;
             border-radius: 9999px;
             &:hover {
@@ -48,9 +53,9 @@
 
         &-copied {
             transform: translate(-50%, -85%);
-            padding: .25rem .5rem;
-            background: $primary-color;
-            color: white;
+            padding: .35rem .5rem;
+            background: #f8f8f8;
+            color: $primary-color;
             font-size: 10px;
             border-radius: 9999px;
             pointer-events: none;
@@ -62,23 +67,13 @@
 
 <template>
     <div class="icon origin">
-<<<<<<< HEAD
-        <div v-show="name === currentIcon" class="icon-menu abs--top-center origin">
-            <button class="abs--top-center icon-menu-copy" @click="copyToClipboard">Copy</button>
-            <span class="abs--top-center icon-menu-copied" v-show="success">Copied!</span>
+        <div v-show="name === currentIcon" class="icon-menu unstyle flx">
+            <button class="icon-menu-copy abs--top-center" @click="copyToClipboard">Copy</button>
+            <span v-show="success" class="icon-menu-copied abs--top-center">Copied</span>
         </div>
-        <button class="icon-icons" @click="$emit('click', name)" :class="{'is-current': name === currentIcon}">
-            <moongoose :name="name" :style="{fontSize: iconSize}"></moongoose>
-            <span class="icon-icons-name">{{name}}</span>
-=======
-        <ul v-show="name === currentIcon" class="icon-menu unstyle flx abs--top-right">
-            <li><button type="button" name="button" @click="copyToClipboard"><moongoose name="ios-copy" :style="{fontSize: '20px'}"></moongoose></button></li>
-        </ul>
-
-        <button @click="$emit('click', name)" :class="{'is-current': name === currentIcon}">
+        <button @click="$emit('click', name)" :class="{'is-current': name === currentIcon}" class="icon-icons origin">
             <img :src="svgData" :title="name" :style="{width: iconSize}">
-            <span>{{name}}</span>
->>>>>>> 2006c13d404c89719fb02f357c963b1729ffadf3
+            <span class="icon-icons-name">{{name}}</span>
         </button>
     </div>
 </template>
@@ -115,21 +110,21 @@ export default {
     components: {
         Moongoose
     },
-    mounted: function () {
-        var context = this;
-        this.$refs.copyImage.addEventListener('click', function () {
-            SelectText(context.$refs.svgData);
-            document.execCommand('copy');
-            window.getSelection().removeAllRanges();
-        })
-    },
+    // mounted: function () {
+    //     var context = this;
+    //     this.$refs.copyImage.addEventListener('click', function () {
+    //         SelectText(context.$refs.svgData);
+    //         document.execCommand('copy');
+    //         window.getSelection().removeAllRanges();
+    //     })
+    // },
     methods: {
         copyToClipboard: function () {
             Copy(`<moongoose :name="${this.name}"></moongoose>`);
             this.success = true;
             setTimeout(() => {
                 this.success = false;
-            }, 800)
+            }, 2000)
         }
     }
 }

@@ -1,10 +1,10 @@
 <template>
 <div class="snippet">
     <p>Snippet</p>
-    <div class="flx snippet-code">
+    <div class="flx snippet-code origin">
         <input v-model="code"></input>
-        <btn @click.native="copyToClipboard" icon="ios-copy"></btn>
-        <span v-show="success">Copied</span>
+        <button @click="copyToClipboard" class="snippet-code-copy abs--center-right">Copy</button>
+        <span v-show="success" class="snippet-code-copied abs--center-right">Copied</span>
     </div>
 </div>
 </template>
@@ -33,7 +33,7 @@ export default {
                 this.success = true;
                 setTimeout(() => {
                     this.success = false;
-                }, 3000)
+                }, 2000)
             }
     },
     watch: {
@@ -45,23 +45,41 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .snippet {
-        width: 100%;
-        input {
+@import '../scss/color.scss';
+
+.snippet {
+    width: 100%;
+    &-code {
+        align-items: center;
+        & input {
             width: 100%;
-            padding: .5rem .75rem;
+            padding: .75rem 1.25rem;
             border-radius: 2px;
             background-color: black;
             color: white;
             border: none;
             overflow-y: auto;
         }
-        &-code {
-            align-items: center;
+        &-copy {
+            transform: translate(-50% , -50%);
+            padding: .25rem .5rem;
+            background: $primary-color;
+            color: black;
+            font-size: 10px;
+            border-radius: 9999px;
+            &:hover {
+                background-color: darken($primary-color, 10%);
+            }
         }
-        span {
-            color: #42b0bd;
-            margin-left: -60px;
+        &-copied {
+            transform: translate(-40% , -50%);
+            padding: .25rem .5rem;
+            background: black;
+            color: $primary-color;
+            font-size: 10px;
+            border-radius: 9999px;
+            pointer-events: none;
         }
     }
+}
 </style>
