@@ -23,7 +23,7 @@
     "dependencies": {
         "browser-sync": "^2.24.4",
         "browser-sync-webpack-plugin": "^2.2.2",
-        "lodash": "^4.17.10",
+        "copy-to-clipboard": "^3.0.8",
         "vue": "^2.5.16"
     },
     "devDependencies": {
@@ -32,10 +32,12 @@
         "cross-env": "^5.1.6",
         "css-loader": "^0.28.11",
         "fs": "^0.0.1-security",
+        "lodash": "^4.17.10",
         "node-sass": "^4.9.0",
         "path": "^0.12.7",
         "sass-loader": "^7.0.1",
         "style-loader": "^0.21.0",
+        "svg-to-dataurl": "^1.0.0",
         "svgo": "^1.0.5",
         "vue-loader": "^15.2.2",
         "vue-style-loader": "^4.1.0",
