@@ -73,6 +73,7 @@ module.exports = [
 'clipboard',
 'close',
 'cloud',
+'code',
 'company',
 'disconnected',
 'division',

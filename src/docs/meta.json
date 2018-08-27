@@ -283,6 +283,10 @@
         "searchTerms": ["cloud"],
         "similar": ["android-download", "upload-circled", "upload"]
     },
+    "code": {
+        "searchTerms": ["code"],
+        "similar": []
+    },
     "company": {
         "searchTerms": ["company", "building"],
         "similar": ["division", "ios-people"]

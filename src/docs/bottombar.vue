@@ -1,7 +1,7 @@
 <template lang="html">
     <aside class="bottombar origin" v-show="currentIcon !== ''">
         <div class="bottombar-snippet abs--top-left">
-            <snippet :current-icon="currentIcon"></snippet>
+            <snippet :current-icon="currentIcon" @copiedToClipboard="$emit('copiedToClipboard')"></snippet>
         </div>
         <div class="bottombar-similar abs--top-right">
             <p>Similar</p>

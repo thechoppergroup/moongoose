@@ -2,9 +2,8 @@
 <div class="snippet">
     <p>Snippet</p>
     <div class="flx snippet-code origin">
-        <input v-model="code"></input>
-        <button @click="copyToClipboard" class="snippet-code-copy abs--center-right">Copy</button>
-        <span v-show="success" class="snippet-code-copied abs--center-right">Copied</span>
+        <input v-model="code" class="snippet-code-input"></input>
+        <button @click="copyToClipboard" class="snippet-code-copy abs--center-right b0"><moongoose name="code" class="snippet-icon e0 abs--center-left" /> {{buttonLabel}}</button>
     </div>
 </div>
 </template>
@@ -13,6 +12,7 @@
 import Icons from '../icons_all';
 import Copy from 'copy-to-clipboard';
 import Btn from './btn.vue';
+import Moongoose from '../moongoose.vue';
 
 export default {
     data: function () {
@@ -22,15 +22,26 @@ export default {
         }
     },
     components: {
-            Btn
+        Btn,
+        Moongoose
     },
     props: {
         currentIcon: ''
+    },
+    computed: {
+        buttonLabel: function () {
+            if (this.success) {
+                return 'Copied'
+            }
+            return 'Copy'
+        }
     },
     methods: {
             copyToClipboard: function () {
                 Copy(`<moongoose :name="${this.currentIcon}"></moongoose>`);
                 this.success = true;
+                this.$emit('copiedToClipboard');
+
                 setTimeout(() => {
                     this.success = false;
                 }, 2000)
@@ -49,9 +60,11 @@ export default {
 
 .snippet {
     width: 100%;
+
     &-code {
         align-items: center;
-        & input {
+
+        &-input {
             width: 100%;
             padding: .75rem 1.25rem;
             border-radius: 2px;
@@ -60,26 +73,21 @@ export default {
             border: none;
             overflow-y: auto;
         }
+
         &-copy {
-            transform: translate(-50% , -50%);
-            padding: .25rem .5rem;
+            height: 50px;
+            padding: 0 1rem 0 3rem;
             background: $primary-color;
-            color: black;
-            font-size: 10px;
-            border-radius: 9999px;
+            color: #ffffff;
+
             &:hover {
                 background-color: darken($primary-color, 10%);
             }
         }
-        &-copied {
-            transform: translate(-40% , -50%);
-            padding: .25rem .5rem;
-            background: black;
-            color: $primary-color;
-            font-size: 10px;
-            border-radius: 9999px;
-            pointer-events: none;
-        }
+    }
+
+    &-icon {
+        transform: translate(.75rem, -50%);
     }
 }
 </style>
