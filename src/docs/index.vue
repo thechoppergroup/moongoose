@@ -26,7 +26,7 @@ main {
     position: fixed;
     overflow-y: auto;
     overflow-x: hidden;
-    top: 123px;
+    top: 12rem;
     left: calc(2rem + #{$identity-width});
     right: 2rem;
     bottom: $bottombar-height;
@@ -114,6 +114,10 @@ main {
     padding: 0 2rem;
 }
 
+#logo {
+    width: 10rem;
+}
+
 </style>
 
 <template>
@@ -123,7 +127,8 @@ main {
             <identity></identity>
         </div>
         <div class="header">
-            <h1>Moongoose Icons</h1>
+            <h1><img id="logo" alt="Moongoose" src="/moon_goose_logo.svg" /> <span class="is-hidden">Moongoose</span></h1>
+            <small>made by Workstorm &copy;</small>
             <div class="flx header-headers">
                 <div class="origin flx-fill">
                     <input class="header-headers-search" v-model="filter" placeholder="Search icons..."/>
