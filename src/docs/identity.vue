@@ -21,7 +21,7 @@
       </use>
     </svg>
       </div>
-      <div class="identity-copyright">Workstorm LLC All Rights Resversed</div>
+      <div class="identity-copyright">Workstorm LLC All Rights Reserved</div>
   </aside>
 </template>
 
@@ -40,7 +40,7 @@ export default {
     .identity {
 
         &-logo {
-            width: 10rem; 
+            width: 10rem;
             position: fixed;
             transform: rotate(90deg);
             top: 5rem;

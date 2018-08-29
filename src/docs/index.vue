@@ -122,7 +122,7 @@ main {
 
 <template>
     <main>
-        
+
         <div class="identity">
             <identity></identity>
         </div>
@@ -131,16 +131,16 @@ main {
             <small>made by Workstorm &copy;</small>
             <div class="flx header-headers">
                 <div class="origin flx-fill">
-                    <input class="header-headers-search" v-model="filter" placeholder="Search icons..."/>
+                    <input class="header-headers-search" v-model="filter" :placeholder="placeholder"/>
                     <button v-show="filter" class="header-inputClear abs--center-right a1" @click="clearSearch"><moongoose name="close"></moongoose></button>
                 </div>
-                
+
                 <div class="flx origin">
                     <small class="header-headers-slider-label abs--top-left">Preview Size</small>
                     <slider class="header-headers-slider" v-model="iconSize"></slider>
                     <p class="header-headers-sizedisplay">{{iconSize}}px</p>
                 </div>
-                
+
             </div>
         </div>
         <div class="icons">
@@ -217,6 +217,9 @@ export default {
             }
 
             return search(Meta, self.filter);
+        },
+        placeholder: function () {
+            return 'Search all ' + this.icons.length + ' icons...';
         }
     },
 
