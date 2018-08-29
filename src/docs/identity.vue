@@ -2,7 +2,7 @@
 @import '../scss/color.scss';
 
     .identity {
-        color: #51605B;
+        color: $secondary-color;
 
         &-logo {
             width: 10rem;
@@ -18,12 +18,11 @@
         }
 
         .icon {
-            color: $primary-color;
             fill: $primary-color;
         }
 
         .cls-2 {
-            fill: #51605B;
+            fill: $secondary-color;
         }
     }
 </style>
