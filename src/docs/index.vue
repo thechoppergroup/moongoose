@@ -1,13 +1,15 @@
 <style lang="scss" scoped>
+@import '../scss/functions.scss';
 @import '../scss/color.scss';
 
 $identity-width: 3rem;
 $bottombar-height: 10rem;
 $header-height: 13rem;
 
-body {
-    background-color: $smokewhite;
-}
+$index:
+identity,
+icons,
+frame;
 
 main {
     background-color: $smokewhite;
@@ -27,7 +29,7 @@ main {
 .icons {
     padding: 13rem 2rem $bottombar-height 4rem;
     font-size: 18px;
-    z-index: 4;
+    z-index: z($index, 'icons');
     position: relative;
 
     &-list {
@@ -53,7 +55,7 @@ main {
     width: $identity-width;
     top: 0;
     bottom: 0;
-    z-index: 4;
+    z-index: z($index, 'identity');
 }
 
 .header {
@@ -64,7 +66,7 @@ main {
     left: $identity-width;
     padding: 2rem;
     padding-bottom: 0;
-    z-index: 5;
+    z-index: z($index, 'frame');
 
     &-inputClear {
         color: #ccc;
@@ -113,11 +115,15 @@ main {
     right: 0;
     bottom: 0;
     padding: 0 2rem;
-    z-index: 5;
+    z-index: z($index, 'frame');
 }
 
 #logo {
     width: 10rem;
+}
+
+.madeBy {
+    color: #51605B;
 }
 
 </style>
@@ -130,7 +136,7 @@ main {
         </div>
         <div class="header">
             <h1><img id="logo" alt="Moongoose" src="/moon_goose_logo.svg" /> <span class="is-hidden">Moongoose</span></h1>
-            <small>made by Workstorm &copy;</small>
+            <small class="madeBy">made by Workstorm &copy;</small>
             <div class="flx header-headers">
                 <div class="origin flx-fill">
                     <input class="header-headers-search" v-model="filter" :placeholder="placeholder"/>
