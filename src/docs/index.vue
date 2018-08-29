@@ -3,18 +3,20 @@
 
 $identity-width: 3rem;
 $bottombar-height: 10rem;
+$header-height: 13rem;
+
+body {
+    background-color: $smokewhite;
+}
 
 main {
     background-color: $smokewhite;
-    position: absolute;
-    height: 100%;
-    width: 100%;
 }
 
 .copySuccess {
     padding: 2rem 0;
     background-color: $primary-color;
-    color: #fff;
+    color: $white;
     text-align: center;
 }
 
@@ -23,15 +25,10 @@ main {
 }
 
 .icons {
-    position: fixed;
-    overflow-y: auto;
-    overflow-x: hidden;
-    top: 12rem;
-    left: calc(2rem + #{$identity-width});
-    right: 2rem;
-    bottom: $bottombar-height;
-    padding-top: 1.5rem;
+    padding: 13rem 2rem $bottombar-height 4rem;
     font-size: 18px;
+    z-index: 4;
+    position: relative;
 
     &-list {
         display: flex;
@@ -56,14 +53,18 @@ main {
     width: $identity-width;
     top: 0;
     bottom: 0;
+    z-index: 4;
 }
 
 .header {
+    background-color: $smokewhite;
     position: fixed;
     width: calc(100% - #{$identity-width});
+    height: $header-height;
     left: $identity-width;
     padding: 2rem;
     padding-bottom: 0;
+    z-index: 5;
 
     &-inputClear {
         color: #ccc;
@@ -112,6 +113,7 @@ main {
     right: 0;
     bottom: 0;
     padding: 0 2rem;
+    z-index: 5;
 }
 
 #logo {
