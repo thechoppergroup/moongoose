@@ -1,20 +1,32 @@
 <style lang="scss" scoped>
+@import '../scss/functions.scss';
 @import '../scss/color.scss';
 
 $identity-width: 3rem;
 $bottombar-height: 10rem;
+$header-height: 13rem;
+
+$index:
+identity,
+icons,
+frame;
 
 main {
     background-color: $smokewhite;
-    position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    overflow: scroll;
 }
 
 .copySuccess {
     padding: 2rem 0;
     background-color: $primary-color;
-    color: #fff;
+    color: $white;
     text-align: center;
 }
 
@@ -23,15 +35,10 @@ main {
 }
 
 .icons {
-    position: fixed;
-    overflow-y: auto;
-    overflow-x: hidden;
-    top: 12rem;
-    left: calc(2rem + #{$identity-width});
-    right: 2rem;
-    bottom: $bottombar-height;
-    padding-top: 1.5rem;
+    padding: 13rem 2rem $bottombar-height 4rem;
     font-size: 18px;
+    z-index: z($index, 'icons');
+    position: relative;
 
     &-list {
         display: flex;
@@ -56,14 +63,18 @@ main {
     width: $identity-width;
     top: 0;
     bottom: 0;
+    z-index: z($index, 'identity');
 }
 
 .header {
+    background-color: $smokewhite;
     position: fixed;
     width: calc(100% - #{$identity-width});
+    height: $header-height;
     left: $identity-width;
     padding: 2rem;
     padding-bottom: 0;
+    z-index: z($index, 'frame');
 
     &-inputClear {
         color: #ccc;
@@ -112,23 +123,27 @@ main {
     right: 0;
     bottom: 0;
     padding: 0 2rem;
+    z-index: z($index, 'frame');
 }
 
 #logo {
     width: 10rem;
 }
 
+.madeBy {
+    color: #51605B;
+}
+
 </style>
 
 <template>
     <main>
-
         <div class="identity">
             <identity></identity>
         </div>
         <div class="header">
             <h1><img id="logo" alt="Moongoose" src="/moon_goose_logo.svg" /> <span class="is-hidden">Moongoose</span></h1>
-            <small>made by Workstorm &copy;</small>
+            <small class="madeBy">made by Workstorm &copy;</small>
             <div class="flx header-headers">
                 <div class="origin flx-fill">
                     <input class="header-headers-search" v-model="filter" :placeholder="placeholder"/>

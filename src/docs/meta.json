@@ -143,6 +143,10 @@
         "searchTerms": ["android", "folder", "directory"],
         "similar": ["ios-briefcase", "document", "clipboard", "paperclip", "survey"]
     },
+    "folder-open": {
+        "searchTerms": ["android", "folder", "directory"],
+        "similar": ["ios-briefcase", "document", "clipboard", "paperclip", "survey", "android-folder"]
+    },
     "android-happy": {
         "searchTerms": ["android", "happy", "emoji", "face"],
         "similar": ["android-person"]
