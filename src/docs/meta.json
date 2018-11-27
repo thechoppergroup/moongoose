@@ -156,11 +156,11 @@
         "similar": ["android-microphone", "speakerphone", "announcement"]
     },
     "android-person-add": {
-        "searchTerms": ["android", "person", "add", "member", "contact", "private", "message"],
+        "searchTerms": ["android", "person", "add", "member", "contact", "private", "message", "attendee", "guest", "invite"],
         "similar": ["android-person", "ios-personadd", "person-add", "person-blocked", "person-permissions", "person-stalker", "person", "scout-external-person"]
     },
     "android-person": {
-        "searchTerms": ["android", "person", "member", "contact", "private", "message"],
+        "searchTerms": ["android", "person", "member", "contact", "private", "message", "attendee", "guest"],
         "similar": ["android-person-add", "ios-personadd", "person-add", "person-blocked", "person-permissions", "person-stalker", "person", "scout-external-person"]
     },
     "android-share-alt": {
@@ -276,7 +276,7 @@
         "similar": ["arrow-up-b", "arrow-up-c"]
     },
     "clipboard": {
-        "searchTerms": ["clipboard", "survey"],
+        "searchTerms": ["clipboard", "survey", "feedback"],
         "similar": ["android-folder", "ios-briefcase", "document", "paperclip", "survey"]
     },
     "close": {
@@ -304,7 +304,7 @@
         "similar": ["company", "ios-people"]
     },
     "document": {
-        "searchTerms": ["document", "paper", "paperwork", "sheet"],
+        "searchTerms": ["document", "paper", "paperwork", "sheet", "feedback"],
         "similar": ["ios-briefcase", "clipboard", "paperclip", "survey"]
     },
     "drag": {
@@ -320,8 +320,8 @@
         "similar": ["clipboard", "edit"]
     },
     "ellipsis": {
-        "searchTerms": ["ellipsis", "setting", "more", "menu", "navicon"],
-        "similar": ["navicon", "grid", "gear-a"]
+        "searchTerms": ["ellipsis", "setting", "more", "menu", "navicon", "option"],
+        "similar": ["navicon", "grid", "gear-a", "option"]
     },
     "email": {
         "searchTerms": ["email", "mail", "junk", "folder"],
@@ -352,8 +352,8 @@
         "similar": ["reply", "reply-all"]
     },
     "gear-a": {
-        "searchTerms": ["setting", "menu", "more", "ellipsis", "navicon"],
-        "similar": ["ellipsis", "navicon", "grid"]
+        "searchTerms": ["setting", "menu", "more", "ellipsis", "navicon", "option"],
+        "similar": ["ellipsis", "navicon", "grid", "option"]
     },
     "grid-layout": {
         "searchTerms": ["grid", "layout", "workspace"],
@@ -361,7 +361,7 @@
     },
     "grid": {
         "searchTerms": ["grid", "layout", "workspace"],
-        "similar": ["grid", "navicon", "navicon", "ellipsis", "gear-a", "1x1", "2x2", "3x3", "4x4", "5x5"]
+        "similar": ["grid", "navicon", "ellipsis", "gear-a", "1x1", "2x2", "3x3", "4x4", "5x5"]
     },
     "hammer": {
         "searchTerms": ["hammer", "edit", "change", "break", "setting"],
@@ -400,7 +400,7 @@
         "similar": ["address-book", "bookmark"]
     },
     "ios-briefcase": {
-        "searchTerms": ["iso", "briefcase", "case", "work"],
+        "searchTerms": ["iso", "briefcase", "availability", "case", "work"],
         "similar": ["android-folder", "document"]
     },
     "ios-circle-filled": {
@@ -417,14 +417,14 @@
     },
     "ios-copy": {
         "searchTerms": ["iso", "copy", "duplicate", "double"],
-        "similar": ["document", "ios-list-outline", "survey"]
+        "similar": ["android-copy", "document", "ios-list-outline", "survey"]
     },
     "ios-lightbulb-outline": {
         "searchTerms": ["iso", "lightbulb", "outline", "idea", "light"],
         "similar": ["information-circled", "help-circled", "help"]
     },
     "ios-list-outline": {
-        "searchTerms": ["iso", "list", "outline", "todo", "paper"],
+        "searchTerms": ["iso", "list", "outline", "todo", "paper", "feedback"],
         "similar": ["document", "survey", "clipboard"]
     },
     "ios-people": {
@@ -504,8 +504,8 @@
         "similar": ["easel"]
     },
     "navicon": {
-        "searchTerms": ["navicon", "navigation", "setting", "more", "menu"],
-        "similar": ["ellipsis", "gear-a", "grid"]
+        "searchTerms": ["navicon", "navigation", "setting", "more", "menu", "option"],
+        "similar": ["ellipsis", "gear-a", "grid", "option"]
     },
     "notification-off": {
         "searchTerms": ["notification", "off", "bell", "sound", "alert"],
@@ -536,7 +536,7 @@
         "similar": ["pin", "document"]
     },
     "person-add": {
-        "searchTerms": ["person", "add", "member"],
+        "searchTerms": ["person", "add", "member", "attendee", "guest", "invite"],
         "similar": ["android-person-add", "android-person", "ios-personadd", "person-blocked", "person-permissions", "person-stalker", "person", "scout-external-person"]
     },
     "person-blocked": {
@@ -552,7 +552,7 @@
         "similar": ["android-person-add", "android-person", "ios-personadd", "person-add", "person-blocked", "person-permissions", "person", "scout-external-person"]
     },
     "person": {
-        "searchTerms": ["person", "stalker", "member"],
+        "searchTerms": ["person", "stalker", "member", "attendee", "guest", "invite"],
         "similar": ["android-person-add", "android-person", "ios-personadd", "person-add", "person-blocked", "person-permissions", "person-stalker", "scout-external-person"]
     },
     "pie-graph": {
@@ -561,7 +561,7 @@
     },
     "pin": {
         "searchTerms": ["pin", "paperclip"],
-        "similar": ["paperclip"]
+        "similar": ["paperclip", "location"]
     },
     "pizza": {
         "searchTerms": ["pizza"],
@@ -704,7 +704,7 @@
         "similar": ["play"]
     },
     "survey": {
-        "searchTerms": ["survey", "clipboard"],
+        "searchTerms": ["survey", "clipboard", "feedback"],
         "similar": ["document", "images", "clipboard", "address"]
     },
     "thumbsup": {
@@ -736,11 +736,11 @@
         "similar": ["company"]
     },
     "upload-circled": {
-        "searchTerms": ["upload", "circled", "cloud", "sync"],
+        "searchTerms": ["upload", "circled", "cloud", "sync", "import"],
         "similar": ["upload", "android-download", "arrow-up-c", "arrow-down-c"]
     },
     "upload": {
-        "searchTerms": ["upload", "circled", "cloud", "sync"],
+        "searchTerms": ["upload", "circled", "cloud", "sync", "import"],
         "similar": ["upload-circled", "android-download", "arrow-up-c", "arrow-down-c"]
     },
     "volume-high": {
@@ -774,5 +774,61 @@
     "workstorm": {
         "searchTerms": ["workstorm", "logo", "trademark", "company"],
         "similar": ["company"]
+    },
+    "ios-calendar": {
+        "searchTerms": ["ios", "calendar", "agenda", "schedule", "date"],
+        "similar": ["4x5", "android-calendar"]
+    },
+    "android-calendar": {
+        "searchTerms": ["android", "calendar", "agenda", "schedule", "date"],
+        "similar": ["4x5", "ios-calendar"]
+    },
+    "ios-time": {
+        "searchTerms": ["ios", "time", "clock", "schedule"],
+        "similar": ["android-time"]
+    },
+    "android-time": {
+        "searchTerms": ["android", "time", "clock", "schedule"],
+        "similar": ["ios-time"]
+    },
+    "location": {
+        "searchTerms": ["location", "pin", "at"],
+        "similar": ["pin"]
+    },
+    "description": {
+        "searchTerms": ["description", "list", "paragraph"],
+        "similar": ["media-text"]
+    },
+    "android-briefcase": {
+        "searchTerms": ["android", "briefcase", "availability", "case", "work"],
+        "similar": ["ios-briefcase"]
+    },
+    "open": {
+        "searchTerms": ["open", "preview", "popup", "enlarge"],
+        "similar": ["share", "forward", "log-out"]
+    },
+    "option": {
+        "searchTerms": ["ellipsis", "setting", "more", "menu", "navicon", "option"],
+        "similar": ["ellipsis", "navicon", "gear-a"]
+    },
+    "lock": {
+        "searchTerms": ["lock", "private", "locked"],
+        "similar": ["locked", "unlock", "link"]
+    },
+    "unlock": {
+        "searchTerms": ["unlock", "public", "unlocked"],
+        "similar": ["lock", "link"]
+    },
+    "android-copy": {
+        "searchTerms": ["android", "copy", "duplicate", "double"],
+        "similar": ["ios-copy", "document", "ios-list-outline", "survey"]
+    },
+    "ios-print": {
+        "searchTerms": ["ios", "print", "scan", "copy"],
+        "similar": ["android-print", "document", "ios-list-outline", "survey", "ios-copy", "android-copy"]
+    },
+    "android-print": {
+        "searchTerms": ["android", "print", "duplicate", "double"],
+        "similar": ["ios-print", "document", "ios-list-outline", "survey", "ios-copy", "android-copy"]
     }
 }
