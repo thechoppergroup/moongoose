@@ -58,6 +58,7 @@ module.exports = [
 'bookmark',
 'bug',
 'camera',
+'card',
 'chatbubbles',
 'checkmark-box-checked',
 'checkmark-box',
