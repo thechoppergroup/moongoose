@@ -28,6 +28,7 @@ main {
     background-color: $primary-color;
     color: $white;
     text-align: center;
+    z-index: 3;
 }
 
 .flx-fill {
@@ -43,6 +44,7 @@ main {
     &-list {
         display: flex;
         flex-wrap: wrap;
+        padding-top: 1rem;
 
         &-icon {
             z-index: 1;
