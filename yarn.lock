@@ -6696,6 +6696,11 @@ tfunk@^3.0.1:
     chalk "^1.1.1"
     object-path "^0.9.0"
 
+thin.css@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/thin.css/-/thin.css-1.0.2.tgz#985ed2c391011d80a980adb2de971e94bd973b21"
+  integrity sha512-RoYhwIeV0M0xHn60aTRJARqMt0SaCrlNZe4OxC1mASBlz2J6LRY+GjQN2yspILxwGA3uXI2kaP6c6XkjzzDIDg==
+
 through2@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.3.tgz#0004569b37c7c74ba39c43f3ced78d1ad94140be"

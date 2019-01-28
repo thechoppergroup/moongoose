@@ -1,6 +1,53 @@
 <style lang="scss" scoped>
     @import '../scss/color.scss';
 
+    [role="button"],
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    button {
+        -webkit-box-sizing: content-box;
+          -moz-box-sizing: content-box;
+                box-sizing: content-box;
+    }
+
+    /* Reset `button` and button-style `input` default styles */
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    button {
+        background: none;
+        border: 0;
+        color: inherit;
+        /* cursor: default; */
+        font: inherit;
+        line-height: normal;
+        overflow: visible;
+        padding: 0;
+        -webkit-appearance: button; /* for input */
+        -webkit-user-select: none; /* for button */
+          -moz-user-select: none;
+            -ms-user-select: none;
+    }
+    input::-moz-focus-inner,
+    button::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+
+    /* Make `a` like a button */
+    [role="button"] {
+        color: inherit;
+        cursor: default;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        white-space: pre;
+        -webkit-user-select: none;
+          -moz-user-select: none;
+            -ms-user-select: none;
+    }
+
     .icon {
         padding: .75rem;
 
@@ -8,6 +55,10 @@
             padding: .75rem;
             display: block;
             position: relative;
+            outline: none;
+            box-shadow: none;
+
+            
 
             img {
                 transform: translate(0, 14%);
@@ -35,7 +86,7 @@
             }
 
             .is-current {
-                outline: 3px solid $primary-color;
+                box-shadow: 0 0 0 1px $primary-color;
                 background-color:#D8D8D8;
 
                 &:hover {
@@ -82,7 +133,7 @@
         
         &.is-current {
             .icon-button {
-                outline: 3px solid $primary-color;
+                box-shadow: 0 0 0 1px $primary-color;
                 background-color:#D8D8D8;
             }
 
@@ -98,12 +149,12 @@
 
 <template>
     <div class="icon origin" :class="{'is-current': name === currentIcon}">
-        <button @click="$emit('click', name)" class="icon-button origin">
+        <button @click="$emit('click', name)" class="icon-button origin rst--button">
             <img :src="svgData" :title="name" :style="{width: iconSize}">
             <span class="icon-button-label">{{name}}</span>
         </button>
 
-        <div v-show="name === currentIcon" class="icon-menu abs--top-right unstyle flx">
+        <div v-show="name === currentIcon" class="icon-menu abs--top-right rst--list flx--default">
             <button class="icon-menu-copy" @click="copyToClipboard" :class="{'is-successful': success}"><moongoose name="code" class="c0" /></button>
         </div>
     </div>

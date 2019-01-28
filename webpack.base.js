@@ -28,6 +28,12 @@ module.exports = {
                 }
             }
         }, {
+            test: /\.css$/,
+            use: [
+              { loader: 'style-loader', options: { sourceMap: true } },
+              { loader: 'css-loader', options: { sourceMap: true } }
+          ]
+        },{
             test: /\.scss$/,
             use: [{
                 loader: "style-loader" // creates style nodes from JS strings

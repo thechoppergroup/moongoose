@@ -5,7 +5,7 @@
         </div>
         <div class="bottombar-similar abs--top-right">
             <p>Similar</p>
-            <ul class="bottombar-similar-list flx unstyle scroll--h" v-if="similar.length > 0">
+            <ul class="bottombar-similar-list flx--default rst--list scroll--h" v-if="similar.length > 0">
                 <li v-for="icon in similar">
                     <icon @click="clickHandler" :name="icon" :size="iconSize" :current-icon="currentIcon"/>
                 </li>

@@ -1,4 +1,4 @@
-<style lang="scss" scoped>
+<style lang="scss">
 @import '../scss/functions.scss';
 @import '../scss/color.scss';
 
@@ -21,6 +21,13 @@ main {
     right: 0;
     width: 100vw;
     overflow: scroll;
+}
+
+.main {
+  &-footer {
+    height: 10rem;
+    z-index: 10;
+  }
 }
 
 .copySuccess {
@@ -116,17 +123,6 @@ main {
     }
 }
 
-.bottombar {
-    position: fixed;
-    height: $bottombar-height;
-    width: calc(100% - #{$identity-width});
-    left: $identity-width;
-    right: 0;
-    bottom: 0;
-    padding: 0 2rem;
-    z-index: z($index, 'frame');
-}
-
 #logo {
     width: 10rem;
 }
@@ -145,13 +141,13 @@ main {
         <div class="header">
             <h1><img id="logo" alt="Moongoose" src="/moon_goose_logo.svg" /> <span class="is-hidden">Moongoose</span></h1>
             <small class="madeBy">made by Workstorm &copy;</small>
-            <div class="flx header-headers">
+            <div class="flx--default header-headers">
                 <div class="origin flx-fill">
                     <input class="header-headers-search" v-model="filter" :placeholder="placeholder"/>
-                    <button v-show="filter" class="header-inputClear abs--center-right a1" @click="clearSearch"><moongoose name="close"></moongoose></button>
+                    <button v-show="filter" class="header-inputClear abs--center-right a1 rst--button" @click="clearSearch"><moongoose name="close"></moongoose></button>
                 </div>
 
-                <div class="flx origin">
+                <div class="flx--default origin">
                     <small class="header-headers-slider-label abs--top-left">Preview Size</small>
                     <slider class="header-headers-slider" v-model="iconSize"></slider>
                     <p class="header-headers-sizedisplay">{{iconSize}}px</p>
@@ -159,14 +155,17 @@ main {
 
             </div>
         </div>
-        <div class="icons">
-            <ul class="icons-list unstyle">
+        <div class="icons fll--parent">
+            <ul class="icons-list rst--list">
                 <li v-bind:key="icon" class="icons-list-icon" v-for="icon in filteredIcons">
                     <icon @click="setCurrentIcon" @copiedToClipboard="copiedToClipboard" :name="icon" :size="iconSize" :current-icon="currentIcon"/>
                 </li>
             </ul>
         </div>
-        <bottombar @setCurrentIcon="setCurrentIcon" @copiedToClipboard="copiedToClipboard" :current-icon="currentIcon" :similar="similar" iconSize="24"></bottombar>
+        <div class="main-footer abs--bottom-left fll--parent-w">
+          <bottombar @setCurrentIcon="setCurrentIcon" @copiedToClipboard="copiedToClipboard" :current-icon="currentIcon" :similar="similar" iconSize="24"></bottombar>
+        </div>
+        
         <div v-show="copySuccess" class="copySuccess fxd--top-left fxd--top-right">Icon Code Copied to Clipboard</div>
     </main>
 </template>
@@ -181,6 +180,7 @@ import Identity from './identity.vue';
 import Meta from './meta.json';
 import Slider from './slider.vue';
 import Moongoose from '../moongoose.vue';
+import 'thin.css';
 
 export default {
     name: 'preview',

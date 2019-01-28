@@ -42,7 +42,7 @@
 </style>
 
 <template lang="html">
-    <button :class="classList">
+    <button class="rst--button" :class="classList">
         <span class="text-color">{{pretext}}</span>
         <moongoose :name="icon" class="icon-color c0"></moongoose>
         <span class="text-color">{{sutext}}</span>

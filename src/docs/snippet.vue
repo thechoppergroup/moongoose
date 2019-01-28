@@ -1,9 +1,9 @@
 <template>
 <div class="snippet">
     <p>Snippet</p>
-    <div class="flx snippet-code origin">
+    <div class="flx--default snippet-code origin">
         <input v-model="code" class="snippet-code-input"></input>
-        <button @click="copyToClipboard" class="snippet-code-copy abs--center-right b0"><moongoose name="code" class="snippet-icon e0 abs--center-left" /> {{buttonLabel}}</button>
+        <button @click="copyToClipboard" class="snippet-code-copy abs--center-right b0 rst--button"><moongoose name="code" class="snippet-icon e0 abs--center-left" /> {{buttonLabel}}</button>
     </div>
 </div>
 </template>
