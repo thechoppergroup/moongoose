@@ -631,6 +631,10 @@
         "searchTerms": ["share", "send"],
         "similar": ["android-share-alt", "android-share", "paper-airplane"]
     },
+    "social-dropbox": {
+        "searchTerms": ["social", "dropbox"],
+        "similar": ["social-google-outline", "social-google", "social-googleplus-outline", "social-googleplus", "social-linkedin", "social-twitter", "social-windows", "social-yahoo", "aol"]
+    },
     "social-facebook": {
         "searchTerms": ["social", "facebook"],
         "similar": ["social-google-outline", "social-google", "social-googleplus-outline", "social-googleplus", "social-linkedin", "social-twitter", "social-windows", "social-yahoo", "aol"]

@@ -178,6 +178,7 @@ module.exports = [
 'scout-external-person',
 'search',
 'share',
+'social-dropbox',
 'social-facebook',
 'social-google-outline',
 'social-google',
