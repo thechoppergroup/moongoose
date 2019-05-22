@@ -165,7 +165,7 @@ main {
         <div class="main-footer abs--bottom-left fll--parent-w">
           <bottombar @setCurrentIcon="setCurrentIcon" @copiedToClipboard="copiedToClipboard" :current-icon="currentIcon" :similar="similar" iconSize="24"></bottombar>
         </div>
-        
+
         <div v-show="copySuccess" class="copySuccess fxd--top-left fxd--top-right">Icon Code Copied to Clipboard</div>
     </main>
 </template>

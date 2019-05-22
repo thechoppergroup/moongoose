@@ -1,4 +1,5 @@
 module.exports = [
+'-ds_store',
 '1x1',
 '1x2',
 '1x3',
@@ -30,6 +31,7 @@ module.exports = [
 'alert-send',
 'alert',
 'android-arrow-back',
+'android-bar',
 'android-briefcase',
 'android-calendar',
 'android-close',
