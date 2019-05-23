@@ -150,6 +150,7 @@ module.exports = [
 'notification-off',
 'notification',
 'nuclear',
+'octagon',
 'open',
 'option',
 'outlet',
