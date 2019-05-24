@@ -223,12 +223,20 @@
         "searchTerms": ["book", "mark", "save"],
         "similar": ["address-book", "ios-book", "save", "star-outline", "star"]
     },
+    "bar": {
+        "searchTerms": ["bar", "drink"],
+        "similar": ["earth"]
+    },
     "bug": {
         "searchTerms": ["bug", "ladybird", "beetle"],
         "similar": ["earth"]
     },
     "camera": {
         "searchTerms": ["camera", "shoot", "picture"],
+        "similar": ["images"]
+    },
+    "coffee": {
+        "searchTerms": ["bar", "drink"],
         "similar": ["images"]
     },
     "chatbubbles": {
