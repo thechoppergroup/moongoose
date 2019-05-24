@@ -519,8 +519,8 @@
         "searchTerms": ["nuclear", "dangerous", "warning"],
         "similar": ["alert-circled", "alert"]
     },
-    "octagone": {
-        "searchTerms": ["octagone", "stop", "end"],
+    "octagon": {
+        "searchTerms": ["octagon", "stop", "end"],
         "similar": ["stop"]
     },
     "outlet": {
