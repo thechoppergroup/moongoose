@@ -520,7 +520,7 @@
         "similar": ["alert-circled", "alert"]
     },
     "octagon": {
-        "searchTerms": ["octagone", "stop", "end"],
+        "searchTerms": ["octagon", "stop", "end"],
         "similar": ["stop"]
     },
     "outlet": {
