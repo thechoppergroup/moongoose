@@ -25,6 +25,7 @@ module.exports = [
 '5x4',
 '5x5',
 'add-chatbubbles',
+'add-to-workspace',
 'address-book',
 'alert-circled',
 'alert-send',
