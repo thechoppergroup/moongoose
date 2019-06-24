@@ -82,6 +82,7 @@ module.exports = [
 'close',
 'cloud',
 'code',
+'coffee',
 'company',
 'description',
 'disconnected',

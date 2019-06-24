@@ -84,7 +84,9 @@ function main() {
     }
 
     files.forEach((filename) => {
-        optimize(filesPath, filename).then(() => checkComplete(filename));
+        if(filename.toLowerCase().indexOf('.svg')) {
+            optimize(filesPath, filename).then(() => checkComplete(filename));
+        }
     });
 }
 
