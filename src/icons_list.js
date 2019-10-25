@@ -40,6 +40,7 @@ module.exports = [
 'android-favorite-outline',
 'android-favorite',
 'android-folder',
+'android-funnel',
 'android-happy',
 'android-microphone-off',
 'android-microphone',
