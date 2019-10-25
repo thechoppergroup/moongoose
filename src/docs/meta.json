@@ -363,6 +363,10 @@
         "searchTerms": ["forward", "email"],
         "similar": ["reply", "reply-all"]
     },
+    "funnel": {
+        "searchTerms": ["filter", "funnel"],
+        "similar": ["description"]
+    },
     "gear-a": {
         "searchTerms": ["setting", "menu", "more", "ellipsis", "navicon", "option"],
         "similar": ["ellipsis", "navicon", "grid", "option"]
