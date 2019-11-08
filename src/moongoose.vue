@@ -17,7 +17,8 @@
 </style>
 
 <template>
-    <i v-once ref="icon" class="moongoose"></i>
+    <!-- <i v-once ref="icon" class="moongoose"></i> -->
+    <img class="moongoose" :src="svg" />
 </template>
 
 <script>
@@ -33,29 +34,9 @@ export default {
         },
     },
 
-    data() {
-        return {
-            unwatch: null,
-        };
-    },
-
-    created() {
-        this.unwatch = vm.$watch('name', () => {
-            this.updateInnerHtml();
-        });
-    },
-
-    mounted() {
-        this.updateInnerHtml();
-    },
-
-    beforeDestroy() {
-        this.unwatch();
-    },
-
-    methods: {
-        updateInnerHtml() {
-            this.$refs.icon.innerHTML = Icons[this.name];
+    computed: {
+        svg() {
+            return `data:image/svg+xml;utf8,${Icons[this.name]}`;
         }
     }
 }
