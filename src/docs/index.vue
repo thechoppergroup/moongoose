@@ -164,6 +164,7 @@ main {
             <ul class="icons-list rst--list">
                 <li v-bind:key="icon"
                     class="icons-list-icon"
+                    style="color: red;"
                     v-for="icon in filteredIcons">
                     <!-- <icon @click="setCurrentIcon"
                         @copiedToClipboard="copiedToClipboard"
@@ -172,8 +173,7 @@ main {
                         :current-icon="currentIcon" /> -->
                     <moongoose :name="icon" 
                         @click.native="setCurrentIcon(icon)"
-                        :width="iconSize + 'px'"
-                        :height="iconSize + 'px'"
+                        :style="{ width: iconSize + 'px', height: iconSize + 'px' }"
                         />
                 </li>
             </ul>

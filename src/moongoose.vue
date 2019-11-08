@@ -3,15 +3,21 @@
     display: inline-block;
     height: 1em;
     width: 1em;
+
+    svg {
+        display: inline-block;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+        vertical-align: middle;
+        height: 100%;
+        width: 100%;
+    }
 }
 </style>
 
 <template>
-    <img class="moongoose"
-        :src="svg"
-        :title="name"
-        :style="{ 'width': width, 'height': height }"
-        />
+    <i ref="icon" class="moongoose"></i>
 </template>
 
 <script>
@@ -24,20 +30,21 @@ export default {
             type: String,
             default: '',
         },
-        width: {
-            type: String,
-            default: '1em'
-        },
-        height: {
-            type: String,
-            default: '1em'
+    },
+
+    mounted() {
+        this.updateInnerHtml();
+    },
+
+    watch: {
+        name() {
+            this.updateInnerHtml();
         }
     },
 
-    computed: {
-        svg() {
-            let svgData = Icons[this.name];
-            return `data:image/svg+xml;utf8,${svgData}`;
+    methods: {
+        updateInnerHtml() {
+            this.$refs.icon.innerHTML = Icons[this.name];
         }
     }
 }
