@@ -25,6 +25,7 @@ import Icons from './icons_all'
 
 export default {
     name: 'moongoose',
+
     props: {
         name: {
             type: String,
@@ -32,14 +33,24 @@ export default {
         },
     },
 
+    data() {
+        return {
+            unwatch: null,
+        };
+    },
+
+    created() {
+        this.unwatch = vm.$watch('name', () => {
+            this.updateInnerHtml();
+        });
+    },
+
     mounted() {
         this.updateInnerHtml();
     },
 
-    watch: {
-        name() {
-            this.updateInnerHtml();
-        }
+    beforeDestroy() {
+        this.unwatch();
     },
 
     methods: {
