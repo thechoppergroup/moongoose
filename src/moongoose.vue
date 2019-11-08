@@ -28,7 +28,7 @@ export default {
     name: 'moongoose',
 
     props: {
-        name: {
+        icon: {
             type: String,
             default: '',
         },
@@ -36,7 +36,7 @@ export default {
 
     computed: {
         svg() {
-            return `data:image/svg+xml;utf8,${Icons[this.name]}`;
+            return `data:image/svg+xml;utf8,${Icons[this.icon]}`;
         }
     }
 }
