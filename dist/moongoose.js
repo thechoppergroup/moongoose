@@ -123,33 +123,27 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'moongoose',
-  props: ['name'],
-  data: function data() {
-    var out = {
-      rawHtml: ''
-    };
-    return out;
-  },
-  watch: {
-    name: function name(newVal, oldVal) {
-      this.updateHtml();
+  props: {
+    name: {
+      type: String,
+      "default": ''
+    },
+    width: {
+      type: String,
+      "default": '1em'
+    },
+    height: {
+      type: String,
+      "default": '1em'
     }
   },
-  mounted: function mounted() {
-    this.updateHtml();
-  },
-  methods: {
-    updateHtml: function updateHtml() {
-      this.rawHtml = _icons_all__WEBPACK_IMPORTED_MODULE_0___default.a[this.name];
+  computed: {
+    svg: function svg() {
+      var svgData = _icons_all__WEBPACK_IMPORTED_MODULE_0___default.a[this.name];
+      return "data:image/svg+xml;utf8,".concat(svgData);
     }
   }
 });
@@ -168,7 +162,7 @@ exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/li
 
 
 // module
-exports.push([module.i, ".moongoose {\n  display: inline-block;\n  height: 1em;\n  width: 1em;\n}\n.moongoose svg {\n    display: inline-block;\n    stroke-width: 0;\n    stroke: currentColor;\n    fill: currentColor;\n    vertical-align: middle;\n    height: 1.2em;\n    width: 1em;\n}\n", ""]);
+exports.push([module.i, ".moongoose {\n  display: inline-block;\n  height: 1em;\n  width: 1em;\n}\n", ""]);
 
 // exports
 
@@ -798,9 +792,10 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("i", {
+  return _c("img", {
     staticClass: "moongoose",
-    domProps: { innerHTML: _vm._s(_vm.rawHtml) }
+    style: { width: _vm.width, height: _vm.height },
+    attrs: { src: _vm.svg, title: _vm.name }
   })
 }
 var staticRenderFns = []

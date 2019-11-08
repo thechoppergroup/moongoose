@@ -139,12 +139,17 @@ main {
             <identity></identity>
         </div>
         <div class="header">
-            <h1><img id="logo" alt="Moongoose" src="/moon_goose_logo.svg" /> <span class="is-hidden">Moongoose</span></h1>
+            <h1>
+                <img id="logo" alt="Moongoose" src="/moon_goose_logo.svg" />
+                <span class="is-hidden">Moongoose</span>
+            </h1>
             <small class="madeBy">made by Workstorm &copy;</small>
             <div class="flx--default header-headers">
                 <div class="origin flx-fill">
                     <input class="header-headers-search" v-model="filter" :placeholder="placeholder"/>
-                    <button v-show="filter" class="header-inputClear abs--center-right a1 rst--button" @click="clearSearch"><moongoose name="close"></moongoose></button>
+                    <button v-show="filter" class="header-inputClear abs--center-right a1 rst--button" @click="clearSearch">
+                        <moongoose name="close" />
+                    </button>
                 </div>
 
                 <div class="flx--default origin">
@@ -157,8 +162,19 @@ main {
         </div>
         <div class="icons fll--parent">
             <ul class="icons-list rst--list">
-                <li v-bind:key="icon" class="icons-list-icon" v-for="icon in filteredIcons">
-                    <icon @click="setCurrentIcon" @copiedToClipboard="copiedToClipboard" :name="icon" :size="iconSize" :current-icon="currentIcon"/>
+                <li v-bind:key="icon"
+                    class="icons-list-icon"
+                    v-for="icon in filteredIcons">
+                    <!-- <icon @click="setCurrentIcon"
+                        @copiedToClipboard="copiedToClipboard"
+                        :name="icon"
+                        :size="iconSize"
+                        :current-icon="currentIcon" /> -->
+                    <moongoose :name="icon" 
+                        @click.native="setCurrentIcon(icon)"
+                        :width="iconSize + 'px'"
+                        :height="iconSize + 'px'"
+                        />
                 </li>
             </ul>
         </div>
@@ -257,7 +273,5 @@ export default {
             }, 3000)
         }
     }
-
-
 }
 </script>

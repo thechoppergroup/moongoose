@@ -1,23 +1,17 @@
 <style lang="scss">
-    .moongoose {
-        display: inline-block;
-        height: 1em;
-        width: 1em;
-
-        svg {
-            display: inline-block;
-            stroke-width: 0;
-            stroke: currentColor;
-            fill: currentColor;
-            vertical-align: middle;
-            height: 1.2em;
-            width: 1em;
-        }
-    }
+.moongoose {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+}
 </style>
 
 <template>
-  <i class="moongoose" v-html="rawHtml"></i>
+    <img class="moongoose"
+        :src="svg"
+        :title="name"
+        :style="{ 'width': width, 'height': height }"
+        />
 </template>
 
 <script>
@@ -25,26 +19,25 @@ import Icons from './icons_all'
 
 export default {
     name: 'moongoose',
-    props: ['name'],
-
-    data: function() {
-        var out = { rawHtml: '' };
-        return out;
-    },
-
-    watch: {
-        name: function(newVal, oldVal) {
-            this.updateHtml();
+    props: {
+        name: {
+            type: String,
+            default: '',
+        },
+        width: {
+            type: String,
+            default: '1em'
+        },
+        height: {
+            type: String,
+            default: '1em'
         }
     },
 
-    mounted: function() {
-        this.updateHtml();
-    },
-
-    methods: {
-        updateHtml: function() {
-            this.rawHtml = Icons[this.name];
+    computed: {
+        svg() {
+            let svgData = Icons[this.name];
+            return `data:image/svg+xml;utf8,${svgData}`;
         }
     }
 }
