@@ -17,7 +17,7 @@
 </style>
 
 <template>
-    <i ref="icon" class="moongoose"></i>
+    <i v-once ref="icon" class="moongoose"></i>
 </template>
 
 <script>
