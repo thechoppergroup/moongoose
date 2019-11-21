@@ -595,6 +595,10 @@
         "searchTerms": ["plus", "circled", "add", "increase"],
         "similar": ["plus", "minus-circled", "minus", "add-chatbubbles", "android-person-add", "ios-personadd", "person-add"]
     },
+    "projects": {
+        "searchTerms": ["projects", "tasks", "checkmark"],
+        "similar": ["checkmark-box", "checkmark-circled-outlined", "checkmark-circled", "checkmark"]
+    },
     "plus": {
         "searchTerms": ["plus", "circled", "add", "increase"],
         "similar": ["plus-circled", "minus-circled", "minus", "add-chatbubbles", "android-person-add", "ios-personadd", "person-add"]

@@ -170,6 +170,7 @@ module.exports = [
 'play',
 'plus-circled',
 'plus',
+'projects',
 'quote',
 'recent',
 'record-outlined',
