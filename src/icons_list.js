@@ -217,6 +217,7 @@ module.exports = [
 'volume-mute',
 'waterdrop',
 'webcam-hide',
+'webcam-new',
 'webcam',
 'webhooks-incoming',
 'webhooks-outgoing',
