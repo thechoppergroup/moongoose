@@ -239,6 +239,14 @@
         "searchTerms": ["camera", "shoot", "picture"],
         "similar": ["images"]
     },
+    "card": {
+        "searchTerms": ["visa", "amex", "credit card", "payment"],
+        "similar": [""]
+    },
+    "change-screen": {
+        "searchTerms": ["montior", "change", "screen", "window"],
+        "similar": ["monitor"]
+    },
     "coffee": {
         "searchTerms": ["bar", "drink"],
         "similar": ["images"]
@@ -730,6 +738,10 @@
     "stop": {
         "searchTerms": ["stop", "square"],
         "similar": ["play"]
+    },
+    "stop-screen-share": {
+        "searchTerms": ["stop", "screen share", "minotor"],
+        "similar": ["monitor" , "change-screen"]
     },
     "survey": {
         "searchTerms": ["survey", "clipboard", "feedback"],
