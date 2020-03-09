@@ -239,6 +239,14 @@
         "searchTerms": ["camera", "shoot", "picture"],
         "similar": ["images"]
     },
+    "card": {
+        "searchTerms": ["visa", "amex", "credit card", "payment"],
+        "similar": [""]
+    },
+    "change-screen": {
+        "searchTerms": ["montior", "change", "screen", "window"],
+        "similar": ["monitor"]
+    },
     "coffee": {
         "searchTerms": ["bar", "drink"],
         "similar": ["images"]
@@ -599,6 +607,10 @@
         "searchTerms": ["plus", "circled", "add", "increase"],
         "similar": ["plus", "minus-circled", "minus", "add-chatbubbles", "android-person-add", "ios-personadd", "person-add"]
     },
+    "projects": {
+        "searchTerms": ["projects", "tasks", "checkmark"],
+        "similar": ["checkmark-box", "checkmark-circled-outlined", "checkmark-circled", "checkmark"]
+    },
     "plus": {
         "searchTerms": ["plus", "circled", "add", "increase"],
         "similar": ["plus-circled", "minus-circled", "minus", "add-chatbubbles", "android-person-add", "ios-personadd", "person-add"]
@@ -731,6 +743,10 @@
         "searchTerms": ["stop", "square"],
         "similar": ["play"]
     },
+    "stop-screen-share": {
+        "searchTerms": ["stop", "screen share", "minotor"],
+        "similar": ["monitor" , "change-screen"]
+    },
     "survey": {
         "searchTerms": ["survey", "clipboard", "feedback"],
         "similar": ["document", "images", "clipboard", "address"]
@@ -789,6 +805,10 @@
     },
     "webcam": {
         "searchTerms": ["webcam", "show", "on", "camera", "video", "call", "conference"],
+        "similar": ["webcam-hide", "android-microphone-off", "android-microphone", "volume-mute", "volume-high"]
+    },
+    "webcam-new": {
+        "searchTerms": ["webcam", "show", "on", "camera", "video", "call", "conference", "new"],
         "similar": ["webcam-hide", "android-microphone-off", "android-microphone", "volume-mute", "volume-high"]
     },
     "webhooks-incoming": {

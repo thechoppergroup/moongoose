@@ -1,6 +1,6 @@
 {
     "name": "moongoose",
-    "version": "0.2.3",
+    "version": "0.2.6",
     "description": "SVG Icon Library",
     "main": "dist/moongoose.js",
     "files": [
