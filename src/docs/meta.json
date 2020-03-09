@@ -307,6 +307,10 @@
         "searchTerms": ["company", "building"],
         "similar": ["division", "ios-people"]
     },
+    "disc": {
+        "searchTerms": ["disc", "circle", "hard drive", "storage"],
+        "similar": []
+    },
     "disconnected": {
         "searchTerms": ["disconnected", "chain", "link", "break"],
         "similar": ["link"]
