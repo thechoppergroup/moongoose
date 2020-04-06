@@ -149,6 +149,7 @@ module.exports = [
 'minus-circled',
 'minus',
 'monitor',
+'navicon-close',
 'navicon',
 'notification-off',
 'notification',
