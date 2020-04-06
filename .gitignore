@@ -63,3 +63,6 @@ typings/
 .next
 
 dist
+
+docs/preview.min.js
+docs/preview.min.js.map
