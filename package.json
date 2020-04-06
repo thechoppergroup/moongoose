@@ -1,51 +1,51 @@
 {
-    "name": "moongoose",
-    "version": "0.2.6",
-    "description": "SVG Icon Library",
-    "main": "dist/moongoose.js",
-    "files": [
-        "dist"
-    ],
-    "scripts": {
-        "build": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --disable-browser-sync-plugin",
-        "watch": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --watch"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/thechoppergroup/moongoose.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/thechoppergroup/moongoose/issues"
-    },
-    "homepage": "https://github.com/thechoppergroup/moongoose#readme",
-    "dependencies": {
-        "browser-sync": "^2.24.4",
-        "browser-sync-webpack-plugin": "^2.2.2",
-        "copy-to-clipboard": "^3.0.8",
-        "vue": "^2.5.16"
-    },
-    "devDependencies": {
-        "babel-core": "^6.26.3",
-        "babel-loader": "^7.1.4",
-        "cross-env": "^5.1.6",
-        "css-loader": "^0.28.11",
-        "fs": "^0.0.1-security",
-        "lodash": "^4.17.10",
-        "node-sass": "^4.9.0",
-        "path": "^0.12.7",
-        "sass-loader": "^7.0.1",
-        "style-loader": "^0.21.0",
-        "svg-to-dataurl": "^1.0.0",
-        "svgo": "^1.0.5",
-        "thin.css": "^1.0.2",
-        "vue-loader": "^15.2.2",
-        "vue-style-loader": "^4.1.0",
-        "vue-template-compiler": "^2.5.16",
-        "webpack": "^4.10.1",
-        "webpack-cli": "^2.1.4",
-        "webpack-dev-server": "^3.1.4",
-        "webpack-merge": "^4.1.2"
-    }
+  "name": "moongoose",
+  "version": "0.2.7",
+  "description": "SVG Icon Library",
+  "main": "dist/moongoose.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --disable-browser-sync-plugin",
+    "watch": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thechoppergroup/moongoose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thechoppergroup/moongoose/issues"
+  },
+  "homepage": "https://github.com/thechoppergroup/moongoose#readme",
+  "dependencies": {
+    "browser-sync": "^2.24.4",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "copy-to-clipboard": "^3.0.8",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "cross-env": "^5.1.6",
+    "css-loader": "^0.28.11",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.10",
+    "node-sass": "^4.9.0",
+    "path": "^0.12.7",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "svg-to-dataurl": "^1.0.0",
+    "svgo": "^1.0.5",
+    "thin.css": "^1.0.2",
+    "vue-loader": "^15.2.2",
+    "vue-style-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.10.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  }
 }
