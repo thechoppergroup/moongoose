@@ -12,8 +12,7 @@
   "scripts": {
     "clean": "node scripts/clean.js",
     "build": "npm run clean node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --disable-browser-sync-plugin",
-    "watch": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --watch",
-    "publish": "npm run build && npm version minor && npm publish"
+    "watch": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
