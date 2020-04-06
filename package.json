@@ -1,11 +1,14 @@
 {
-  "name": "moongoose",
+  "name": "@thechoppergroup/moongoose",
   "version": "0.2.7",
   "description": "SVG Icon Library",
   "main": "dist/moongoose.js",
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/thechoppergroup"
+  },
   "scripts": {
     "clean": "node scripts/clean.js",
     "build": "npm run clean node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --disable-browser-sync-plugin",
