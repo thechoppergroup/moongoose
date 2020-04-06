@@ -12,11 +12,12 @@
   "scripts": {
     "clean": "node scripts/clean.js",
     "build": "npm run clean node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --disable-browser-sync-plugin",
-    "watch": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --watch"
+    "watch": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --watch",
+    "publish": "npm run build && npm version minor && npm publish"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thechoppergroup/moongoose.git"
+    "url": "git@github.com:thechoppergroup/moongoose.git"
   },
   "author": "",
   "license": "ISC",
