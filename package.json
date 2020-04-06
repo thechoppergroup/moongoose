@@ -7,7 +7,7 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/thechoppergroup"
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "clean": "node scripts/clean.js",
