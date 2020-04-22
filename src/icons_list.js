@@ -216,6 +216,7 @@ module.exports = [
 'university',
 'unlock',
 'upload-circled',
+'upload-file',
 'upload',
 'volume-high',
 'volume-mute',

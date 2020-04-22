@@ -1389,12 +1389,23 @@
     "similar": ["upload", "android-download", "arrow-up-c", "arrow-down-c"]
   },
   "upload": {
-    "searchTerms": ["upload", "circled", "cloud", "sync", "import"],
+    "searchTerms": ["file", "upload", "circled", "cloud", "sync", "import"],
     "similar": [
       "upload-circled",
       "android-download",
       "arrow-up-c",
-      "arrow-down-c"
+      "arrow-down-c",
+      "upload-file"
+    ]
+  },
+  "upload-file": {
+    "searchTerms": ["file", "upload", "circled", "cloud", "sync", "import"],
+    "similar": [
+      "upload-circled",
+      "android-download",
+      "arrow-up-c",
+      "arrow-down-c",
+      "upload-file"
     ]
   },
   "volume-high": {
