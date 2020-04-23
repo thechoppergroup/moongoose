@@ -1,9 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-    <title>android-microphone</title>
-    <desc>Created with Sketch.</desc>
-    <g id="android-microphone" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M256.1,300.9 C286.4,300.9 311.2,276 311.2,245.7 L311.2,124.7 C311.2,94.3 286.3,69.5 256.1,69.5 C225.9,69.5 200.9997,94.4 200.9997,124.7 L200.9997,245.7 C200.9,276 225.8,300.9 256.1,300.9 Z M353.4,240.3 C353.4,295.5 306.6,334.1 256.1,334.1 C205.6,334.1 158.8,295.4 158.8,240.3 L127.5,240.3 C127.5,302.8 177.1,355.4 237.6,363.6 L237.6,429.5 L274.3,429.5 L274.3,363.6 C334.9,354.5 384.5,302.8 384.5,240.3 L353.4,240.3 L353.4,240.3 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+    <path d="M256.1 300.9c30.3 0 55.1-24.9 55.1-55.2v-121c0-30.4-24.9-55.2-55.1-55.2-30.2 0-55.1 24.9-55.1 55.2v121c-.1 30.3 24.8 55.2 55.1 55.2zm97.3-60.6c0 55.2-46.8 93.8-97.3 93.8s-97.3-38.7-97.3-93.8h-31.3c0 62.5 49.6 115.1 110.1 123.3v65.9h36.7v-65.9c60.6-9.1 110.2-60.8 110.2-123.3h-31.1z"/>
 </svg>

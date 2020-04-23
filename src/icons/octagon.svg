@@ -1,9 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-    <title>octagon</title>
-    <desc>Created with Sketch.</desc>
-    <g id="octagon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="325.5 81.6 186.5 81.6 88.1 179.9 88.1 319 186.5 417.4 325.5 417.4 423.9 319 423.9 179.9"></polygon>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+    <path d="M325.5 81.6h-139l-98.4 98.3V319l98.4 98.4h139l98.4-98.4V179.9z"/>
 </svg>

@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-    <title>ios-list-outline</title>
-    <desc>Created with Sketch.</desc>
-    <g id="ios-list-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M402.7,102.8 L402.7,396.1 L109.3,396.1 L109.3,102.8 L402.7,102.8 M416,89.5 L96,89.5 L96,409.5 L416,409.5 L416,89.5 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
-        <path d="M202.7,162.85 L362.7,162.85 L362.7,176.15 L202.7,176.15 L202.7,162.85 Z M202.7,242.85 L362.7,242.85 L362.7,256.15 L202.7,256.15 L202.7,242.85 Z M202.7,322.85 L362.7,322.85 L362.7,336.15 L202.7,336.15 L202.7,322.85 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
-        <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="162.7" cy="120" r="13.3"></circle>
-        <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="162.7" cy="200" r="13.3"></circle>
-        <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="162.7" cy="249.5" r="13.3"></circle>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+    <path d="M402.7 102.8v293.3H109.3V102.8h293.4M416 89.5H96v320h320v-320z"/>
+    <path d="M202.7 162.85h160v13.3h-160v-13.3zm0 80h160v13.3h-160v-13.3zm0 80h160v13.3h-160v-13.3z"/>
+    <circle cx="162.7" cy="120" r="13.3"/>
+    <circle cx="162.7" cy="200" r="13.3"/>
+    <circle cx="162.7" cy="249.5" r="13.3"/>
 </svg>

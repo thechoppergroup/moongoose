@@ -1,9 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-    <title>android-calendar</title>
-    <desc>Created with Sketch.</desc>
-    <g id="android-calendar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M368.005,265.5 L272.005,265.5 L272.005,361.5 L368.005,361.5 L368.005,265.5 Z M336.005,57.5 L336.005,89.5 L176.005,89.5 L176.005,57.5 L128.005,57.5 L128.005,89.5 L103.995,89.5 C81.993,89.5 63.995,107.498 63.995,129.5 L63.995,401.5 C63.995,423.502 81.993,441.5 103.995,441.5 L408.005,441.5 C430.007,441.5 448.005,423.502 448.005,401.5 L448.005,129.5 C448.005,107.498 430.007,89.5 408.005,89.5 L384.005,89.5 L384.005,57.5 L336.005,57.5 Z M408.005,401.5 L103.995,401.5 L103.995,189.5 L408.005,189.5 L408.005,401.5 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+    <path d="M368.005 265.5h-96v96h96v-96zm-32-208v32h-160v-32h-48v32h-24.01c-22.002 0-40 17.998-40 40v272c0 22.002 17.998 40 40 40h304.01c22.002 0 40-17.998 40-40v-272c0-22.002-17.998-40-40-40h-24v-32h-48zm72 344h-304.01v-212h304.01v212z"/>
 </svg>

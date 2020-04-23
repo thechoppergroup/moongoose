@@ -309,7 +309,7 @@
     "searchTerms": ["book", "mark", "save"],
     "similar": ["address-book", "ios-book", "save", "star-outline", "star"]
   },
-  "bar": {
+  "android-bar": {
     "searchTerms": ["bar", "drink"],
     "similar": ["earth"]
   },
@@ -519,7 +519,7 @@
     "searchTerms": ["forward", "email"],
     "similar": ["reply", "reply-all"]
   },
-  "funnel": {
+  "android-funnel": {
     "searchTerms": ["filter", "funnel"],
     "similar": ["description"]
   },

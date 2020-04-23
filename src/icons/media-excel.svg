@@ -1,9 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-    <title>media-excel</title>
-    <desc>Created with Sketch.</desc>
-    <g id="media-excel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M96,89.5 L96,409.5 L416,409.5 L416,89.5 L96,89.5 Z M290.1,332.7 L253.8,278.3 L215.4,332.7 L162.1,332.7 L229.3,245.2 L174.9,168.4 L229.3,168.4 L254.9,210 L281.6,168.4 L337.1,168.4 L280.6,245.2 L344.6,332.7 L290.1,332.7 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+    <path d="M96 89.5v320h320v-320H96zm194.1 243.2l-36.3-54.4-38.4 54.4h-53.3l67.2-87.5-54.4-76.8h54.4l25.6 41.6 26.7-41.6h55.5l-56.5 76.8 64 87.5h-54.5z"/>
 </svg>

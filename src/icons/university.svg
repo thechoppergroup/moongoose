@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-    <title>university</title>
-    <desc>Created with Sketch.</desc>
-    <g id="university" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="256 102.8 69.3 196.4 96 214 96 382.9 122.7 396.2 122.7 231.1 256 316.3 366.2 245.1 442.9 195.3"></polygon>
-        <path d="M367.8,169.5 L256,242.7 L143,169.5 L135.9,237.4 C149.2,247.8 229.3,302.9 256,329.5 C282.7,302.8 362.7,247.8 376.1,237.4 L367.8,169.5 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+    <path d="M256 102.8L69.3 196.4 96 214v168.9l26.7 13.3V231.1L256 316.3l110.2-71.2 76.7-49.8z"/>
+    <path d="M367.8 169.5L256 242.7l-113-73.2-7.1 67.9c13.3 10.4 93.4 65.5 120.1 92.1 26.7-26.7 106.7-81.7 120.1-92.1l-8.3-67.9z"/>
 </svg>

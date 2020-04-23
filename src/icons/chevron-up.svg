@@ -1,9 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-    <title>chevron-up</title>
-    <desc>Created with Sketch.</desc>
-    <g id="chevron-up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M256,219.29784 L380.4,338.69784 C383.5,341.69784 388.5,341.59784 391.7,338.59784 L413.6,317.19784 C416.7,314.09784 416.8,309.09784 413.7,306.09784 L261.7,160.19784 C260.1,158.59784 258,157.89784 255.9,158.09784 C253.8,157.99784 251.7,158.69784 250.1,160.19784 L98.3,306.09784 C95.2,309.09784 95.3,314.09784 98.4,317.19784 L120.3,338.59784 C123.4,341.69784 128.5,341.69784 131.6,338.69784 L256,219.29784 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+    <path d="M256 219.298l124.4 119.4c3.1 3 8.1 2.9 11.3-.1l21.9-21.4c3.1-3.1 3.2-8.1.1-11.1l-152-145.9c-1.6-1.6-3.7-2.3-5.8-2.1-2.1-.1-4.2.6-5.8 2.1l-151.8 145.9c-3.1 3-3 8 .1 11.1l21.9 21.4c3.1 3.1 8.2 3.1 11.3.1l124.4-119.4z"/>
 </svg>
