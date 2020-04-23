@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M96 40v320h320V40H96zm87.5 80c17 0 31 13.9 31 31s-13.9 31-31 31-31-13.9-31-31c0-18.2 13.9-31 31-31zm180.2 155.7H143l45.9-36.3 23.5 18.1 92.8-72.5 34.1 26.7 23.5-18.1v82.1h.9z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>media-image</title>
+    <desc>Created with Sketch.</desc>
+    <g id="media-image" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M96,89.5 L96,409.5 L416,409.5 L416,89.5 L96,89.5 Z M183.5,169.5 C200.5,169.5 214.5,183.4 214.5,200.5 C214.5,217.6 200.6,231.5 183.5,231.5 C166.4,231.5 152.5,217.6 152.5,200.5 C152.5,182.3 166.4,169.5 183.5,169.5 Z M363.7,325.2 L143,325.2 L188.9,288.9 L212.4,307 L305.2,234.5 L339.3,261.2 L362.8,243.1 L362.8,325.2 L363.7,325.2 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

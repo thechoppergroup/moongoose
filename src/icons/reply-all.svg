@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M300.7 141.5v-73L162.1 199.8l138.6 122.6v-84c62.1 0 98.6 8.1 145.4 93.1-.1 0-5.7-190-145.4-190z"/>
-    <path d="M66 199.9l131.5 115.5V262l-75-62.1 75-71.7v-52L66 199.9z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>reply-all</title>
+    <desc>Created with Sketch.</desc>
+    <g id="reply-all" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M300.7,191 L300.7,118 L162.1,249.3 L300.7,371.9 L300.7,287.9 C362.8,287.9 399.3,296 446.1,381 C446,381 440.4,191 300.7,191 L300.7,191 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="66 253.6 197.5 369.1 197.5 315.7 122.5 253.6 197.5 181.9 197.5 129.9"></polygon>
+    </g>
 </svg>

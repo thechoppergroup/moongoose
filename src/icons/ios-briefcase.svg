@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M132.9 76.9h24.6v12.3h-24.6V76.9zM96 150.8h320v184.6H96V150.8zm258.5-73.9h24.6v12.3h-24.6V76.9z"/>
-    <path d="M379.1 89.2v24.6h-24.6V89.2h-36.9V64.6c-.4-14-10.5-24.6-24.8-24.6h-76.2c-14.3 0-22.1 10.5-22.1 24.6v24.6h-36.9v24.6H133V89.2H96v49.2h320V89.2h-36.9zm-73.9-.4v.4h-98.5v-23c0-7.8 2.2-13.9 10.5-13.9H292c8 0 13.2 5.9 13.2 13.9v22.6z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>ios-briefcase</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ios-briefcase" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M132.9,120.25 L157.5,120.25 L157.5,132.55 L132.9,132.55 L132.9,120.25 Z M96,194.15 L416,194.15 L416,378.75 L96,378.75 L96,194.15 Z M354.5,120.25 L379.1,120.25 L379.1,132.55 L354.5,132.55 L354.5,120.25 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+        <path d="M379.1,89.2 L379.1,113.8 L354.5,113.8 L354.5,89.2 L317.6,89.2 L317.6,64.6 C317.2,50.6 307.1,40 292.8,40 L216.6,40 C202.3,40 194.5,50.5 194.5,64.6 L194.5,89.2 L157.6,89.2 L157.6,113.8 L133,113.8 L133,89.2 L96,89.2 L96,138.4 L416,138.4 L416,89.2 L379.1,89.2 Z M305.2,88.8 L305.2,89.2 L206.7,89.2 L206.7,66.2 C206.7,58.4 208.9,52.3 217.2,52.3 L292,52.3 C300,52.3 305.2,58.2 305.2,66.2 L305.2,88.8 L305.2,88.8 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

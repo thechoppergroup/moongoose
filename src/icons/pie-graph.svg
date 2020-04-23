@@ -1,4 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M96.4 200H256V40.4c-3.6-.3-7.6-.4-11.4-.4C162.5 40 96 106.5 96 188.6c0 3.8.1 7.8.4 11.4z"/>
-    <path d="M151.6 304.4c27.2 33.9 69 55.6 115.9 55.6 82.1 0 148.6-66.5 148.6-148.6 0-46.9-21.7-88.6-55.6-115.9-22.6-18.2-50.9-29.9-81.6-32.3v159.6H119.3c2.3 30.8 14.1 59 32.3 81.6z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>pie-graph</title>
+    <desc>Created with Sketch.</desc>
+    <g id="pie-graph" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M278.9,119.65 C309.6,122.05 337.9,133.75 360.5,151.95 C394.4,179.25 416.1,220.95 416.1,267.85 C416.1,349.95 349.6,416.45 267.5,416.45 C220.6,416.45 178.8,394.75 151.6,360.85 C133.4,338.25 121.6,310.05 119.3,279.25 L119.3,279.25 L278.9,279.25 Z M244.6,95.55 C248.4,95.55 252.4,95.65 256,95.95 L256,95.95 L256,255.55 L96.4,255.55 C96.1,251.95 96,247.95 96,244.15 C96,162.05 162.5,95.55 244.6,95.55 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M256 20c-99.4 0-180 80.5-180 180s80.6 180 180 180 180-80.6 180-180S355.4 20 256 20zm0 335c-85.5 0-155-69.5-155-155S170.5 45 256 45s155 69.5 155 155-69.5 155-155 155z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>status-disconnected</title>
+    <desc>Created with Sketch.</desc>
+    <g id="status-disconnected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M256,69.5 C156.6,69.5 76,150 76,249.5 C76,349 156.6,429.5 256,429.5 C355.4,429.5 436,348.9 436,249.5 C436,150.1 355.4,69.5 256,69.5 Z M256,404.5 C170.5,404.5 101,335 101,249.5 C101,164 170.5,94.5 256,94.5 C341.5,94.5 411,164 411,249.5 C411,335 341.5,404.5 256,404.5 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

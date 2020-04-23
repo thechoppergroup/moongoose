@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M416 166.7L282.7 40v71.1C158.2 128.9 113.8 217.8 96 306.7c44.4-62.2 97.8-90.7 186.7-90.7v72.9L416 166.7z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>android-share</title>
+    <desc>Created with Sketch.</desc>
+    <g id="android-share" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M416,242.85 L282.7,116.15 L282.7,187.25 C158.2,205.05 113.8,293.95 96,382.85 C140.4,320.65 193.8,292.15 282.7,292.15 L282.7,365.05 L416,242.85 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

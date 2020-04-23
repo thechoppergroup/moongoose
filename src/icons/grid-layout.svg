@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M96 172.7h185.5v185.5H96V172.7zm209.1 96.4H416v89.1H305.1v-89.1zm0-96.4H416v72.7H305.1v-72.7zM228.7 40H416v109.1H228.7V40zM96 40h109.1v109.1H96V40z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>grid-layout</title>
+    <desc>Created with Sketch.</desc>
+    <g id="grid-layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M96,223.1 L281.5,223.1 L281.5,408.6 L96,408.6 L96,223.1 Z M305.1,319.5 L416,319.5 L416,408.6 L305.1,408.6 L305.1,319.5 Z M305.1,223.1 L416,223.1 L416,295.8 L305.1,295.8 L305.1,223.1 L305.1,223.1 Z M228.7,90.4 L416,90.4 L416,199.5 L228.7,199.5 L228.7,90.4 Z M96,90.4 L205.1,90.4 L205.1,199.5 L96,199.5 L96,90.4 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

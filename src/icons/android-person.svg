@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M256 200c44 0 80-36 80-80s-36-80-80-80-80 36-80 80 36 80 80 80zm0 40c-53 0-160 27-160 80v40h320v-40c0-53-107-80-160-80z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>android-person</title>
+    <desc>Created with Sketch.</desc>
+    <g id="android-person" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M256,249.5 C300,249.5 336,213.5 336,169.5 C336,125.5 300,89.5 256,89.5 C212,89.5 176,125.5 176,169.5 C176,213.5 212,249.5 256,249.5 Z M256,289.5 C203,289.5 96,316.5 96,369.5 L96,409.5 L416,409.5 L416,369.5 C416,316.5 309,289.5 256,289.5 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

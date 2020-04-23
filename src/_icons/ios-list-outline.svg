@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+    <path d="M402.7 53.3v293.3H109.3V53.3h293.4M416 40H96v320h320V40z"/>
+    <path d="M202.7 113.3h160v13.3h-160v-13.3zm0 80h160v13.3h-160v-13.3zm0 80h160v13.3h-160v-13.3z"/>
+    <circle cx="162.7" cy="120" r="13.3"/>
+    <circle cx="162.7" cy="200" r="13.3"/>
+    <circle cx="162.7" cy="280" r="13.3"/>
+</svg>

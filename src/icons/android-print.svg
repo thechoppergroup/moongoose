@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M399.95 160h-287.9C76.824 160 48 188.803 48 224v138.667h79.899V448H384.1v-85.333H464V224c0-35.197-28.825-64-64.05-64zM352 416H160V288h192v128zm32.101-352H127.899v80H384.1V64z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>android-print</title>
+    <desc>Created with Sketch.</desc>
+    <g id="android-print" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M399.95,153.5 L112.05,153.5 C76.824,153.5 48,182.303 48,217.5 L48,356.167 L127.899,356.167 L127.899,441.5 L384.1,441.5 L384.1,356.167 L464,356.167 L464,217.5 C464,182.303 435.175,153.5 399.95,153.5 Z M352,409.5 L160,409.5 L160,281.5 L352,281.5 L352,409.5 Z M384.101,57.5 L127.899,57.5 L127.899,137.5 L384.101,137.5 L384.101,57.5 L384.101,57.5 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

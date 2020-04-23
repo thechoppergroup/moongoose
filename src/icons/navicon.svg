@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M96 184h320v32H96v-32zm0-96h320v32H96V88zm0 192h320v32H96v-32z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>navicon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="navicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M96,233.5 L416,233.5 L416,265.5 L96,265.5 L96,233.5 Z M96,137.5 L416,137.5 L416,169.5 L96,169.5 L96,137.5 Z M96,329.5 L416,329.5 L416,361.5 L96,361.5 L96,329.5 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

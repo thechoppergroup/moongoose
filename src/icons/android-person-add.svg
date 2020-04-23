@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M292 184c39.6 0 72-32.4 72-72s-32.4-72-72-72-72 32.4-72 72 32.4 72 72 72zm0 36c-47.7 0-144 24.3-144 72v36h288v-36c0-47.7-96.3-72-144-72zm-144-60v-48h-24v48H76v24h48v48h24v-48h48v-24h-48z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>android-person-add</title>
+    <desc>Created with Sketch.</desc>
+    <g id="android-person-add" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M292,249.5 C331.6,249.5 364,217.1 364,177.5 C364,137.9 331.6,105.5 292,105.5 C252.4,105.5 220,137.9 220,177.5 C220,217.1 252.4,249.5 292,249.5 Z M292,285.5 C244.3,285.5 148,309.8 148,357.5 L148,393.5 L436,393.5 L436,357.5 C436,309.8 339.7,285.5 292,285.5 Z M148,225.5 L148,177.5 L124,177.5 L124,225.5 L76,225.5 L76,249.5 L124,249.5 L124,297.5 L148,297.5 L148,249.5 L196,249.5 L196,225.5 L148,225.5 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

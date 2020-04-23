@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M269.6 271.4H416V360H269.6v-88.6zm-173.6 0h146.4V360H96v-88.6zm173.6-115.7H416v88.6H269.6v-88.6zm-173.6 0h146.4v88.6H96v-88.6zM269.6 40H416v88.6H269.6V40zM96 40h146.4v88.6H96V40z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>3x2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="3x2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M269.6,320.9 L416,320.9 L416,409.5 L269.6,409.5 L269.6,320.9 Z M96,320.9 L242.4,320.9 L242.4,409.5 L96,409.5 L96,320.9 Z M269.6,205.2 L416,205.2 L416,293.8 L269.6,293.8 L269.6,205.2 Z M96,205.2 L242.4,205.2 L242.4,293.8 L96,293.8 L96,205.2 Z M269.6,89.5 L416,89.5 L416,178.1 L269.6,178.1 L269.6,89.5 Z M96,89.5 L242.4,89.5 L242.4,178.1 L96,178.1 L96,89.5 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

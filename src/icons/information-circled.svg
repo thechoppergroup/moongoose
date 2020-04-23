@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M416 197.9c-1.2-88.3-73.8-159-162.1-157.8s-159 73.7-157.9 162c1.2 88.3 73.8 159 162.1 157.8 88.4-1.1 159.1-73.7 157.9-162zM256 97.1c12.6 0 22.9 10.2 22.9 22.9s-10.2 22.9-22.9 22.9-22.9-10.2-22.9-22.9 10.3-22.9 22.9-22.9zm31.4 202.2h-62.9v-7.9h15.7V177.1h-15.7v-8.6h47.1v122.8h15.7v8z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>information-circled</title>
+    <desc>Created with Sketch.</desc>
+    <g id="information-circled" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M416,247.4 C414.8,159.1 342.2,88.4 253.9,89.6 C165.6,90.8 94.9,163.3 96,251.6 C97.2,339.9 169.8,410.6 258.1,409.4 C346.5,408.3 417.2,335.7 416,247.4 Z M256,146.6 C268.6,146.6 278.9,156.8 278.9,169.5 C278.9,182.2 268.7,192.4 256,192.4 C243.3,192.4 233.1,182.2 233.1,169.5 C233.1,156.8 243.4,146.6 256,146.6 L256,146.6 Z M287.4,348.8 L224.5,348.8 L224.5,340.9 L240.2,340.9 L240.2,226.6 L224.5,226.6 L224.5,218 L271.6,218 L271.6,340.8 L287.3,340.8 L287.3,348.8 L287.4,348.8 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

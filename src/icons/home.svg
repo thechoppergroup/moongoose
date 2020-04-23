@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M416 226.7L256 40 96 226.7h40V360h80V253.3h80V360h80V226.7h40z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>home</title>
+    <desc>Created with Sketch.</desc>
+    <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="416 276.2 256 89.5 96 276.2 136 276.2 136 409.5 216 409.5 216 302.8 296 302.8 296 409.5 376 409.5 376 276.2"></polygon>
+    </g>
 </svg>

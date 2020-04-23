@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M179.7 40c-46 0-83.7 21.7-83.7 65.8v235.8h18.5c10.7-21.9 36.9-35 65.3-35 33.5 0 61.6 22.9 68 53.3h1.6V66.1C235 48.3 208.5 40 179.7 40zm152.7 0c-28.6 0-55.6 8.2-69.7 25.8V360h1.5c6.4-30.4 34.6-53.3 68.1-53.3 28.4 0 51 9.7 65.4 35H416V105.8c0-44.2-37.6-65.8-83.6-65.8z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>ios-book</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ios-book" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M179.7,89.5 C133.7,89.5 96,111.2 96,155.3 L96,391.1 L114.5,391.1 C125.2,369.2 151.4,356.1 179.8,356.1 C213.3,356.1 241.4,379 247.8,409.4 L249.4,409.4 L249.4,115.6 C235,97.8 208.5,89.5 179.7,89.5 Z M332.4,89.5 C303.8,89.5 276.8,97.7 262.7,115.3 L262.7,409.5 L264.2,409.5 C270.6,379.1 298.8,356.2 332.3,356.2 C360.7,356.2 383.3,365.9 397.7,391.2 L416,391.2 L416,155.3 C416,111.1 378.4,89.5 332.4,89.5 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

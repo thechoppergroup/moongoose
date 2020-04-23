@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M284.3 143.3v-33.7c0-15.2 3.3-22.9 27-22.9H341V30h-49.5c-60.6 0-80.6 27.8-80.6 75.5v37.8H171V200h39.8v170h73.5V200h49.9l6.7-56.7h-56.6z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>social-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="social-facebook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M284.3,192.8 L284.3,159.1 C284.3,143.9 287.6,136.2 311.3,136.2 L341,136.2 L341,79.5 L291.5,79.5 C230.9,79.5 210.9,107.3 210.9,155 L210.9,192.8 L171,192.8 L171,249.5 L210.8,249.5 L210.8,419.5 L284.3,419.5 L284.3,249.5 L334.2,249.5 L340.9,192.8 L284.3,192.8 L284.3,192.8 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

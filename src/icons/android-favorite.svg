@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M256 347.7l-23.2-20.9C150.4 251.1 96 202 96 140.8c0-49.9 38.4-88.5 88-88.5 28 0 54.4 12.9 72 33.8 17.6-20.9 44-33.8 72-33.8 49.6 0 88 38.6 88 88.5 0 61.2-54.4 110.3-136.8 185.9l-23.2 21z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>android-favorite</title>
+    <desc>Created with Sketch.</desc>
+    <g id="android-favorite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M256,397.2 L232.8,376.3 C150.4,300.6 96,251.5 96,190.3 C96,140.4 134.4,101.8 184,101.8 C212,101.8 238.4,114.7 256,135.6 C273.6,114.7 300,101.8 328,101.8 C377.6,101.8 416,140.4 416,190.3 C416,251.5 361.6,300.6 279.2,376.2 L256,397.2 L256,397.2 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>

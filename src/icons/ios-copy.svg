@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M156.9 341.7V72.5h-28.4V370H341v-28.4l-184.1.1z"/>
-    <path d="M317.4 30H171v297.5h212.6V96.4L317.4 30zm37.7 99.1h-70.9V58.4h14.2V115h56.7v14.1z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>ios-copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ios-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="156.9 369.95 156.9 100.75 128.5 100.75 128.5 398.25 341 398.25 341 369.85 156.9 369.95"></polygon>
+        <path d="M317.4,100.75 L171,100.75 L171,398.25 L383.6,398.25 L383.6,167.15 L317.4,100.75 Z M355.1,199.85 L284.2,199.85 L284.2,129.15 L298.4,129.15 L298.4,185.75 L355.1,185.75 L355.1,199.85 L355.1,199.85 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
 </svg>
