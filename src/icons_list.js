@@ -152,6 +152,7 @@ module.exports = [
 'monitor',
 'navicon-close',
 'navicon',
+'new-team',
 'notification-off',
 'notification',
 'nuclear',
