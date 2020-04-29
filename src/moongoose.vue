@@ -1,7 +1,6 @@
 <style lang="scss">
 .moongoose {
   display: inline-block;
-  width: 1em;
 
   svg {
     display: inline-block;
@@ -9,6 +8,7 @@
     stroke: currentColor !important;
     fill: currentColor !important;
     vertical-align: middle;
+    height: 1em;
     width: 1em;
   }
 }
