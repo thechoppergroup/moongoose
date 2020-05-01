@@ -457,6 +457,10 @@
     "searchTerms": ["drag", "position", "up", "down"],
     "similar": ["arrow-up-b", "arrow-down-b", "chevron-up", "chevron-down"]
   },
+  "drag-up": {
+    "searchTerms": ["drag", "position", "up", "down"],
+    "similar": ["arrow-up-b", "arrow-down-b", "chevron-up", "chevron-down"]
+  },
   "earth": {
     "searchTerms": ["earth", "external", "global"],
     "similar": [
