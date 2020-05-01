@@ -91,6 +91,7 @@ module.exports = [
 'disconnected',
 'division',
 'document',
+'drag-up',
 'drag',
 'earth',
 'easel',
