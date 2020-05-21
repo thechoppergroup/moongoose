@@ -176,6 +176,7 @@ module.exports = [
 'plus-circled',
 'plus',
 'projects',
+'question',
 'quote',
 'recent',
 'record-outlined',

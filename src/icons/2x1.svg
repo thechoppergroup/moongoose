@@ -1,3 +1,3 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M96 263.1h320v146.4H96V263.1zm0-173.6h320v146.4H96V89.5z"/>
+    <path fill-rule="nonzero" d="M96 263.1h320v146.4H96V263.1zm0-173.6h320v146.4H96V89.5z"/>
 </svg>
