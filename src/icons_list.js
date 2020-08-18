@@ -110,6 +110,7 @@ module.exports = [
 'grid-layout',
 'grid',
 'hammer',
+'hand',
 'heart',
 'help-circled',
 'help',
