@@ -13,7 +13,7 @@
     "clean": "node scripts/clean.js",
     "build": "npm run clean node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --disable-browser-sync-plugin",
     "watch": "node scripts/resize-svg.js && node scripts/svg-to-module.js && webpack --config webpack.config.js --watch",
-    "publish-patch": "npm run build && npm version patch && npm publish",
+    "publish-patch": "npm version patch && npm publish",
     "deploy-docs": "npm run build && netlify deploy --dir=docs --prod"
   },
   "repository": {
