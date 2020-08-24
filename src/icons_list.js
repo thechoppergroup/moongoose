@@ -222,6 +222,7 @@ module.exports = [
 'upload-circled',
 'upload-file',
 'upload',
+'video-list',
 'volume-high',
 'volume-mute',
 'waterdrop',
