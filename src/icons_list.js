@@ -134,6 +134,7 @@ module.exports = [
 'ios-telephone-hang-up',
 'ios-telephone',
 'ios-time',
+'item-box',
 'junk-email',
 'link',
 'load-d',
