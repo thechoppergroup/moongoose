@@ -64,6 +64,7 @@ module.exports = [
 'arrow-up-c',
 'beaker',
 'bookmark',
+'bot',
 'bug',
 'camera',
 'card',
