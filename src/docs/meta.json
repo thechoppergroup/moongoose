@@ -519,6 +519,22 @@
     "searchTerms": ["flag", "star"],
     "similar": ["star", "star-outline"]
   },
+  "font-bold": {
+    "searchTerms": ["font", "text", "editor"],
+    "similar": ["font-italic", "font-underline", "font-strikethrough"]
+  },
+  "font-italic": {
+    "searchTerms": ["font", "text", "editor"],
+    "similar": ["font-bold", "font-underline", "font-strikethrough"]
+  },
+  "font-underline": {
+    "searchTerms": ["font", "text", "editor"],
+    "similar": ["font-bold", "font-italic", "font-strikethrough"]
+  },
+  "font-strikethrough": {
+    "searchTerms": ["font", "text", "editor"],
+    "similar": ["font-bold", "font-italic", "font-underline"]
+  },
   "forward": {
     "searchTerms": ["forward", "email"],
     "similar": ["reply", "reply-all"]
