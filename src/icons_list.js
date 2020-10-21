@@ -115,6 +115,7 @@ module.exports = [
 'grid-layout',
 'grid',
 'hammer',
+'hand-waving',
 'hand',
 'heart',
 'help-circled',

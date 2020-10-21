@@ -587,6 +587,14 @@
     "searchTerms": ["help", "question", "mark", "assist"],
     "similar": ["alert-send", "alert", "alert-circled", "help-circled"]
   },
+  "hand": {
+    "searchTerms": ["wave", "hand"],
+    "similar": ["hang-waving"]
+  },
+  "hand-waving": {
+    "searchTerms": ["wave", "hand"],
+    "similar": ["hang-waving"]
+  },
   "home": {
     "searchTerms": ["home"],
     "similar": ["earth"]
