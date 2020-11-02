@@ -1108,6 +1108,18 @@
     "searchTerms": ["search", "find", "magnifying", "glass"],
     "similar": ["email", "scout-external-email", "scout-external-people"]
   },
+  "signal-weak": {
+    "searchTerms": ["signal", "weak", "radio"],
+    "similar": ["signal-medium", "signal-strong"]
+  },
+  "signal-medium": {
+    "searchTerms": ["signal", "medium", "radio"],
+    "similar": ["signal-weak", "signal-strong"]
+  },
+  "signal-strong": {
+    "searchTerms": ["signal", "strong", "radio"],
+    "similar": ["signal-medium", "signal-weak"]
+  },
   "share": {
     "searchTerms": ["share", "send"],
     "similar": ["android-share-alt", "android-share", "paper-airplane"]
