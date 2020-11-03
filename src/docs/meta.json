@@ -1291,10 +1291,6 @@
     "searchTerms": ["stats", "bar", "chart"],
     "similar": ["pie-graph"]
   },
-  "stats-bars": {
-    "searchTerms": ["stats", "bar", "chart"],
-    "similar": ["pie-graph"]
-  },
   "status-active": {
     "searchTerms": ["status", "active", "solid", "filled", "online"],
     "similar": [
