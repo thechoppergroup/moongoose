@@ -202,6 +202,7 @@ module.exports = [
 'signal-medium',
 'signal-strong',
 'signal-weak',
+'social-apple',
 'social-dropbox',
 'social-facebook',
 'social-google-outline',

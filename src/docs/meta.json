@@ -344,6 +344,24 @@
       "4x4"
     ]
   },
+  "social-apple": {
+    "searchTerms": [
+      "social",
+      "apple",
+      "branding"
+    ],
+    "similar": [
+      "social-facebook",
+      "social-google-outline",
+      "social-google",
+      "social-googleplus-outline",
+      "social-googleplus",
+      "social-linkedin",
+      "social-twitter",
+      "social-windows",
+      "social-yahoo"
+    ]
+  },
   "add-chatbubbles": {
     "searchTerms": [
       "add",
