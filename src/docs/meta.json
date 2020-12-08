@@ -362,6 +362,26 @@
       "social-yahoo"
     ]
   },
+  "show-film-strip": {
+    "searchTerms": [
+      "arrow",
+      "up",
+      "film strip"
+    ],
+    "similar": [
+      "hide-film-strip"
+    ]
+  },
+  "hide-film-strip": {
+    "searchTerms": [
+      "arrow",
+      "up",
+      "film strip"
+    ],
+    "similar": [
+      "show-film-strip"
+    ]
+  },
   "add-chatbubbles": {
     "searchTerms": [
       "add",
