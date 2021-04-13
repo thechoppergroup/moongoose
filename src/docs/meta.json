@@ -3220,5 +3220,69 @@
     "similar": [
       "company"
     ]
+  },
+  "menu-connections-active": {
+    "searchTerms": [
+      "menu-connections-default"
+    ],
+    "similar": [
+      "folder"
+    ]
+  },
+  "menu-connections-default": {
+    "searchTerms": [
+      "menu-connections-active"
+    ],
+    "similar": [
+      "folder"
+    ]
+  },
+  "menu-conversations-active": {
+    "searchTerms": [
+      "menu-conversation-default"
+    ],
+    "similar": [
+      "chatbubbles"
+    ]
+  },
+  "menu-conversations-default": {
+    "searchTerms": [
+      "menu-conversation-active"
+    ],
+    "similar": [
+      "chatbubbles"
+    ]
+  },
+  "menu-files-active": {
+    "searchTerms": [
+      "menu-files-default"
+    ],
+    "similar": [
+      "folder"
+    ]
+  },
+  "menu-files-default": {
+    "searchTerms": [
+      "menu-files-active"
+    ],
+    "similar": [
+      "folder"
+    ]
+  },
+  "menu-meetings-active": {
+    "searchTerms": [
+      "menu-meetings-default"
+    ],
+    "similar": [
+      "webcam"
+    ]
+  },
+  "menu-meetings-default": {
+    "searchTerms": [
+      "menu-meetings-active"
+    ],
+    "similar": [
+      "webcam"
+    ]
   }
 }
