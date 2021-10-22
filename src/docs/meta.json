@@ -1,355 +1,106 @@
 {
   "1x1": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "2x2",
-      "3x3",
-      "4x4",
-      "5x5"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["2x2", "3x3", "4x4", "5x5"]
   },
   "1x2": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "1x1",
-      "1x3",
-      "1x4",
-      "1x5",
-      "2x1"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["1x1", "1x3", "1x4", "1x5", "2x1"]
   },
   "1x3": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "1x1",
-      "1x2",
-      "1x4",
-      "1x5",
-      "3x1"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["1x1", "1x2", "1x4", "1x5", "3x1"]
   },
   "1x4": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "1x1",
-      "1x2",
-      "1x3",
-      "1x5",
-      "4x1"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["1x1", "1x2", "1x3", "1x5", "4x1"]
   },
   "1x5": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "1x1",
-      "1x2",
-      "1x3",
-      "1x4",
-      "4x1"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["1x1", "1x2", "1x3", "1x4", "4x1"]
   },
   "2x1": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "2x2",
-      "2x3",
-      "2x4",
-      "2x5",
-      "1x2"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["2x2", "2x3", "2x4", "2x5", "1x2"]
   },
   "2x2": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "1x1",
-      "3x3",
-      "4x4",
-      "5x5"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["1x1", "3x3", "4x4", "5x5"]
   },
   "2x3": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "2x1",
-      "2x2",
-      "2x4",
-      "2x5",
-      "3x2"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["2x1", "2x2", "2x4", "2x5", "3x2"]
   },
   "2x4": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "2x1",
-      "2x2",
-      "2x3",
-      "2x5",
-      "4x2"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["2x1", "2x2", "2x3", "2x5", "4x2"]
   },
   "2x5": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "2x1",
-      "2x2",
-      "2x3",
-      "2x4",
-      "4x2"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["2x1", "2x2", "2x3", "2x4", "4x2"]
   },
   "3x1": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "3x2",
-      "3x3",
-      "3x4",
-      "3x5",
-      "1x3"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["3x2", "3x3", "3x4", "3x5", "1x3"]
   },
   "3x2": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "3x1",
-      "3x3",
-      "3x4",
-      "3x5",
-      "2x3"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["3x1", "3x3", "3x4", "3x5", "2x3"]
   },
   "3x3": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "1x1",
-      "2x2",
-      "4x4",
-      "5x5"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["1x1", "2x2", "4x4", "5x5"]
   },
   "3x4": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "3x1",
-      "3x2",
-      "3x3",
-      "3x5",
-      "4x3"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["3x1", "3x2", "3x3", "3x5", "4x3"]
   },
   "3x5": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "3x1",
-      "3x2",
-      "3x3",
-      "3x4",
-      "5x3"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["3x1", "3x2", "3x3", "3x4", "5x3"]
   },
   "4x1": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "4x2",
-      "4x3",
-      "4x4",
-      "4x5",
-      "1x4"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["4x2", "4x3", "4x4", "4x5", "1x4"]
   },
   "4x2": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "4x1",
-      "4x3",
-      "4x4",
-      "4x5",
-      "2x4"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["4x1", "4x3", "4x4", "4x5", "2x4"]
   },
   "4x3": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "4x1",
-      "4x2",
-      "4x4",
-      "4x5",
-      "3x4"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["4x1", "4x2", "4x4", "4x5", "3x4"]
   },
   "4x4": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "1x1",
-      "2x2",
-      "3x3",
-      "5x5"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["1x1", "2x2", "3x3", "5x5"]
   },
   "4x5": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "4x1",
-      "4x2",
-      "4x3",
-      "4x4",
-      "5x4"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["4x1", "4x2", "4x3", "4x4", "5x4"]
   },
   "5x1": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "5x2",
-      "5x3",
-      "5x4",
-      "5x5",
-      "1x5"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["5x2", "5x3", "5x4", "5x5", "1x5"]
   },
   "5x2": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "5x1",
-      "5x3",
-      "5x4",
-      "5x5",
-      "2x5"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["5x1", "5x3", "5x4", "5x5", "2x5"]
   },
   "5x3": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "5x1",
-      "5x2",
-      "5x4",
-      "5x5",
-      "3x5"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["5x1", "5x2", "5x4", "5x5", "3x5"]
   },
   "5x4": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "5x1",
-      "5x2",
-      "5x3",
-      "5x5",
-      "4x5"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["5x1", "5x2", "5x3", "5x5", "4x5"]
   },
   "5x5": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "1x1",
-      "2x2",
-      "3x3",
-      "4x4"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["1x1", "2x2", "3x3", "4x4"]
   },
   "social-apple": {
-    "searchTerms": [
-      "social",
-      "apple",
-      "branding"
-    ],
+    "searchTerms": ["social", "apple", "branding"],
     "similar": [
       "social-facebook",
       "social-google-outline",
@@ -363,31 +114,15 @@
     ]
   },
   "show-film-strip": {
-    "searchTerms": [
-      "arrow",
-      "up",
-      "film strip"
-    ],
-    "similar": [
-      "hide-film-strip"
-    ]
+    "searchTerms": ["arrow", "up", "film strip"],
+    "similar": ["hide-film-strip"]
   },
   "hide-film-strip": {
-    "searchTerms": [
-      "arrow",
-      "up",
-      "film strip"
-    ],
-    "similar": [
-      "show-film-strip"
-    ]
+    "searchTerms": ["arrow", "up", "film strip"],
+    "similar": ["show-film-strip"]
   },
   "add-chatbubbles": {
-    "searchTerms": [
-      "add",
-      "chat",
-      "workspace"
-    ],
+    "searchTerms": ["add", "chat", "workspace"],
     "similar": [
       "chatbubbles",
       "android-person-add",
@@ -396,81 +131,27 @@
     ]
   },
   "add-to-workspace": {
-    "searchTerms": [
-      "add",
-      "chat",
-      "workspace"
-    ],
-    "similar": [
-      "grid",
-      "1x1",
-      "1x2",
-      "1x3",
-      "1x4",
-      "4x1"
-    ]
+    "searchTerms": ["add", "chat", "workspace"],
+    "similar": ["grid", "1x1", "1x2", "1x3", "1x4", "4x1"]
   },
   "address-book": {
-    "searchTerms": [
-      "address",
-      "book",
-      "contact"
-    ],
-    "similar": [
-      "bookmark",
-      "ios-book",
-      "ios-personadd",
-      "ios-list-outline"
-    ]
+    "searchTerms": ["address", "book", "contact"],
+    "similar": ["bookmark", "ios-book", "ios-personadd", "ios-list-outline"]
   },
   "alert": {
-    "searchTerms": [
-      "alert",
-      "urgent",
-      "warning"
-    ],
-    "similar": [
-      "alert-send",
-      "alert-circled",
-      "help-circled",
-      "help"
-    ]
+    "searchTerms": ["alert", "urgent", "warning"],
+    "similar": ["alert-send", "alert-circled", "help-circled", "help"]
   },
   "alert-circled": {
-    "searchTerms": [
-      "alert",
-      "urgent",
-      "warning"
-    ],
-    "similar": [
-      "alert-send",
-      "alert",
-      "help-circled",
-      "help"
-    ]
+    "searchTerms": ["alert", "urgent", "warning"],
+    "similar": ["alert-send", "alert", "help-circled", "help"]
   },
   "alert-send": {
-    "searchTerms": [
-      "alert",
-      "urgent",
-      "warning",
-      "send"
-    ],
-    "similar": [
-      "alert-circled",
-      "alert",
-      "help-circled",
-      "help",
-      "arrow-up-c"
-    ]
+    "searchTerms": ["alert", "urgent", "warning", "send"],
+    "similar": ["alert-circled", "alert", "help-circled", "help", "arrow-up-c"]
   },
   "android-arrow-back": {
-    "searchTerms": [
-      "android",
-      "arrow",
-      "back",
-      "left"
-    ],
+    "searchTerms": ["android", "arrow", "back", "left"],
     "similar": [
       "arrow-left-b",
       "arrow-left-c",
@@ -479,48 +160,19 @@
     ]
   },
   "android-bar": {
-    "searchTerms": [
-      "bar",
-      "drink"
-    ],
-    "similar": [
-      "earth"
-    ]
+    "searchTerms": ["bar", "drink"],
+    "similar": ["earth"]
   },
   "android-briefcase": {
-    "searchTerms": [
-      "android",
-      "briefcase",
-      "availability",
-      "case",
-      "work"
-    ],
-    "similar": [
-      "ios-briefcase"
-    ]
+    "searchTerms": ["android", "briefcase", "availability", "case", "work"],
+    "similar": ["ios-briefcase"]
   },
   "android-calendar": {
-    "searchTerms": [
-      "android",
-      "calendar",
-      "agenda",
-      "schedule",
-      "date"
-    ],
-    "similar": [
-      "4x5",
-      "ios-calendar"
-    ]
+    "searchTerms": ["android", "calendar", "agenda", "schedule", "date"],
+    "similar": ["4x5", "ios-calendar"]
   },
   "android-close": {
-    "searchTerms": [
-      "android",
-      "close",
-      "x",
-      "cancel",
-      "delete",
-      "dismiss"
-    ],
+    "searchTerms": ["android", "close", "x", "cancel", "delete", "dismiss"],
     "similar": [
       "close",
       "arrow-left-c",
@@ -533,25 +185,11 @@
     ]
   },
   "android-copy": {
-    "searchTerms": [
-      "android",
-      "copy",
-      "duplicate",
-      "double"
-    ],
-    "similar": [
-      "ios-copy",
-      "document",
-      "ios-list-outline",
-      "survey"
-    ]
+    "searchTerms": ["android", "copy", "duplicate", "double"],
+    "similar": ["ios-copy", "document", "ios-list-outline", "survey"]
   },
   "android-download": {
-    "searchTerms": [
-      "android",
-      "download",
-      "save"
-    ],
+    "searchTerms": ["android", "download", "save"],
     "similar": [
       "arrow-down-b",
       "arrow-down-c",
@@ -562,82 +200,28 @@
     ]
   },
   "android-favorite": {
-    "searchTerms": [
-      "android",
-      "favorite",
-      "heart",
-      "like",
-      "love"
-    ],
-    "similar": [
-      "android-favorite-outline",
-      "heart",
-      "star-outline",
-      "star"
-    ]
+    "searchTerms": ["android", "favorite", "heart", "like", "love"],
+    "similar": ["android-favorite-outline", "heart", "star-outline", "star"]
   },
   "android-favorite-outline": {
-    "searchTerms": [
-      "android",
-      "favorite",
-      "heart",
-      "like",
-      "love"
-    ],
-    "similar": [
-      "android-favorite",
-      "heart",
-      "star-outline",
-      "star"
-    ]
+    "searchTerms": ["android", "favorite", "heart", "like", "love"],
+    "similar": ["android-favorite", "heart", "star-outline", "star"]
   },
   "android-folder": {
-    "searchTerms": [
-      "android",
-      "folder",
-      "directory"
-    ],
-    "similar": [
-      "ios-briefcase",
-      "document",
-      "clipboard",
-      "paperclip",
-      "survey"
-    ]
+    "searchTerms": ["android", "folder", "directory"],
+    "similar": ["ios-briefcase", "document", "clipboard", "paperclip", "survey"]
   },
   "android-funnel": {
-    "searchTerms": [
-      "filter",
-      "funnel"
-    ],
-    "similar": [
-      "description"
-    ]
+    "searchTerms": ["filter", "funnel"],
+    "similar": ["description"]
   },
   "android-happy": {
-    "searchTerms": [
-      "android",
-      "happy",
-      "emoji",
-      "face"
-    ],
-    "similar": [
-      "android-person"
-    ]
+    "searchTerms": ["android", "happy", "emoji", "face"],
+    "similar": ["android-person"]
   },
   "android-microphone-off": {
-    "searchTerms": [
-      "android",
-      "microphone",
-      "off",
-      "speak",
-      "voice"
-    ],
-    "similar": [
-      "android-microphone",
-      "speakerphone",
-      "announcement"
-    ]
+    "searchTerms": ["android", "microphone", "off", "speak", "voice"],
+    "similar": ["android-microphone", "speakerphone", "announcement"]
   },
   "android-person": {
     "searchTerms": [
@@ -686,12 +270,7 @@
     ]
   },
   "android-print": {
-    "searchTerms": [
-      "android",
-      "print",
-      "duplicate",
-      "double"
-    ],
+    "searchTerms": ["android", "print", "duplicate", "double"],
     "similar": [
       "ios-print",
       "document",
@@ -702,46 +281,19 @@
     ]
   },
   "android-share-alt": {
-    "searchTerms": [
-      "android",
-      "share",
-      "reshare",
-      "alt"
-    ],
-    "similar": [
-      "android-share",
-      "share"
-    ]
+    "searchTerms": ["android", "share", "reshare", "alt"],
+    "similar": ["android-share", "share"]
   },
   "android-time": {
-    "searchTerms": [
-      "android",
-      "time",
-      "clock",
-      "schedule"
-    ],
-    "similar": [
-      "ios-time"
-    ]
+    "searchTerms": ["android", "time", "clock", "schedule"],
+    "similar": ["ios-time"]
   },
   "announcement": {
-    "searchTerms": [
-      "announcement",
-      "microphone",
-      "speaker"
-    ],
-    "similar": [
-      "android-microphone-off",
-      "android-microphone",
-      "speakerphone"
-    ]
+    "searchTerms": ["announcement", "microphone", "speaker"],
+    "similar": ["android-microphone-off", "android-microphone", "speakerphone"]
   },
   "aol": {
-    "searchTerms": [
-      "aol",
-      "social",
-      "email"
-    ],
+    "searchTerms": ["aol", "social", "email"],
     "similar": [
       "email",
       "social-facebook",
@@ -756,202 +308,75 @@
     ]
   },
   "archive": {
-    "searchTerms": [
-      "archive",
-      "trash",
-      "delete"
-    ],
-    "similar": [
-      "trash-a",
-      "trash-b-open",
-      "trash-b"
-    ]
+    "searchTerms": ["archive", "trash", "delete"],
+    "similar": ["trash-a", "trash-b-open", "trash-b"]
   },
   "arrow-down-b": {
-    "searchTerms": [
-      "down",
-      "arrow"
-    ],
-    "similar": [
-      "android-download",
-      "arrow-down-c",
-      "chevron-down"
-    ]
+    "searchTerms": ["down", "arrow"],
+    "similar": ["android-download", "arrow-down-c", "chevron-down"]
   },
   "arrow-down-c": {
-    "searchTerms": [
-      "down",
-      "arrow"
-    ],
-    "similar": [
-      "android-download",
-      "arrow-down-b",
-      "chevron-down"
-    ]
+    "searchTerms": ["down", "arrow"],
+    "similar": ["android-download", "arrow-down-b", "chevron-down"]
   },
   "arrow-left-b": {
-    "searchTerms": [
-      "left",
-      "arrow"
-    ],
-    "similar": [
-      "chevron-left-double",
-      "arrow-left-c",
-      "chevron-left"
-    ]
+    "searchTerms": ["left", "arrow"],
+    "similar": ["chevron-left-double", "arrow-left-c", "chevron-left"]
   },
   "arrow-left-c": {
-    "searchTerms": [
-      "left",
-      "arrow"
-    ],
-    "similar": [
-      "chevron-left-double",
-      "arrow-left-b",
-      "chevron-left"
-    ]
+    "searchTerms": ["left", "arrow"],
+    "similar": ["chevron-left-double", "arrow-left-b", "chevron-left"]
   },
   "arrow-right-b": {
-    "searchTerms": [
-      "right",
-      "arrow"
-    ],
-    "similar": [
-      "chevron-right-double",
-      "arrow-right-c",
-      "chevron-right"
-    ]
+    "searchTerms": ["right", "arrow"],
+    "similar": ["chevron-right-double", "arrow-right-c", "chevron-right"]
   },
   "arrow-right-c": {
-    "searchTerms": [
-      "right",
-      "arrow"
-    ],
-    "similar": [
-      "chevron-right-double",
-      "arrow-right-b",
-      "chevron-right"
-    ]
+    "searchTerms": ["right", "arrow"],
+    "similar": ["chevron-right-double", "arrow-right-b", "chevron-right"]
   },
   "arrow-swap": {
-    "searchTerms": [
-      "swap",
-      "arrow",
-      "left",
-      "right",
-      "change",
-      "switch"
-    ],
-    "similar": [
-      "refresh",
-      "arrow-left-c",
-      "arrow-right-c"
-    ]
+    "searchTerms": ["swap", "arrow", "left", "right", "change", "switch"],
+    "similar": ["refresh", "arrow-left-c", "arrow-right-c"]
   },
   "arrow-up-b": {
-    "searchTerms": [
-      "arrow",
-      "up"
-    ],
-    "similar": [
-      "chevron-up",
-      "arrow-up-c"
-    ]
+    "searchTerms": ["arrow", "up"],
+    "similar": ["chevron-up", "arrow-up-c"]
   },
   "arrow-up-c": {
-    "searchTerms": [
-      "arrow",
-      "up"
-    ],
-    "similar": [
-      "chevron-up",
-      "arrow-up-b"
-    ]
+    "searchTerms": ["arrow", "up"],
+    "similar": ["chevron-up", "arrow-up-b"]
   },
   "beaker": {
-    "searchTerms": [
-      "beaker",
-      "cup",
-      "glass"
-    ],
-    "similar": [
-      "chevron-up",
-      "arrow-up-b"
-    ]
+    "searchTerms": ["beaker", "cup", "glass"],
+    "similar": ["chevron-up", "arrow-up-b"]
   },
   "bookmark": {
-    "searchTerms": [
-      "book",
-      "mark",
-      "save"
-    ],
-    "similar": [
-      "address-book",
-      "ios-book",
-      "save",
-      "star-outline",
-      "star"
-    ]
+    "searchTerms": ["book", "mark", "save"],
+    "similar": ["address-book", "ios-book", "save", "star-outline", "star"]
   },
   "bug": {
-    "searchTerms": [
-      "bug",
-      "ladybird",
-      "beetle"
-    ],
-    "similar": [
-      "earth"
-    ]
+    "searchTerms": ["bug", "ladybird", "beetle"],
+    "similar": ["earth"]
   },
   "camera": {
-    "searchTerms": [
-      "camera",
-      "shoot",
-      "picture"
-    ],
-    "similar": [
-      "images"
-    ]
+    "searchTerms": ["camera", "shoot", "picture"],
+    "similar": ["images"]
   },
   "card": {
-    "searchTerms": [
-      "visa",
-      "amex",
-      "credit card",
-      "payment"
-    ],
-    "similar": [
-      ""
-    ]
+    "searchTerms": ["visa", "amex", "credit card", "payment"],
+    "similar": [""]
   },
   "change-screen": {
-    "searchTerms": [
-      "montior",
-      "change",
-      "screen",
-      "window"
-    ],
-    "similar": [
-      "monitor"
-    ]
+    "searchTerms": ["montior", "change", "screen", "window"],
+    "similar": ["monitor"]
   },
   "chatbubbles": {
-    "searchTerms": [
-      "chat",
-      "conversation",
-      "message"
-    ],
-    "similar": [
-      "add-chatbubbles"
-    ]
+    "searchTerms": ["chat", "conversation", "message"],
+    "similar": ["add-chatbubbles"]
   },
   "checkmark": {
-    "searchTerms": [
-      "check",
-      "mark",
-      "checked",
-      "selected"
-    ],
+    "searchTerms": ["check", "mark", "checked", "selected"],
     "similar": [
       "checkmark-box",
       "checkmark-box-checked",
@@ -960,13 +385,7 @@
     ]
   },
   "checkmark-box": {
-    "searchTerms": [
-      "check",
-      "mark",
-      "box",
-      "unchecked",
-      "unselected"
-    ],
+    "searchTerms": ["check", "mark", "box", "unchecked", "unselected"],
     "similar": [
       "checkmark-box-checked",
       "checkmark-circled-outlined",
@@ -975,13 +394,7 @@
     ]
   },
   "checkmark-box-checked": {
-    "searchTerms": [
-      "check",
-      "mark",
-      "box",
-      "checked",
-      "selected"
-    ],
+    "searchTerms": ["check", "mark", "box", "checked", "selected"],
     "similar": [
       "checkmark-box",
       "checkmark-circled-outlined",
@@ -990,13 +403,7 @@
     ]
   },
   "checkmark-circled": {
-    "searchTerms": [
-      "check",
-      "mark",
-      "circle",
-      "checked",
-      "selected"
-    ],
+    "searchTerms": ["check", "mark", "circle", "checked", "selected"],
     "similar": [
       "checkmark-box",
       "checkmark-box-checked",
@@ -1005,13 +412,7 @@
     ]
   },
   "checkmark-circled-outlined": {
-    "searchTerms": [
-      "check",
-      "mark",
-      "circle",
-      "checked",
-      "selected"
-    ],
+    "searchTerms": ["check", "mark", "circle", "checked", "selected"],
     "similar": [
       "checkmark-box",
       "checkmark-box-checked",
@@ -1020,70 +421,27 @@
     ]
   },
   "chevron-down": {
-    "searchTerms": [
-      "down",
-      "arrow",
-      "chevron"
-    ],
-    "similar": [
-      "android-download",
-      "arrow-down-b",
-      "arrow-down-c"
-    ]
+    "searchTerms": ["down", "arrow", "chevron"],
+    "similar": ["android-download", "arrow-down-b", "arrow-down-c"]
   },
   "chevron-left-double": {
-    "searchTerms": [
-      "left",
-      "arrow",
-      "chevron"
-    ],
-    "similar": [
-      "arrow-left-b",
-      "arrow-down-c",
-      "chevron-left"
-    ]
+    "searchTerms": ["left", "arrow", "chevron"],
+    "similar": ["arrow-left-b", "arrow-down-c", "chevron-left"]
   },
   "chevron-right": {
-    "searchTerms": [
-      "right",
-      "arrow",
-      "chevron"
-    ],
-    "similar": [
-      "arrow-right-b",
-      "arrow-right-c",
-      "chevron-right-double"
-    ]
+    "searchTerms": ["right", "arrow", "chevron"],
+    "similar": ["arrow-right-b", "arrow-right-c", "chevron-right-double"]
   },
   "chevron-right-double": {
-    "searchTerms": [
-      "right",
-      "arrow",
-      "chevron"
-    ],
-    "similar": [
-      "arrow-right-b",
-      "arrow-right-c",
-      "chevron-right"
-    ]
+    "searchTerms": ["right", "arrow", "chevron"],
+    "similar": ["arrow-right-b", "arrow-right-c", "chevron-right"]
   },
   "chevron-up": {
-    "searchTerms": [
-      "up",
-      "arrow",
-      "chevron"
-    ],
-    "similar": [
-      "arrow-up-b",
-      "arrow-up-c"
-    ]
+    "searchTerms": ["up", "arrow", "chevron"],
+    "similar": ["arrow-up-b", "arrow-up-c"]
   },
   "clipboard": {
-    "searchTerms": [
-      "clipboard",
-      "survey",
-      "feedback"
-    ],
+    "searchTerms": ["clipboard", "survey", "feedback"],
     "similar": [
       "android-folder",
       "ios-briefcase",
@@ -1093,12 +451,7 @@
     ]
   },
   "close": {
-    "searchTerms": [
-      "close",
-      "cancel",
-      "dismiss",
-      "delete"
-    ],
+    "searchTerms": ["close", "cancel", "dismiss", "delete"],
     "similar": [
       "android-close",
       "arrow-left-c",
@@ -1111,143 +464,55 @@
     ]
   },
   "cloud": {
-    "searchTerms": [
-      "cloud"
-    ],
-    "similar": [
-      "android-download",
-      "upload-circled",
-      "upload"
-    ]
+    "searchTerms": ["cloud"],
+    "similar": ["android-download", "upload-circled", "upload"]
   },
   "code": {
-    "searchTerms": [
-      "code"
-    ],
+    "searchTerms": ["code"],
     "similar": []
   },
   "coffee": {
-    "searchTerms": [
-      "bar",
-      "drink"
-    ],
-    "similar": [
-      "images"
-    ]
+    "searchTerms": ["bar", "drink"],
+    "similar": ["images"]
   },
   "company": {
-    "searchTerms": [
-      "company",
-      "building"
-    ],
-    "similar": [
-      "division",
-      "ios-people"
-    ]
+    "searchTerms": ["company", "building"],
+    "similar": ["division", "ios-people"]
   },
   "crown": {
-    "searchTerms": [
-      "crown",
-      "moderator",
-      "admin",
-      "incharge"
-    ],
-    "similar": [
-      "company",
-      "ios-people"
-    ]
+    "searchTerms": ["crown", "moderator", "admin", "incharge"],
+    "similar": ["company", "ios-people"]
   },
   "description": {
-    "searchTerms": [
-      "description",
-      "list",
-      "paragraph"
-    ],
-    "similar": [
-      "media-text"
-    ]
+    "searchTerms": ["description", "list", "paragraph"],
+    "similar": ["media-text"]
   },
   "disc": {
-    "searchTerms": [
-      "disc",
-      "circle",
-      "hard drive",
-      "storage"
-    ],
+    "searchTerms": ["disc", "circle", "hard drive", "storage"],
     "similar": []
   },
   "disconnected": {
-    "searchTerms": [
-      "disconnected",
-      "chain",
-      "link",
-      "break"
-    ],
-    "similar": [
-      "link"
-    ]
+    "searchTerms": ["disconnected", "chain", "link", "break"],
+    "similar": ["link"]
   },
   "division": {
-    "searchTerms": [
-      "division",
-      "seperate",
-      "branch",
-      "department"
-    ],
-    "similar": [
-      "company",
-      "ios-people"
-    ]
+    "searchTerms": ["division", "seperate", "branch", "department"],
+    "similar": ["company", "ios-people"]
   },
   "document": {
-    "searchTerms": [
-      "document",
-      "paper",
-      "paperwork",
-      "sheet",
-      "feedback"
-    ],
-    "similar": [
-      "ios-briefcase",
-      "clipboard",
-      "paperclip",
-      "survey"
-    ]
+    "searchTerms": ["document", "paper", "paperwork", "sheet", "feedback"],
+    "similar": ["ios-briefcase", "clipboard", "paperclip", "survey"]
   },
   "drag": {
-    "searchTerms": [
-      "drag",
-      "position",
-      "up",
-      "down"
-    ],
-    "similar": [
-      "arrow-up-b",
-      "arrow-down-b",
-      "chevron-up",
-      "chevron-down"
-    ]
+    "searchTerms": ["drag", "position", "up", "down"],
+    "similar": ["arrow-up-b", "arrow-down-b", "chevron-up", "chevron-down"]
   },
   "drag-up": {
-    "searchTerms": [
-      "drag",
-      "position",
-      "up",
-      "down"
-    ],
-    "similar": [
-      "arrow-up-b",
-      "arrow-down-b",
-      "chevron-up",
-      "chevron-down"
-    ]
+    "searchTerms": ["drag", "position", "up", "down"],
+    "similar": ["arrow-up-b", "arrow-down-b", "chevron-up", "chevron-down"]
   },
   "earth": {
-    "searchTerms": [
-      "earth",
-      "external",
-      "global"
-    ],
+    "searchTerms": ["earth", "external", "global"],
     "similar": [
       "scout-external-email",
       "scout-external-people",
@@ -1255,78 +520,27 @@
     ]
   },
   "easel": {
-    "searchTerms": [
-      "easel",
-      "board"
-    ],
-    "similar": [
-      "clipboard",
-      "edit"
-    ]
+    "searchTerms": ["easel", "board"],
+    "similar": ["clipboard", "edit"]
   },
   "ellipsis": {
-    "searchTerms": [
-      "ellipsis",
-      "setting",
-      "more",
-      "menu",
-      "navicon",
-      "option"
-    ],
-    "similar": [
-      "navicon",
-      "grid",
-      "gear-a",
-      "option"
-    ]
+    "searchTerms": ["ellipsis", "setting", "more", "menu", "navicon", "option"],
+    "similar": ["navicon", "grid", "gear-a", "option"]
   },
   "email": {
-    "searchTerms": [
-      "email",
-      "mail",
-      "junk",
-      "folder"
-    ],
-    "similar": [
-      "scout-external-email",
-      "junk-email",
-      "android-folder"
-    ]
+    "searchTerms": ["email", "mail", "junk", "folder"],
+    "similar": ["scout-external-email", "junk-email", "android-folder"]
   },
   "eye": {
-    "searchTerms": [
-      "eye",
-      "show",
-      "password",
-      "see"
-    ],
-    "similar": [
-      "eye-disabled",
-      "person-blocked"
-    ]
+    "searchTerms": ["eye", "show", "password", "see"],
+    "similar": ["eye-disabled", "person-blocked"]
   },
   "eye-disabled": {
-    "searchTerms": [
-      "eye",
-      "disabled",
-      "hide",
-      "password",
-      "see"
-    ],
-    "similar": [
-      "eye",
-      "person-blocked"
-    ]
+    "searchTerms": ["eye", "disabled", "hide", "password", "see"],
+    "similar": ["eye", "person-blocked"]
   },
   "face-hide": {
-    "searchTerms": [
-      "face",
-      "hide",
-      "disable",
-      "person",
-      "member",
-      "user"
-    ],
+    "searchTerms": ["face", "hide", "disable", "person", "member", "user"],
     "similar": [
       "face-hide",
       "android-person-add",
@@ -1341,13 +555,7 @@
     ]
   },
   "film-marker": {
-    "searchTerms": [
-      "film",
-      "marker",
-      "star",
-      "checkmark",
-      "bookmark"
-    ],
+    "searchTerms": ["film", "marker", "star", "checkmark", "bookmark"],
     "similar": [
       "bookmark",
       "checkmark-box-checked",
@@ -1358,21 +566,11 @@
     ]
   },
   "flag": {
-    "searchTerms": [
-      "flag",
-      "star"
-    ],
-    "similar": [
-      "star",
-      "star-outline"
-    ]
+    "searchTerms": ["flag", "star"],
+    "similar": ["star", "star-outline"]
   },
   "folder-open": {
-    "searchTerms": [
-      "android",
-      "folder",
-      "directory"
-    ],
+    "searchTerms": ["android", "folder", "directory"],
     "similar": [
       "ios-briefcase",
       "document",
@@ -1383,85 +581,35 @@
     ]
   },
   "font-bold": {
-    "searchTerms": [
-      "font",
-      "text",
-      "editor"
-    ],
-    "similar": [
-      "font-italic",
-      "font-underline",
-      "font-strikethrough"
-    ]
+    "searchTerms": ["font", "text", "editor"],
+    "similar": ["font-italic", "font-underline", "font-strikethrough"]
   },
   "font-italic": {
-    "searchTerms": [
-      "font",
-      "text",
-      "editor"
-    ],
-    "similar": [
-      "font-bold",
-      "font-underline",
-      "font-strikethrough"
-    ]
+    "searchTerms": ["font", "text", "editor"],
+    "similar": ["font-bold", "font-underline", "font-strikethrough"]
   },
   "font-strikethrough": {
-    "searchTerms": [
-      "font",
-      "text",
-      "editor"
-    ],
-    "similar": [
-      "font-bold",
-      "font-italic",
-      "font-underline"
-    ]
+    "searchTerms": ["font", "text", "editor"],
+    "similar": ["font-bold", "font-italic", "font-underline"]
   },
   "font-underline": {
-    "searchTerms": [
-      "font",
-      "text",
-      "editor"
-    ],
-    "similar": [
-      "font-bold",
-      "font-italic",
-      "font-strikethrough"
-    ]
+    "searchTerms": ["font", "text", "editor"],
+    "similar": ["font-bold", "font-italic", "font-strikethrough"]
   },
   "forward": {
-    "searchTerms": [
-      "forward",
-      "email"
-    ],
-    "similar": [
-      "reply",
-      "reply-all"
-    ]
+    "searchTerms": ["forward", "email"],
+    "similar": ["reply", "reply-all"]
+  },
+  "fullscreen": {
+    "searchTerms": ["fullscreen", "video", "conference", "person"],
+    "similar": ["iso", "people", "team", "group", "folks", "person", "webcam"]
   },
   "gear-a": {
-    "searchTerms": [
-      "setting",
-      "menu",
-      "more",
-      "ellipsis",
-      "navicon",
-      "option"
-    ],
-    "similar": [
-      "ellipsis",
-      "navicon",
-      "grid",
-      "option"
-    ]
+    "searchTerms": ["setting", "menu", "more", "ellipsis", "navicon", "option"],
+    "similar": ["ellipsis", "navicon", "grid", "option"]
   },
   "grid": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
+    "searchTerms": ["grid", "layout", "workspace"],
     "similar": [
       "grid",
       "navicon",
@@ -1475,62 +623,23 @@
     ]
   },
   "grid-layout": {
-    "searchTerms": [
-      "grid",
-      "layout",
-      "workspace"
-    ],
-    "similar": [
-      "grid",
-      "navicon",
-      "1x1",
-      "2x2",
-      "3x3",
-      "4x4",
-      "5x5"
-    ]
+    "searchTerms": ["grid", "layout", "workspace"],
+    "similar": ["grid", "navicon", "1x1", "2x2", "3x3", "4x4", "5x5"]
   },
   "hammer": {
-    "searchTerms": [
-      "hammer",
-      "edit",
-      "change",
-      "break",
-      "setting"
-    ],
-    "similar": [
-      "ellipsis",
-      "navicon",
-      "grid",
-      "edit",
-      "gear-a"
-    ]
+    "searchTerms": ["hammer", "edit", "change", "break", "setting"],
+    "similar": ["ellipsis", "navicon", "grid", "edit", "gear-a"]
   },
   "hand": {
-    "searchTerms": [
-      "wave",
-      "hand"
-    ],
-    "similar": [
-      "hang-waving"
-    ]
+    "searchTerms": ["wave", "hand"],
+    "similar": ["hang-waving"]
   },
   "hand-waving": {
-    "searchTerms": [
-      "wave",
-      "hand"
-    ],
-    "similar": [
-      "hang-waving"
-    ]
+    "searchTerms": ["wave", "hand"],
+    "similar": ["hang-waving"]
   },
   "heart": {
-    "searchTerms": [
-      "heart",
-      "favorite",
-      "like",
-      "love"
-    ],
+    "searchTerms": ["heart", "favorite", "like", "love"],
     "similar": [
       "android-favorite",
       "android-favorite-outline",
@@ -1540,59 +649,23 @@
     ]
   },
   "help": {
-    "searchTerms": [
-      "help",
-      "question",
-      "mark",
-      "assist"
-    ],
-    "similar": [
-      "alert-send",
-      "alert",
-      "alert-circled",
-      "help-circled"
-    ]
+    "searchTerms": ["help", "question", "mark", "assist"],
+    "similar": ["alert-send", "alert", "alert-circled", "help-circled"]
   },
   "help-circled": {
-    "searchTerms": [
-      "help",
-      "question",
-      "mark",
-      "assist"
-    ],
-    "similar": [
-      "alert-send",
-      "alert",
-      "alert-circled",
-      "help"
-    ]
+    "searchTerms": ["help", "question", "mark", "assist"],
+    "similar": ["alert-send", "alert", "alert-circled", "help"]
   },
   "home": {
-    "searchTerms": [
-      "home"
-    ],
-    "similar": [
-      "earth"
-    ]
+    "searchTerms": ["home"],
+    "similar": ["earth"]
   },
   "icecream": {
-    "searchTerms": [
-      "icecream",
-      "ice",
-      "dessert"
-    ],
-    "similar": [
-      "home"
-    ]
+    "searchTerms": ["icecream", "ice", "dessert"],
+    "similar": ["home"]
   },
   "images": {
-    "searchTerms": [
-      "image",
-      "media",
-      "picture",
-      "photo",
-      "file"
-    ],
+    "searchTerms": ["image", "media", "picture", "photo", "file"],
     "similar": [
       "media-image",
       "media-excel",
@@ -1603,62 +676,23 @@
     ]
   },
   "information-circled": {
-    "searchTerms": [
-      "information",
-      "help",
-      "assist"
-    ],
-    "similar": [
-      "help-circled",
-      "help",
-      "ios-lightbulb-outline"
-    ]
+    "searchTerms": ["information", "help", "assist"],
+    "similar": ["help-circled", "help", "ios-lightbulb-outline"]
   },
   "ios-book": {
-    "searchTerms": [
-      "iso",
-      "book",
-      "read"
-    ],
-    "similar": [
-      "address-book",
-      "bookmark"
-    ]
+    "searchTerms": ["iso", "book", "read"],
+    "similar": ["address-book", "bookmark"]
   },
   "ios-briefcase": {
-    "searchTerms": [
-      "iso",
-      "briefcase",
-      "availability",
-      "case",
-      "work"
-    ],
-    "similar": [
-      "android-folder",
-      "document"
-    ]
+    "searchTerms": ["iso", "briefcase", "availability", "case", "work"],
+    "similar": ["android-folder", "document"]
   },
   "ios-calendar": {
-    "searchTerms": [
-      "ios",
-      "calendar",
-      "agenda",
-      "schedule",
-      "date"
-    ],
-    "similar": [
-      "4x5",
-      "android-calendar"
-    ]
+    "searchTerms": ["ios", "calendar", "agenda", "schedule", "date"],
+    "similar": ["4x5", "android-calendar"]
   },
   "ios-circle-filled": {
-    "searchTerms": [
-      "iso",
-      "circle",
-      "filled",
-      "selected",
-      "on"
-    ],
+    "searchTerms": ["iso", "circle", "filled", "selected", "on"],
     "similar": [
       "ios-circle-outline",
       "record-outlined",
@@ -1670,13 +704,7 @@
     ]
   },
   "ios-circle-outline": {
-    "searchTerms": [
-      "iso",
-      "circle",
-      "outline",
-      "selected",
-      "off"
-    ],
+    "searchTerms": ["iso", "circle", "outline", "selected", "off"],
     "similar": [
       "ios-circle-filled",
       "record-outlined",
@@ -1709,57 +737,19 @@
     ]
   },
   "ios-copy": {
-    "searchTerms": [
-      "iso",
-      "copy",
-      "duplicate",
-      "double"
-    ],
-    "similar": [
-      "android-copy",
-      "document",
-      "ios-list-outline",
-      "survey"
-    ]
+    "searchTerms": ["iso", "copy", "duplicate", "double"],
+    "similar": ["android-copy", "document", "ios-list-outline", "survey"]
   },
   "ios-lightbulb-outline": {
-    "searchTerms": [
-      "iso",
-      "lightbulb",
-      "outline",
-      "idea",
-      "light"
-    ],
-    "similar": [
-      "information-circled",
-      "help-circled",
-      "help"
-    ]
+    "searchTerms": ["iso", "lightbulb", "outline", "idea", "light"],
+    "similar": ["information-circled", "help-circled", "help"]
   },
   "ios-list-outline": {
-    "searchTerms": [
-      "iso",
-      "list",
-      "outline",
-      "todo",
-      "paper",
-      "feedback"
-    ],
-    "similar": [
-      "document",
-      "survey",
-      "clipboard"
-    ]
+    "searchTerms": ["iso", "list", "outline", "todo", "paper", "feedback"],
+    "similar": ["document", "survey", "clipboard"]
   },
   "ios-people": {
-    "searchTerms": [
-      "iso",
-      "people",
-      "team",
-      "group",
-      "folks",
-      "person"
-    ],
+    "searchTerms": ["iso", "people", "team", "group", "folks", "person"],
     "similar": [
       "person-stalker",
       "person",
@@ -1773,12 +763,7 @@
     ]
   },
   "ios-personadd": {
-    "searchTerms": [
-      "iso",
-      "people",
-      "person",
-      "add"
-    ],
+    "searchTerms": ["iso", "people", "person", "add"],
     "similar": [
       "person-stalker",
       "person",
@@ -1792,12 +777,7 @@
     ]
   },
   "ios-print": {
-    "searchTerms": [
-      "ios",
-      "print",
-      "scan",
-      "copy"
-    ],
+    "searchTerms": ["ios", "print", "scan", "copy"],
     "similar": [
       "android-print",
       "document",
@@ -1808,140 +788,51 @@
     ]
   },
   "ios-telephone": {
-    "searchTerms": [
-      "iso",
-      "telephone",
-      "call",
-      "start",
-      "pickup"
-    ],
-    "similar": [
-      "ios-telephone",
-      "announcement",
-      "speakerphone"
-    ]
+    "searchTerms": ["iso", "telephone", "call", "start", "pickup"],
+    "similar": ["ios-telephone", "announcement", "speakerphone"]
   },
   "ios-telephone-hang-up": {
-    "searchTerms": [
-      "iso",
-      "telephone",
-      "call",
-      "hang",
-      "up",
-      "end"
-    ],
-    "similar": [
-      "ios-telephone",
-      "announcement",
-      "speakerphone"
-    ]
+    "searchTerms": ["iso", "telephone", "call", "hang", "up", "end"],
+    "similar": ["ios-telephone", "announcement", "speakerphone"]
   },
   "ios-time": {
-    "searchTerms": [
-      "ios",
-      "time",
-      "clock",
-      "schedule"
-    ],
-    "similar": [
-      "android-time"
-    ]
+    "searchTerms": ["ios", "time", "clock", "schedule"],
+    "similar": ["android-time"]
   },
   "junk-email": {
-    "searchTerms": [
-      "junk",
-      "email",
-      "mail",
-      "folder"
-    ],
-    "similar": [
-      "email",
-      "android-folder"
-    ]
+    "searchTerms": ["junk", "email", "mail", "folder"],
+    "similar": ["email", "android-folder"]
   },
   "link": {
-    "searchTerms": [
-      "link",
-      "chain"
-    ],
-    "similar": [
-      "paperclip",
-      "disconnected"
-    ]
+    "searchTerms": ["link", "chain"],
+    "similar": ["paperclip", "disconnected"]
   },
   "load-d": {
-    "searchTerms": [
-      "load",
-      "waiting",
-      "spin"
-    ],
-    "similar": [
-      "workstorm",
-      "earth",
-      "refresh"
-    ]
+    "searchTerms": ["load", "waiting", "spin"],
+    "similar": ["workstorm", "earth", "refresh"]
   },
   "location": {
-    "searchTerms": [
-      "location",
-      "pin",
-      "at"
-    ],
-    "similar": [
-      "pin"
-    ]
+    "searchTerms": ["location", "pin", "at"],
+    "similar": ["pin"]
   },
   "lock": {
-    "searchTerms": [
-      "lock",
-      "private",
-      "locked"
-    ],
-    "similar": [
-      "locked",
-      "unlock",
-      "link"
-    ]
+    "searchTerms": ["lock", "private", "locked"],
+    "similar": ["locked", "unlock", "link"]
   },
   "locked": {
-    "searchTerms": [
-      "lock",
-      "encrypted"
-    ],
-    "similar": [
-      "person-blocked",
-      "link"
-    ]
+    "searchTerms": ["lock", "encrypted"],
+    "similar": ["person-blocked", "link"]
   },
   "log-in": {
-    "searchTerms": [
-      "login",
-      "sign",
-      "in"
-    ],
-    "similar": [
-      "log-out"
-    ]
+    "searchTerms": ["login", "sign", "in"],
+    "similar": ["log-out"]
   },
   "log-out": {
-    "searchTerms": [
-      "logout",
-      "sign",
-      "out",
-      "off"
-    ],
-    "similar": [
-      "log-in"
-    ]
+    "searchTerms": ["logout", "sign", "out", "off"],
+    "similar": ["log-in"]
   },
   "media-excel": {
-    "searchTerms": [
-      "media",
-      "excel",
-      "Microsoft",
-      "spreadsheet",
-      "file"
-    ],
+    "searchTerms": ["media", "excel", "Microsoft", "spreadsheet", "file"],
     "similar": [
       "images",
       "media-image",
@@ -1952,13 +843,7 @@
     ]
   },
   "media-image": {
-    "searchTerms": [
-      "media",
-      "image",
-      "photo",
-      "picture",
-      "file"
-    ],
+    "searchTerms": ["media", "image", "photo", "picture", "file"],
     "similar": [
       "images",
       "media-excel",
@@ -1969,12 +854,7 @@
     ]
   },
   "media-pdf": {
-    "searchTerms": [
-      "media",
-      "pdf",
-      "Adobe",
-      "file"
-    ],
+    "searchTerms": ["media", "pdf", "Adobe", "file"],
     "similar": [
       "images",
       "media-excel",
@@ -1985,12 +865,7 @@
     ]
   },
   "media-powerpoint": {
-    "searchTerms": [
-      "media",
-      "powerpoint",
-      "Microsoft",
-      "file"
-    ],
+    "searchTerms": ["media", "powerpoint", "Microsoft", "file"],
     "similar": [
       "images",
       "media-excel",
@@ -2001,11 +876,7 @@
     ]
   },
   "media-text": {
-    "searchTerms": [
-      "media",
-      "text",
-      "file"
-    ],
+    "searchTerms": ["media", "text", "file"],
     "similar": [
       "images",
       "media-excel",
@@ -2016,12 +887,7 @@
     ]
   },
   "media-word": {
-    "searchTerms": [
-      "media",
-      "word",
-      "Microsoft",
-      "file"
-    ],
+    "searchTerms": ["media", "word", "Microsoft", "file"],
     "similar": [
       "images",
       "media-excel",
@@ -2032,11 +898,7 @@
     ]
   },
   "minus": {
-    "searchTerms": [
-      "minus",
-      "decrease",
-      "close"
-    ],
+    "searchTerms": ["minus", "decrease", "close"],
     "similar": [
       "minus-circled",
       "plus",
@@ -2047,12 +909,7 @@
     ]
   },
   "minus-circled": {
-    "searchTerms": [
-      "minus",
-      "circled",
-      "decrease",
-      "close"
-    ],
+    "searchTerms": ["minus", "circled", "decrease", "close"],
     "similar": [
       "minus",
       "plus",
@@ -2063,14 +920,8 @@
     ]
   },
   "monitor": {
-    "searchTerms": [
-      "monitor",
-      "screen",
-      "TV"
-    ],
-    "similar": [
-      "easel"
-    ]
+    "searchTerms": ["monitor", "screen", "TV"],
+    "similar": ["easel"]
   },
   "navicon": {
     "searchTerms": [
@@ -2081,12 +932,7 @@
       "menu",
       "option"
     ],
-    "similar": [
-      "ellipsis",
-      "gear-a",
-      "grid",
-      "option"
-    ]
+    "similar": ["ellipsis", "gear-a", "grid", "option"]
   },
   "navicon-close": {
     "searchTerms": [
@@ -2097,21 +943,10 @@
       "menu",
       "option"
     ],
-    "similar": [
-      "ellipsis",
-      "gear-a",
-      "grid",
-      "option"
-    ]
+    "similar": ["ellipsis", "gear-a", "grid", "option"]
   },
   "notification": {
-    "searchTerms": [
-      "notification",
-      "on",
-      "bell",
-      "sound",
-      "alert"
-    ],
+    "searchTerms": ["notification", "on", "bell", "sound", "alert"],
     "similar": [
       "notification-off",
       "volume-high",
@@ -2121,13 +956,7 @@
     ]
   },
   "notification-off": {
-    "searchTerms": [
-      "notification",
-      "off",
-      "bell",
-      "sound",
-      "alert"
-    ],
+    "searchTerms": ["notification", "off", "bell", "sound", "alert"],
     "similar": [
       "notification",
       "volume-high",
@@ -2137,95 +966,36 @@
     ]
   },
   "nuclear": {
-    "searchTerms": [
-      "nuclear",
-      "dangerous",
-      "warning"
-    ],
-    "similar": [
-      "alert-circled",
-      "alert"
-    ]
+    "searchTerms": ["nuclear", "dangerous", "warning"],
+    "similar": ["alert-circled", "alert"]
   },
   "octagon": {
-    "searchTerms": [
-      "octagon",
-      "stop",
-      "end"
-    ],
-    "similar": [
-      "stop"
-    ]
+    "searchTerms": ["octagon", "stop", "end"],
+    "similar": ["stop"]
   },
   "open": {
-    "searchTerms": [
-      "open",
-      "preview",
-      "popup",
-      "enlarge"
-    ],
-    "similar": [
-      "share",
-      "forward",
-      "log-out"
-    ]
+    "searchTerms": ["open", "preview", "popup", "enlarge"],
+    "similar": ["share", "forward", "log-out"]
   },
   "option": {
-    "searchTerms": [
-      "ellipsis",
-      "setting",
-      "more",
-      "menu",
-      "navicon",
-      "option"
-    ],
-    "similar": [
-      "ellipsis",
-      "navicon",
-      "gear-a"
-    ]
+    "searchTerms": ["ellipsis", "setting", "more", "menu", "navicon", "option"],
+    "similar": ["ellipsis", "navicon", "gear-a"]
   },
   "outlet": {
-    "searchTerms": [
-      "outlet",
-      "electric"
-    ],
-    "similar": [
-      "nuclear"
-    ]
+    "searchTerms": ["outlet", "electric"],
+    "similar": ["nuclear"]
   },
   "outlook": {
-    "searchTerms": [
-      "outlook",
-      "email",
-      "Microsoft"
-    ],
-    "similar": [
-      "email",
-      "social-windows"
-    ]
+    "searchTerms": ["outlook", "email", "Microsoft"],
+    "similar": ["email", "social-windows"]
   },
   "paper-airplane": {
-    "searchTerms": [
-      "paper",
-      "airplane",
-      "send"
-    ],
-    "similar": [
-      "arrow-up-c",
-      "arrow-right-c",
-      "alert-send"
-    ]
+    "searchTerms": ["paper", "airplane", "send"],
+    "similar": ["arrow-up-c", "arrow-right-c", "alert-send"]
   },
   "paperclip": {
-    "searchTerms": [
-      "paperclip",
-      "pin"
-    ],
-    "similar": [
-      "pin",
-      "document"
-    ]
+    "searchTerms": ["paperclip", "pin"],
+    "similar": ["pin", "document"]
   },
   "person": {
     "searchTerms": [
@@ -2248,14 +1018,7 @@
     ]
   },
   "person-add": {
-    "searchTerms": [
-      "person",
-      "add",
-      "member",
-      "attendee",
-      "guest",
-      "invite"
-    ],
+    "searchTerms": ["person", "add", "member", "attendee", "guest", "invite"],
     "similar": [
       "android-person-add",
       "android-person",
@@ -2268,11 +1031,7 @@
     ]
   },
   "person-blocked": {
-    "searchTerms": [
-      "person",
-      "blocked",
-      "member"
-    ],
+    "searchTerms": ["person", "blocked", "member"],
     "similar": [
       "android-person-add",
       "android-person",
@@ -2285,11 +1044,7 @@
     ]
   },
   "person-permissions": {
-    "searchTerms": [
-      "person",
-      "permission",
-      "member"
-    ],
+    "searchTerms": ["person", "permission", "member"],
     "similar": [
       "android-person-add",
       "android-person",
@@ -2302,11 +1057,7 @@
     ]
   },
   "person-stalker": {
-    "searchTerms": [
-      "person",
-      "stalker",
-      "member"
-    ],
+    "searchTerms": ["person", "stalker", "member"],
     "similar": [
       "android-person-add",
       "android-person",
@@ -2319,42 +1070,19 @@
     ]
   },
   "pie-graph": {
-    "searchTerms": [
-      "pie",
-      "graph",
-      "statistics"
-    ],
-    "similar": [
-      "stats-bars",
-      "pizza",
-      "survey"
-    ]
+    "searchTerms": ["pie", "graph", "statistics"],
+    "similar": ["stats-bars", "pizza", "survey"]
   },
   "pin": {
-    "searchTerms": [
-      "pin",
-      "paperclip"
-    ],
-    "similar": [
-      "paperclip",
-      "location"
-    ]
+    "searchTerms": ["pin", "paperclip"],
+    "similar": ["paperclip", "location"]
   },
   "pizza": {
-    "searchTerms": [
-      "pizza"
-    ],
-    "similar": [
-      "pie-graph",
-      "survey"
-    ]
+    "searchTerms": ["pizza"],
+    "similar": ["pie-graph", "survey"]
   },
   "play": {
-    "searchTerms": [
-      "play",
-      "continue",
-      "start"
-    ],
+    "searchTerms": ["play", "continue", "start"],
     "similar": [
       "arrow-right-b",
       "chevron-right-double",
@@ -2366,12 +1094,7 @@
     ]
   },
   "plus": {
-    "searchTerms": [
-      "plus",
-      "circled",
-      "add",
-      "increase"
-    ],
+    "searchTerms": ["plus", "circled", "add", "increase"],
     "similar": [
       "plus-circled",
       "minus-circled",
@@ -2383,12 +1106,7 @@
     ]
   },
   "plus-circled": {
-    "searchTerms": [
-      "plus",
-      "circled",
-      "add",
-      "increase"
-    ],
+    "searchTerms": ["plus", "circled", "add", "increase"],
     "similar": [
       "plus",
       "minus-circled",
@@ -2400,11 +1118,7 @@
     ]
   },
   "projects": {
-    "searchTerms": [
-      "projects",
-      "tasks",
-      "checkmark"
-    ],
+    "searchTerms": ["projects", "tasks", "checkmark"],
     "similar": [
       "checkmark-box",
       "checkmark-circled-outlined",
@@ -2413,23 +1127,11 @@
     ]
   },
   "quote": {
-    "searchTerms": [
-      "quote",
-      "quotation",
-      "cite"
-    ],
-    "similar": [
-      "plus",
-      "minus"
-    ]
+    "searchTerms": ["quote", "quotation", "cite"],
+    "similar": ["plus", "minus"]
   },
   "recent": {
-    "searchTerms": [
-      "recent",
-      "history",
-      "time",
-      "back"
-    ],
+    "searchTerms": ["recent", "history", "time", "back"],
     "similar": [
       "load-d",
       "refresh",
@@ -2440,12 +1142,7 @@
     ]
   },
   "record": {
-    "searchTerms": [
-      "record",
-      "circle",
-      "outlined",
-      "unselected"
-    ],
+    "searchTerms": ["record", "circle", "outlined", "unselected"],
     "similar": [
       "ios-circle-filled",
       "ios-circle-outline",
@@ -2457,12 +1154,7 @@
     ]
   },
   "record-outlined": {
-    "searchTerms": [
-      "record",
-      "circle",
-      "outlined",
-      "selected"
-    ],
+    "searchTerms": ["record", "circle", "outlined", "selected"],
     "similar": [
       "ios-circle-filled",
       "ios-circle-outline",
@@ -2474,11 +1166,7 @@
     ]
   },
   "refresh": {
-    "searchTerms": [
-      "refresh",
-      "reload",
-      "redo"
-    ],
+    "searchTerms": ["refresh", "reload", "redo"],
     "similar": [
       "load-d",
       "recent",
@@ -2489,141 +1177,51 @@
     ]
   },
   "reply": {
-    "searchTerms": [
-      "reply",
-      "feedback",
-      "back"
-    ],
-    "similar": [
-      "reply-all",
-      "forward"
-    ]
+    "searchTerms": ["reply", "feedback", "back"],
+    "similar": ["reply-all", "forward"]
   },
   "reply-all": {
-    "searchTerms": [
-      "reply",
-      "all",
-      "feedback",
-      "back"
-    ],
-    "similar": [
-      "reply",
-      "forward"
-    ]
+    "searchTerms": ["reply", "all", "feedback", "back"],
+    "similar": ["reply", "forward"]
   },
   "save": {
-    "searchTerms": [
-      "save",
-      "floppy",
-      "disks"
-    ],
-    "similar": [
-      "android-share-alt",
-      "android-share",
-      "share"
-    ]
+    "searchTerms": ["save", "floppy", "disks"],
+    "similar": ["android-share-alt", "android-share", "share"]
   },
   "scout-external-email": {
-    "searchTerms": [
-      "external",
-      "email",
-      "global",
-      "earth"
-    ],
-    "similar": [
-      "email",
-      "scout-external-people",
-      "scout-external-person"
-    ]
+    "searchTerms": ["external", "email", "global", "earth"],
+    "similar": ["email", "scout-external-people", "scout-external-person"]
   },
   "scout-external-people": {
-    "searchTerms": [
-      "external",
-      "people",
-      "global",
-      "earth"
-    ],
-    "similar": [
-      "email",
-      "scout-external-email",
-      "scout-external-person"
-    ]
+    "searchTerms": ["external", "people", "global", "earth"],
+    "similar": ["email", "scout-external-email", "scout-external-person"]
   },
   "scout-external-person": {
-    "searchTerms": [
-      "external",
-      "person",
-      "global",
-      "earth"
-    ],
-    "similar": [
-      "email",
-      "scout-external-email",
-      "scout-external-people"
-    ]
+    "searchTerms": ["external", "person", "global", "earth"],
+    "similar": ["email", "scout-external-email", "scout-external-people"]
   },
   "search": {
-    "searchTerms": [
-      "search",
-      "find",
-      "magnifying",
-      "glass"
-    ],
-    "similar": [
-      "email",
-      "scout-external-email",
-      "scout-external-people"
-    ]
+    "searchTerms": ["search", "find", "magnifying", "glass"],
+    "similar": ["email", "scout-external-email", "scout-external-people"]
   },
   "share": {
-    "searchTerms": [
-      "share",
-      "send"
-    ],
-    "similar": [
-      "android-share-alt",
-      "android-share",
-      "paper-airplane"
-    ]
+    "searchTerms": ["share", "send"],
+    "similar": ["android-share-alt", "android-share", "paper-airplane"]
   },
   "signal-medium": {
-    "searchTerms": [
-      "signal",
-      "medium",
-      "radio"
-    ],
-    "similar": [
-      "signal-weak",
-      "signal-strong"
-    ]
+    "searchTerms": ["signal", "medium", "radio"],
+    "similar": ["signal-weak", "signal-strong"]
   },
   "signal-strong": {
-    "searchTerms": [
-      "signal",
-      "strong",
-      "radio"
-    ],
-    "similar": [
-      "signal-medium",
-      "signal-weak"
-    ]
+    "searchTerms": ["signal", "strong", "radio"],
+    "similar": ["signal-medium", "signal-weak"]
   },
   "signal-weak": {
-    "searchTerms": [
-      "signal",
-      "weak",
-      "radio"
-    ],
-    "similar": [
-      "signal-medium",
-      "signal-strong"
-    ]
+    "searchTerms": ["signal", "weak", "radio"],
+    "similar": ["signal-medium", "signal-strong"]
   },
   "social-dropbox": {
-    "searchTerms": [
-      "social",
-      "dropbox"
-    ],
+    "searchTerms": ["social", "dropbox"],
     "similar": [
       "social-google-outline",
       "social-google",
@@ -2637,10 +1235,7 @@
     ]
   },
   "social-facebook": {
-    "searchTerms": [
-      "social",
-      "facebook"
-    ],
+    "searchTerms": ["social", "facebook"],
     "similar": [
       "social-google-outline",
       "social-google",
@@ -2654,10 +1249,7 @@
     ]
   },
   "social-google": {
-    "searchTerms": [
-      "social",
-      "google"
-    ],
+    "searchTerms": ["social", "google"],
     "similar": [
       "social-facebook",
       "social-google-outline",
@@ -2671,11 +1263,7 @@
     ]
   },
   "social-google-outline": {
-    "searchTerms": [
-      "social",
-      "google",
-      "outline"
-    ],
+    "searchTerms": ["social", "google", "outline"],
     "similar": [
       "social-facebook",
       "social-google",
@@ -2689,10 +1277,7 @@
     ]
   },
   "social-googleplus": {
-    "searchTerms": [
-      "social",
-      "googleplus"
-    ],
+    "searchTerms": ["social", "googleplus"],
     "similar": [
       "social-facebook",
       "social-google-outline",
@@ -2706,11 +1291,7 @@
     ]
   },
   "social-googleplus-outline": {
-    "searchTerms": [
-      "social",
-      "googleplus",
-      "outline"
-    ],
+    "searchTerms": ["social", "googleplus", "outline"],
     "similar": [
       "social-facebook",
       "social-google-outline",
@@ -2724,10 +1305,7 @@
     ]
   },
   "social-linkedin": {
-    "searchTerms": [
-      "social",
-      "linkedin"
-    ],
+    "searchTerms": ["social", "linkedin"],
     "similar": [
       "social-facebook",
       "social-google-outline",
@@ -2741,10 +1319,7 @@
     ]
   },
   "social-twitter": {
-    "searchTerms": [
-      "social",
-      "twitter"
-    ],
+    "searchTerms": ["social", "twitter"],
     "similar": [
       "social-facebook",
       "social-google-outline",
@@ -2758,10 +1333,7 @@
     ]
   },
   "social-windows": {
-    "searchTerms": [
-      "social",
-      "windows"
-    ],
+    "searchTerms": ["social", "windows"],
     "similar": [
       "social-facebook",
       "social-google-outline",
@@ -2775,10 +1347,7 @@
     ]
   },
   "social-yahoo": {
-    "searchTerms": [
-      "social",
-      "yahoo"
-    ],
+    "searchTerms": ["social", "yahoo"],
     "similar": [
       "social-facebook",
       "social-google-outline",
@@ -2792,11 +1361,7 @@
     ]
   },
   "speakerphone": {
-    "searchTerms": [
-      "speakerphone",
-      "announcement",
-      "microphone"
-    ],
+    "searchTerms": ["speakerphone", "announcement", "microphone"],
     "similar": [
       "announcement",
       "volume-high",
@@ -2806,10 +1371,7 @@
     ]
   },
   "star": {
-    "searchTerms": [
-      "star",
-      "favorite"
-    ],
+    "searchTerms": ["star", "favorite"],
     "similar": [
       "star-outline",
       "heart",
@@ -2818,36 +1380,15 @@
     ]
   },
   "star-outline": {
-    "searchTerms": [
-      "star",
-      "outline",
-      "favorite"
-    ],
-    "similar": [
-      "star",
-      "heart",
-      "android-favorite-outline",
-      "android-favorite"
-    ]
+    "searchTerms": ["star", "outline", "favorite"],
+    "similar": ["star", "heart", "android-favorite-outline", "android-favorite"]
   },
   "stats-bars": {
-    "searchTerms": [
-      "stats",
-      "bar",
-      "chart"
-    ],
-    "similar": [
-      "pie-graph"
-    ]
+    "searchTerms": ["stats", "bar", "chart"],
+    "similar": ["pie-graph"]
   },
   "status-active": {
-    "searchTerms": [
-      "status",
-      "active",
-      "solid",
-      "filled",
-      "online"
-    ],
+    "searchTerms": ["status", "active", "solid", "filled", "online"],
     "similar": [
       "ios-circle-filled",
       "ios-circle-outline",
@@ -2879,11 +1420,7 @@
     ]
   },
   "status-inactive": {
-    "searchTerms": [
-      "status",
-      "inactive",
-      "offline"
-    ],
+    "searchTerms": ["status", "inactive", "offline"],
     "similar": [
       "ios-circle-filled",
       "ios-circle-outline",
@@ -2896,44 +1433,19 @@
     ]
   },
   "stop": {
-    "searchTerms": [
-      "stop",
-      "square"
-    ],
-    "similar": [
-      "play"
-    ]
+    "searchTerms": ["stop", "square"],
+    "similar": ["play"]
   },
   "stop-screen-share": {
-    "searchTerms": [
-      "stop",
-      "screen share",
-      "minotor"
-    ],
-    "similar": [
-      "monitor",
-      "change-screen"
-    ]
+    "searchTerms": ["stop", "screen share", "minotor"],
+    "similar": ["monitor", "change-screen"]
   },
   "survey": {
-    "searchTerms": [
-      "survey",
-      "clipboard",
-      "feedback"
-    ],
-    "similar": [
-      "document",
-      "images",
-      "clipboard",
-      "address"
-    ]
+    "searchTerms": ["survey", "clipboard", "feedback"],
+    "similar": ["document", "images", "clipboard", "address"]
   },
   "thumbsup": {
-    "searchTerms": [
-      "thumbsup",
-      "good",
-      "like"
-    ],
+    "searchTerms": ["thumbsup", "good", "like"],
     "similar": [
       "android-favorite",
       "android-favorite-outline",
@@ -2943,11 +1455,7 @@
     ]
   },
   "toggle-default": {
-    "searchTerms": [
-      "toggle",
-      "default",
-      "off"
-    ],
+    "searchTerms": ["toggle", "default", "off"],
     "similar": [
       "toggle-toggled",
       "ios-circle-filled",
@@ -2961,11 +1469,7 @@
     ]
   },
   "toggle-toggled": {
-    "searchTerms": [
-      "toggle",
-      "toggled",
-      "on"
-    ],
+    "searchTerms": ["toggle", "toggled", "on"],
     "similar": [
       "toggle-default",
       "ios-circle-filled",
@@ -2979,12 +1483,7 @@
     ]
   },
   "trash-a": {
-    "searchTerms": [
-      "trash",
-      "delete",
-      "garbage",
-      "close"
-    ],
+    "searchTerms": ["trash", "delete", "garbage", "close"],
     "similar": [
       "trash-b-open",
       "trash-b",
@@ -2994,12 +1493,7 @@
     ]
   },
   "trash-b": {
-    "searchTerms": [
-      "trash",
-      "delete",
-      "garbage",
-      "close"
-    ],
+    "searchTerms": ["trash", "delete", "garbage", "close"],
     "similar": [
       "trash-a",
       "trash-b-open",
@@ -3009,12 +1503,7 @@
     ]
   },
   "trash-b-open": {
-    "searchTerms": [
-      "trash",
-      "delete",
-      "garbage",
-      "open"
-    ],
+    "searchTerms": ["trash", "delete", "garbage", "open"],
     "similar": [
       "trash-a",
       "trash-b",
@@ -3024,35 +1513,15 @@
     ]
   },
   "university": {
-    "searchTerms": [
-      "university",
-      "cap",
-      "graduation"
-    ],
-    "similar": [
-      "company"
-    ]
+    "searchTerms": ["university", "cap", "graduation"],
+    "similar": ["company"]
   },
   "unlock": {
-    "searchTerms": [
-      "unlock",
-      "public",
-      "unlocked"
-    ],
-    "similar": [
-      "lock",
-      "link"
-    ]
+    "searchTerms": ["unlock", "public", "unlocked"],
+    "similar": ["lock", "link"]
   },
   "upload": {
-    "searchTerms": [
-      "file",
-      "upload",
-      "circled",
-      "cloud",
-      "sync",
-      "import"
-    ],
+    "searchTerms": ["file", "upload", "circled", "cloud", "sync", "import"],
     "similar": [
       "upload-circled",
       "android-download",
@@ -3062,29 +1531,11 @@
     ]
   },
   "upload-circled": {
-    "searchTerms": [
-      "upload",
-      "circled",
-      "cloud",
-      "sync",
-      "import"
-    ],
-    "similar": [
-      "upload",
-      "android-download",
-      "arrow-up-c",
-      "arrow-down-c"
-    ]
+    "searchTerms": ["upload", "circled", "cloud", "sync", "import"],
+    "similar": ["upload", "android-download", "arrow-up-c", "arrow-down-c"]
   },
   "upload-file": {
-    "searchTerms": [
-      "file",
-      "upload",
-      "circled",
-      "cloud",
-      "sync",
-      "import"
-    ],
+    "searchTerms": ["file", "upload", "circled", "cloud", "sync", "import"],
     "similar": [
       "upload-circled",
       "android-download",
@@ -3094,12 +1545,7 @@
     ]
   },
   "volume-high": {
-    "searchTerms": [
-      "volume",
-      "high",
-      "up",
-      "on"
-    ],
+    "searchTerms": ["volume", "high", "up", "on"],
     "similar": [
       "volume-mute",
       "android-microphone",
@@ -3109,12 +1555,7 @@
     ]
   },
   "volume-mute": {
-    "searchTerms": [
-      "volume",
-      "none",
-      "mute",
-      "off"
-    ],
+    "searchTerms": ["volume", "none", "mute", "off"],
     "similar": [
       "volume-high",
       "android-microphone",
@@ -3124,12 +1565,8 @@
     ]
   },
   "waterdrop": {
-    "searchTerms": [
-      "waterdrop"
-    ],
-    "similar": [
-      "icecream"
-    ]
+    "searchTerms": ["waterdrop"],
+    "similar": ["icecream"]
   },
   "webcam": {
     "searchTerms": [
@@ -3187,102 +1624,47 @@
     ]
   },
   "webhooks-incoming": {
-    "searchTerms": [
-      "webhooks",
-      "incoming",
-      "API",
-      "integration",
-      "in"
-    ],
-    "similar": [
-      "webhooks-outgoing"
-    ]
+    "searchTerms": ["webhooks", "incoming", "API", "integration", "in"],
+    "similar": ["webhooks-outgoing"]
   },
   "webhooks-outgoing": {
-    "searchTerms": [
-      "webhooks",
-      "outgoing",
-      "API",
-      "integration",
-      "out"
-    ],
-    "similar": [
-      "webhooks-incoming"
-    ]
+    "searchTerms": ["webhooks", "outgoing", "API", "integration", "out"],
+    "similar": ["webhooks-incoming"]
   },
   "workstorm": {
-    "searchTerms": [
-      "workstorm",
-      "logo",
-      "trademark",
-      "company"
-    ],
-    "similar": [
-      "company"
-    ]
+    "searchTerms": ["workstorm", "logo", "trademark", "company"],
+    "similar": ["company"]
   },
   "menu-connections-active": {
-    "searchTerms": [
-      "menu-connections-default"
-    ],
-    "similar": [
-      "folder"
-    ]
+    "searchTerms": ["menu-connections-default"],
+    "similar": ["folder"]
   },
   "menu-connections-default": {
-    "searchTerms": [
-      "menu-connections-active"
-    ],
-    "similar": [
-      "folder"
-    ]
+    "searchTerms": ["menu-connections-active"],
+    "similar": ["folder"]
   },
   "menu-conversations-active": {
-    "searchTerms": [
-      "menu-conversation-default"
-    ],
-    "similar": [
-      "chatbubbles"
-    ]
+    "searchTerms": ["menu-conversation-default"],
+    "similar": ["chatbubbles"]
   },
   "menu-conversations-default": {
-    "searchTerms": [
-      "menu-conversation-active"
-    ],
-    "similar": [
-      "chatbubbles"
-    ]
+    "searchTerms": ["menu-conversation-active"],
+    "similar": ["chatbubbles"]
   },
   "menu-files-active": {
-    "searchTerms": [
-      "menu-files-default"
-    ],
-    "similar": [
-      "folder"
-    ]
+    "searchTerms": ["menu-files-default"],
+    "similar": ["folder"]
   },
   "menu-files-default": {
-    "searchTerms": [
-      "menu-files-active"
-    ],
-    "similar": [
-      "folder"
-    ]
+    "searchTerms": ["menu-files-active"],
+    "similar": ["folder"]
   },
   "menu-meetings-active": {
-    "searchTerms": [
-      "menu-meetings-default"
-    ],
-    "similar": [
-      "webcam"
-    ]
+    "searchTerms": ["menu-meetings-default"],
+    "similar": ["webcam"]
   },
   "menu-meetings-default": {
-    "searchTerms": [
-      "menu-meetings-active"
-    ],
-    "similar": [
-      "webcam"
-    ]
+    "searchTerms": ["menu-meetings-active"],
+    "similar": ["webcam"]
   }
 }

@@ -112,6 +112,7 @@ module.exports = [
 'font-strikethrough',
 'font-underline',
 'forward',
+'fullscreen',
 'gear-a',
 'grid-layout',
 'grid',
