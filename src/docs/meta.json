@@ -134,6 +134,10 @@
     "searchTerms": ["add", "chat", "workspace"],
     "similar": ["grid", "1x1", "1x2", "1x3", "1x4", "4x1"]
   },
+  "animals": {
+    "searchTerms": ["fox", "animals", "face"],
+    "similar": ["person"]
+  },
   "address-book": {
     "searchTerms": ["address", "book", "contact"],
     "similar": ["bookmark", "ios-book", "ios-personadd", "ios-list-outline"]
