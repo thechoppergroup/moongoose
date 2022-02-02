@@ -50,6 +50,7 @@ module.exports = [
 'android-share-alt',
 'android-share',
 'android-time',
+'animals-test',
 'animals',
 'announcement',
 'aol',

@@ -43,7 +43,10 @@ function filesToModule(files) {
 }
 
 function readFiles(files) {
-    var objAry = files.map(function (f) {
+    var svgFiles = files.filter(function (f) {
+        return f.endsWith('.svg');
+    })
+    var objAry = svgFiles.map(function (f) {
         var out = {};
         out.name = getName(f);
         out.filename = f;
