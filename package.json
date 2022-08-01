@@ -28,8 +28,8 @@
   },
   "homepage": "https://github.com/thechoppergroup/moongoose#readme",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
+    "babel-core": "^7.0.0",
+    "babel-loader": "^8.2.5",
     "browser-sync": "^2.24.4",
     "browser-sync-webpack-plugin": "^2.2.2",
     "copy-to-clipboard": "^3.0.8",
@@ -51,7 +51,7 @@
     "vue-style-loader": "^4.1.0",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.10.1",
-    "webpack-cli": "^2.1.4",
+    "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.4",
     "webpack-merge": "^4.1.2"
   }
