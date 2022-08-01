@@ -84,6 +84,7 @@ function main() {
     }
 
     files.forEach((filename) => {
+        console.log('looking at file', filename);
         if(filename.toLowerCase().indexOf('.svg')) {
             optimize(filesPath, filename).then(() => checkComplete(filename)).catch(error => {console.error(filename, error)});
         }
