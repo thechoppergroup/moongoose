@@ -59,14 +59,22 @@ function getFiles() {
 function optimize(filesPath, filename, prefix) {
     prefix = prefix || '';
     return new Promise((accept, reject) => {
-        var fullPath = path.join(filesPath, filename);
-        var contents = fs.readFileSync(fullPath, {encoding:'utf8'});
-        var svgo = new SVGO(svgConfig);
+        try{
+            var fullPath = path.join(filesPath, filename);
+            var contents = fs.readFileSync(fullPath, {encoding:'utf8'});
+            var svgo = new SVGO(svgConfig);
+        } catch (e){
+            console.error("Failed to set up svgo", e);
+            reject();
+        }
         svgo.optimize(contents).then((result) => {
             //console.log('result', result);
             var destPath = path.join(filesPath, prefix + filename);
             fs.writeFileSync(destPath, result.data, {encoding:'utf8'});
             accept();
+        }).catch(error => {
+            console.error("failed to optimize", filename);
+            reject();
         });
     });
 }
@@ -86,7 +94,7 @@ function main() {
     files.forEach((filename) => {
         console.log('looking at file', filename);
         if(filename.toLowerCase().indexOf('.svg')) {
-            optimize(filesPath, filename).then(() => checkComplete(filename)).catch(error => {console.error(filename, error)});
+            optimize(filesPath, filename).then(() => checkComplete(filename)).catch(error => {console.error(filename, error); throw('FAILED on ' + filename);});
         }
     });
 }
