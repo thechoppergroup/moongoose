@@ -28,8 +28,8 @@
   },
   "homepage": "https://github.com/thechoppergroup/moongoose#readme",
   "devDependencies": {
-    "babel-core": "^7.0.0",
-    "babel-loader": "^8.2.5",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^7.0.0",
     "browser-sync": "^2.24.4",
     "browser-sync-webpack-plugin": "^2.2.2",
     "copy-to-clipboard": "^3.0.8",
@@ -54,5 +54,8 @@
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.4",
     "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
   }
 }
