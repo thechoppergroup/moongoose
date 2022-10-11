@@ -229,6 +229,7 @@ module.exports = [
 'social-twitter',
 'social-windows',
 'social-yahoo',
+'spacebar',
 'speakerphone',
 'star-outline',
 'star',
