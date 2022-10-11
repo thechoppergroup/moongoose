@@ -228,6 +228,7 @@ module.exports = [
 'social-linkedin',
 'social-twitter',
 'social-windows',
+'social-yahoo-copy',
 'social-yahoo',
 'spacebar',
 'speakerphone',
