@@ -1376,6 +1376,10 @@
       "aol"
     ]
   },
+  "spacebar": {
+    "searchTerms": ["space", "bar", "spacebar"],
+    "similar": []
+  },
   "speakerphone": {
     "searchTerms": ["speakerphone", "announcement", "microphone"],
     "similar": [
