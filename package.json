@@ -35,7 +35,7 @@
     "browser-sync-webpack-plugin": "^2.2.2",
     "copy-to-clipboard": "^3.0.8",
     "cross-env": "^5.1.6",
-    "css-loader": "^0.28.11",
+    "css-loader": "^6.7.1",
     "fs": "^0.0.1-security",
     "lodash": "^4.17.10",
     "netlify-cli": "^2.40.0",
