@@ -150,6 +150,8 @@ module.exports = [
 'item-box',
 'junk-email',
 'link',
+'list-indent',
+'list-outdent',
 'load-d',
 'location',
 'lock',
