@@ -127,6 +127,7 @@ module.exports = [
 'help-circled',
 'help',
 'hide-film-strip',
+'highlighter',
 'home',
 'icecream',
 'images',
