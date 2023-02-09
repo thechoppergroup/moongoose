@@ -152,7 +152,7 @@ module.exports = [
 'junk-email',
 'link',
 'list-indent',
-'list-letters',
+'list-lower-alpha',
 'list-numerals',
 'list-outdent',
 'list-roman-numerals',
