@@ -815,6 +815,18 @@
     "searchTerms": ["link", "chain"],
     "similar": ["paperclip", "disconnected"]
   },
+  "list-decimals": {
+    "searchTerms": ["list"],
+    "similar": ["ios-list-outline", "list-lower-alpha", "list-roman-numerals"]
+  },
+  "list-lower-alpha": {
+    "searchTerms": ["list"],
+    "similar": ["ios-list-outline", "list-decimals", "list-roman-numerals"]
+  },
+  "list-roman-numerals": {
+    "searchTerms": ["list"],
+    "similar": ["ios-list-outline", "list-decimals", "list-lower-alpha"]
+  },
   "load-d": {
     "searchTerms": ["load", "waiting", "spin"],
     "similar": ["workstorm", "earth", "refresh"]
