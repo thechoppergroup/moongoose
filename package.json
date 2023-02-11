@@ -38,7 +38,7 @@
     "css-loader": "^0.28.11",
     "fs": "^0.0.1-security",
     "lodash": "^4.17.10",
-    "netlify-cli": "^2.40.0",
+    "netlify-cli": "^12.12.0",
     "node-sass": "^4.14.1",
     "path": "^0.12.7",
     "sass": "^1.32.8",
