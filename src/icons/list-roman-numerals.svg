@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" version="1.1" xml:space="preserve" width="512" height="512" viewBox="0 0 512 512">
     <style>
-        .st0{font-family:&apos;ProximaNova-Semibold&apos;}.st1{font-size:300px}
+        .st0{font-family:&apos;ProximaNova-Semibold&apos;}.st1{font-size:273px}
     </style>
-    <path d="M216 190.5h223v32H216v-32zm0-96h223v32H216v-32z"/>
-    <text class="st0 st1" transform="translate(66.1 230.225)">
+    <path d="M239 190.5h247v32H239v-32zm0-96h247v32H239v-32z"/>
+    <text class="st0 st1" transform="translate(69.353 230.225)">
         i
     </text>
-    <path d="M220.5 432.3h223v32h-223v-32zm0-96h223v32h-223v-32z"/>
-    <text class="st0 st1" transform="translate(29.95 472)">
+    <path d="M244 432.3h247v32H244v-32zm0-96h247v32H244v-32z"/>
+    <text class="st0 st1" transform="translate(36.457 472)">
         ii
     </text>
 </svg>
