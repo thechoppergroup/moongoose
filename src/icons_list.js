@@ -103,6 +103,7 @@ module.exports = [
 'edit',
 'ellipsis',
 'email',
+'expand',
 'eye-disabled',
 'eye',
 'face-hide',
