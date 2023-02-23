@@ -68,6 +68,7 @@ module.exports = [
 'bookmark',
 'bot',
 'bug',
+'camera-reverse',
 'camera',
 'card',
 'change-screen',
