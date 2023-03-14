@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" version="1.1" xml:space="preserve" width="512" height="512" viewBox="0 0 512 512">
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
     <style>
         .st0{fill:none;stroke:#000;stroke-width:33;stroke-linecap:round;stroke-linejoin:round}
     </style>
     <switch>
         <g>
             <path d="M233.5 368.7H98.2c-24.9 0-45.1-20.2-45.1-45.1V98.1C53.1 73.2 73.2 53 98.2 53h315.7c24.9 0 45.1 20.2 45.1 45.1v90.2" class="st0"/>
-            <path d="M323.6 256h112.7c12.5 0 22.5 10.1 22.5 22.5v67.6c0 12.5-10.1 22.5-22.5 22.5H323.6c-12.5 0-22.5-10.1-22.5-22.5v-67.6c0-12.4 10.1-22.5 22.5-22.5zM143.3 143.2l90.2 90.2M165.8 233.4h67.7v-67.6" class="st0"/>
+            <path d="M323.6 256h112.7c12.5 0 22.5 10.1 22.5 22.5v67.6c0 12.5-10.1 22.5-22.5 22.5H323.6c-12.5 0-22.5-10.1-22.5-22.5v-67.6c0-12.4 10.1-22.5 22.5-22.5zM143.3 143.2l90.2 90.2m-67.7 0h67.7v-67.6" class="st0"/>
         </g>
     </switch>
 </svg>
