@@ -67,6 +67,7 @@ module.exports = [
 'beaker',
 'bookmark',
 'bot',
+'browser-outline',
 'browsers-outline',
 'bug',
 'camera-reverse',
