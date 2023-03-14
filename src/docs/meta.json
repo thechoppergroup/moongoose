@@ -1101,6 +1101,10 @@
     "searchTerms": ["pin", "paperclip"],
     "similar": ["paperclip", "location"]
   },
+  "pip": {
+    "searchTerms": ["pip", "picture in picture"],
+    "similar": []
+  },
   "pizza": {
     "searchTerms": ["pizza"],
     "similar": ["pie-graph", "survey"]
