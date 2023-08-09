@@ -664,6 +664,14 @@
     "searchTerms": ["help", "question", "mark", "assist"],
     "similar": ["alert-send", "alert", "alert-circled", "help"]
   },
+  "history-redo": {
+	"searchTerms": ["history", "history-undo", "history-redo", "undo", "redo"],
+	"similar": ["history-undo"]
+  },
+  "history-undo": {
+	"searchTerms": ["history", "history-undo", "history-redo", "undo", "redo"],
+	"similar": ["history-redo"]
+  },
   "home": {
     "searchTerms": ["home"],
     "similar": ["earth"]
