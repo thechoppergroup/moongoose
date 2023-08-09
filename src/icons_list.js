@@ -220,7 +220,6 @@ module.exports = [
 'recent',
 'record-outlined',
 'record',
-'redo',
 'refresh',
 'reply-all',
 'reply',
