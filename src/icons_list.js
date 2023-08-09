@@ -131,6 +131,8 @@ module.exports = [
 'help',
 'hide-film-strip',
 'highlighter',
+'history-redo',
+'history-undo',
 'home',
 'icecream',
 'images',
