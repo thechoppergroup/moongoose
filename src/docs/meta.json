@@ -1244,6 +1244,10 @@
     "searchTerms": ["share", "send"],
     "similar": ["android-share-alt", "android-share", "paper-airplane"]
   },
+  "shortcut": {
+    "searchTerms": ["spacebar", "shortcut"],
+    "similar": ["spacebar"]
+  },
   "signal-medium": {
     "searchTerms": ["signal", "medium", "radio"],
     "similar": ["signal-weak", "signal-strong"]

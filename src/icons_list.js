@@ -229,6 +229,7 @@ module.exports = [
 'scout-external-person',
 'search',
 'share',
+'shortcut',
 'show-film-strip',
 'signal-medium',
 'signal-strong',
