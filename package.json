@@ -1,6 +1,6 @@
 {
   "name": "@thechoppergroup/moongoose",
-  "version": "0.5.83",
+  "version": "0.5.84",
   "description": "SVG Icon Library",
   "main": "dist/moongoose.js",
   "files": [
