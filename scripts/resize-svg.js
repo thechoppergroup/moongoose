@@ -6,49 +6,71 @@ const dimension = 512;
 const svgConfig = {
     js2svg: { pretty: true, indent: 4 },
     plugins: [
-        { cleanupAttrs: true },
-        { removeDoctype: true },
-        { removeXMLProcInst: true },
-        { removeComments: true },
-        { removeMetadata: true },
-        { removeTitle: true },
-        { removeDesc: true },
-        { removeUselessDefs: true },
-        { removeEditorsNSData: true },
-        { removeEmptyAttrs: true },
-        { removeHiddenElems: true },
-        { removeEmptyText: true },
-        { removeEmptyContainers: true },
-        { removeViewBox: true },
-        { cleanUpEnableBackground: true },
-        { convertStyleToAttrs: true },
-        { convertColors: true },
-        { convertPathData: true },
-        { convertTransform: true },
-        { removeUnknownsAndDefaults: true },
-        { removeNonInheritableGroupAttrs: true },
-        { removeUselessStrokeAndFill: true },
-        { removeUnusedNS: true },
-        { cleanupIDs: true },
-        { cleanupNumericValues: true },
-        { moveElemsAttrsToGroup: true },
-        { moveGroupAttrsToElems: true },
-        { collapseGroups: true },
-        { removeRasterImages: false },
-        { mergePaths: true },
-        { convertShapeToPath: true },
-        { sortAttrs: true },
-        { transformsWithOnePath: false },
-        { removeDimensions: true },
-        { removeAttrs: { attrs: '(stroke|fill|id|fill|data-name|width|height|viewBox)' } },
-        { addAttributesToSVGElement: {
-            attributes: [
-                {width: dimension},
-                {height: dimension},
-                {viewBox: `0 0 ${dimension} ${dimension}`}
-            ]
-        }}
-    ]
+        {
+            name: 'preset-default',
+            params: {
+                overrides: {
+                    // viewBox is required to resize SVGs with CSS.
+                    // @see https://github.com/svg/svgo/issues/1128
+                    removeViewBox: false,
+                },
+            },
+        },
+        {
+            name: 'addAttributesToSVGElement',
+            params : {
+                attributes: [
+                    { width: dimension },
+                    { height: dimension },
+                    { viewBox: `0 0 ${dimension} ${dimension}` }
+                ]
+            }
+        }
+    ] ,
+
+        // { cleanupAttrs: true },
+        // { removeDoctype: true },
+        // { removeXMLProcInst: true },
+        // { removeComments: true },
+        // { removeMetadata: true },
+        // { removeTitle: true },
+        // { removeDesc: true },
+        // { removeUselessDefs: true },
+        // { removeEditorsNSData: true },
+        // { removeEmptyAttrs: true },
+        // { removeHiddenElems: true },
+        // { removeEmptyText: true },
+        // { removeEmptyContainers: true },
+        // { removeViewBox: true },
+        // { cleanUpEnableBackground: true },
+        // { convertStyleToAttrs: true },
+        // { convertColors: true },
+        // { convertPathData: true },
+        // { convertTransform: true },
+        // { removeUnknownsAndDefaults: true },
+        // { removeNonInheritableGroupAttrs: true },
+        // { removeUselessStrokeAndFill: true },
+        // { removeUnusedNS: true },
+        // { cleanupIDs: true },
+        // { cleanupNumericValues: true },
+        // { moveElemsAttrsToGroup: true },
+        // { moveGroupAttrsToElems: true },
+        // { collapseGroups: true },
+        // { removeRasterImages: false },
+        // { mergePaths: true },
+        // { convertShapeToPath: true },
+        // { sortAttrs: true },
+        // { transformsWithOnePath: false },
+        // { removeDimensions: true },
+        // { removeAttrs: { attrs: '(stroke|fill|id|fill|data-name|width|height|viewBox)' } },
+        // { addAttributesToSVGElement: {
+        //     attributes: [
+        //         {width: dimension},
+        //         {height: dimension},
+        //         {viewBox: `0 0 ${dimension} ${dimension}`}
+        //     ]
+        // }}
+    // ]
 };
 
 function getFiles() {
@@ -62,20 +84,15 @@ function optimize(filesPath, filename, prefix) {
         try{
             var fullPath = path.join(filesPath, filename);
             var contents = fs.readFileSync(fullPath, {encoding:'utf8'});
-            var svgo = new SVGO(svgConfig);
         } catch (e){
             console.error("Failed to set up svgo", e);
             reject();
         }
-        svgo.optimize(contents).then((result) => {
-            //console.log('result', result);
-            var destPath = path.join(filesPath, prefix + filename);
-            fs.writeFileSync(destPath, result.data, {encoding:'utf8'});
-            accept();
-        }).catch(error => {
-            console.error("failed to optimize", filename);
-            reject();
-        });
+        let result = SVGO.optimize(contents, svgConfig );
+        //console.log('result', result);
+        let destPath = path.join(filesPath, prefix + filename);
+        fs.writeFileSync(destPath, result.data, { encoding:'utf8' });
+        accept();
     });
 }
 
