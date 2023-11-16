@@ -73,6 +73,7 @@ module.exports = [
 'camera',
 'card',
 'change-screen',
+'chat-conference',
 'chatbubbles',
 'checkmark-box-checked',
 'checkmark-box',

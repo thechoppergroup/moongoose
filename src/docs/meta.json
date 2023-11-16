@@ -379,6 +379,10 @@
     "searchTerms": ["chat", "conversation", "message"],
     "similar": ["add-chatbubbles"]
   },
+  "chat-conference": {
+    "searchTerms": ["chat", "video", "conference"],
+    "similar": ["chatbubbles"]
+  },
   "checkmark": {
     "searchTerms": ["check", "mark", "checked", "selected"],
     "similar": [
