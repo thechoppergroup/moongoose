@@ -379,10 +379,6 @@
     "searchTerms": ["chat", "conversation", "message"],
     "similar": ["add-chatbubbles"]
   },
-  "chat-conference": {
-    "searchTerms": ["chat", "video", "conference"],
-    "similar": ["chatbubbles"]
-  },
   "checkmark": {
     "searchTerms": ["check", "mark", "checked", "selected"],
     "similar": [
@@ -1032,6 +1028,74 @@
   "paperclip": {
     "searchTerms": ["paperclip", "pin"],
     "similar": ["pin", "document"]
+  },
+  "people-circle": {
+	"searchTerms": ["people", "person", "member", "attendee"],
+	"similar": [
+		"people-circle-outline",
+		"person-circle",
+		"person-circle-outline",
+		"person",
+		"android-person-add",
+		"android-person",
+		"ios-personadd",
+		"person-blocked",
+		"person-permissions",
+		"person-stalker",
+		"person",
+		"scout-external-person"
+	]
+  },
+  "people-circle-outline": {
+	"searchTerms": ["people", "person", "member", "attendee"],
+	"similar": [
+		"people-circle",
+		"person-circle",
+		"person-circle-outline",
+		"person",
+		"android-person-add",
+		"android-person",
+		"ios-personadd",
+		"person-blocked",
+		"person-permissions",
+		"person-stalker",
+		"person",
+		"scout-external-person"
+	]
+  },
+  "person-circle": {
+	"searchTerms": ["people", "person", "member", "attendee"],
+	"similar": [
+		"people-circle",
+		"people-circle-outline",
+		"person-circle-outline",
+		"person",
+		"android-person-add",
+		"android-person",
+		"ios-personadd",
+		"person-blocked",
+		"person-permissions",
+		"person-stalker",
+		"person",
+		"scout-external-person"
+	]
+  },
+  "person-circle-outline": {
+	"searchTerms": ["people", "person", "member", "attendee"],
+	"similar": [
+		"people-circle",
+		"people-circle-outline",
+		"person-circle",
+		"person",
+		"android-person-add",
+		"android-person",
+		"ios-personadd",
+		"person-blocked",
+		"person-permissions",
+		"person-stalker",
+		"person",
+		"scout-external-person"
+	]
   },
   "person": {
     "searchTerms": [
