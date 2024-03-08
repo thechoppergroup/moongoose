@@ -2,7 +2,7 @@
     <style>
         .st0{fill:none;stroke:#000;stroke-width:12;stroke-miterlimit:10}
     </style>
-    <path d="M216 190.5h223v32H216v-32zm0-96h223v32H216v-32zm4.5 337.8h223v32h-223v-32zm0-96h223v32h-223v-32z"/>
+    <path d="M216 190.5h223v32H216zm0-96h223v32H216zm4.5 337.8h223v32h-223zm0-96h223v32h-223z"/>
     <circle cx="98.9" cy="157.8" r="63.4" class="st0"/>
     <circle cx="98.9" cy="399.7" r="63.4" class="st0"/>
 </svg>

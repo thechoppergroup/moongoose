@@ -2,11 +2,11 @@
     <style>
         .st0{font-family:&quot;ProximaNova-Semibold&quot;}.st1{font-size:300px}
     </style>
-    <path d="M216 190.5h223v32H216v-32zm0-96h223v32H216v-32z"/>
+    <path d="M216 190.5h223v32H216zm0-96h223v32H216z"/>
     <text class="st0 st1" transform="translate(21.85 230.225)">
         a
     </text>
-    <path d="M220.5 432.3h223v32h-223v-32zm0-96h223v32h-223v-32z"/>
+    <path d="M220.5 432.3h223v32h-223zm0-96h223v32h-223z"/>
     <text class="st0 st1" transform="translate(15.1 472)">
         b
     </text>

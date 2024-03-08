@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const SVGO = require('svgo');
+const _ = require('lodash');
 const filesPath = path.resolve(__dirname, '../src/icons');
 const dimension = 512;
 const svgConfig = {
@@ -75,6 +76,7 @@ const svgConfig = {
 
 function getFiles() {
     var files = fs.readdirSync(filesPath);
+    files = _.reject(files, f => {return f === '.DS_Store';});
     return files;
 }
 

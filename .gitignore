@@ -68,3 +68,7 @@ docs/preview.min.js
 docs/preview.min.js.map
 # Local Netlify folder
 .netlify
+
+.idea
+
+.yarnrc
