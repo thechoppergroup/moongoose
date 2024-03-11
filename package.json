@@ -45,7 +45,7 @@
     "style-loader": "^3.3.3",
     "svg-to-dataurl": "^1.0.0",
     "svgo": "^3.0.2",
-    "thin.css": "^1.0.2",
+    "@thechoppergroup/thin.css": "0.0.1",
     "vue": "^2.7.16",
     "vue-loader": "^15.11.1",
     "vue-style-loader": "^4.1.3",
