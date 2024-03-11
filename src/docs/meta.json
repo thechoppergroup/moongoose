@@ -351,6 +351,10 @@
     "searchTerms": ["arrow", "up"],
     "similar": ["chevron-up", "arrow-up-b"]
   },
+  "beacon": {
+    "searchTerms": ["beacon"],
+    "similar": ["disc"]
+  },
   "beaker": {
     "searchTerms": ["beaker", "cup", "glass"],
     "similar": ["chevron-up", "arrow-up-b"]
@@ -1029,6 +1033,10 @@
     "searchTerms": ["paperclip", "pin"],
     "similar": ["pin", "document"]
   },
+  "pencil": {
+    "searchTerms": ["pencil", "pen"],
+    "similar": ["paperclip"]
+  },
   "people-circle": {
 	"searchTerms": ["people", "person", "member", "attendee"],
 	"similar": [
@@ -1559,6 +1567,10 @@
   "survey": {
     "searchTerms": ["survey", "clipboard", "feedback"],
     "similar": ["document", "images", "clipboard", "address"]
+  },
+  "sync": {
+    "searchTerms": ["sync", "synchronize"],
+    "similar": ["ios-circle-outline"]
   },
   "thumbsup": {
     "searchTerms": ["thumbsup", "good", "like"],
