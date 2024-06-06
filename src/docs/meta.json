@@ -915,14 +915,42 @@
       "monitor"
     ]
   },
+  "channel": {
+    "searchTerms": [
+      "channel",
+      "hashtag",
+      "team"
+    ],
+    "similar": [
+      "managed-folder",
+      "group"
+    ]
+  },
   "chatbubbles": {
     "searchTerms": [
       "chat",
       "conversation",
-      "message"
+      "message",
+      "text",
+      "group"
     ],
     "similar": [
-      "add-chatbubbles"
+      "add-chatbubbles",
+      "chat-message-text"
+    ]
+  },
+  "chat-message-text": {
+    "searchTerms": [
+      "chat",
+      "conversation",
+      "message",
+      "text",
+      "dm",
+      "send"
+    ],
+    "similar": [
+      "add-chatbubbles",
+      "chatbubbles"
     ]
   },
   "checkmark": {
@@ -2089,10 +2117,13 @@
       "log-in"
     ]
   },
-  "matter-folder": {
+  "managed-folder": {
     "searchTerms": [
       "folder",
-      "matter"
+      "manage",
+      "matter",
+      "organize",
+      "group"
     ],
     "similar": [
       "menu-files-active",
@@ -2459,7 +2490,9 @@
   "pencil": {
     "searchTerms": [
       "pencil",
-      "pen"
+      "pen",
+      "edit",
+      "write"
     ],
     "similar": [
       "paperclip"
@@ -2730,16 +2763,6 @@
       "android-person-add",
       "ios-personadd",
       "person-add"
-    ]
-  },
-  "pound-box": {
-    "searchTerms": [
-      "pound",
-      "hash",
-      "box"
-    ],
-    "similar": [
-      "matter-folder"
     ]
   },
   "profile-avatar": {
