@@ -103,6 +103,7 @@ module.exports = [
 'drag-up',
 'drag',
 'dropdown-menu',
+'duplicate-channel',
 'earth',
 'easel',
 'edit',
