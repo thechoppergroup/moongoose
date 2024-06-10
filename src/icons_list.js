@@ -180,7 +180,6 @@ module.exports = [
 'log-in',
 'log-out',
 'managed-folder',
-'matter-folder',
 'md-finger-print',
 'media-excel',
 'media-image',
