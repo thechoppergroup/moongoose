@@ -1118,6 +1118,17 @@
       "minus-circled"
     ]
   },
+  "closed-caption": {
+    "searchTerms": [
+      "closed caption",
+      "transcript",
+      "cc"
+    ],
+    "similar": [
+      "chat-message-text",
+      "quote"
+    ]
+  },
   "cloud": {
     "searchTerms": [
       "cloud"
@@ -1406,6 +1417,17 @@
     ]
   },
   "file-document-multiple": {
+    "searchTerms": [
+      "file",
+      "document",
+      "files"
+    ],
+    "similar": [
+      "menu-files-default",
+      "menu-files-active"
+    ]
+  },
+  "files-document-outline": {
     "searchTerms": [
       "file",
       "document",
@@ -3362,6 +3384,18 @@
       "change-screen"
     ]
   },
+  "stream": {
+    "searchTerms": [
+      "stream",
+      "matter",
+      "dashboard",
+      "workstream"
+    ],
+    "similar": [
+      "folder",
+      "managed-folder"
+    ]
+  },
   "survey": {
     "searchTerms": [
       "survey",
@@ -3382,6 +3416,16 @@
     ],
     "similar": [
       "ios-circle-outline"
+    ]
+  },
+  "task": {
+    "searchTerms": [
+      "task",
+      "agenda"
+    ],
+    "similar": [
+      "ios-calendar",
+      "android-calendar"
     ]
   },
   "thumbsup": {
