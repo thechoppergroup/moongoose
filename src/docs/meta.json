@@ -344,6 +344,51 @@
       "4x4"
     ]
   },
+  "account-multiple-outline": {
+    "searchTerms": [
+      "people",
+      "person",
+      "member",
+      "attendee",
+      "group",
+      "account",
+      "profile"
+    ],
+    "similar": [
+      "people-circle",
+      "people-circle-outline",
+      "person-circle-outline",
+      "person",
+      "account"
+    ]
+  },
+  "account-single": {
+    "searchTerms": [
+      "person",
+      "member",
+      "attendee",
+      "account",
+      "profile"
+    ],
+    "similar": [
+      "people-circle",
+      "people-circle-outline",
+      "person-circle-outline",
+      "person",
+      "account"
+    ]
+  },
+  "add-circle": {
+    "searchTerms": [
+      "plus",
+      "add",
+      "increase"
+    ],
+    "similar": [
+      "plus-circled",
+      "add"
+    ]
+  },
   "add-chatbubbles": {
     "searchTerms": [
       "add",
@@ -520,7 +565,8 @@
       "chevron-down",
       "upload-circled",
       "upload",
-      "save"
+      "save",
+      "download-outline"
     ]
   },
   "android-favorite": {
@@ -739,6 +785,14 @@
       "trash-b"
     ]
   },
+  "archive-outline": {
+    "searchTerms": [
+      "archive"
+    ],
+    "similar": [
+      "archive"
+    ]
+  },
   "arrow-down-b": {
     "searchTerms": [
       "down",
@@ -818,6 +872,19 @@
       "refresh",
       "arrow-left-c",
       "arrow-right-c"
+    ]
+  },
+  "arrow-top-right": {
+    "searchTerms": [
+      "link",
+      "new",
+      "open",
+      "preview",
+      "popup",
+      "arrow"
+    ],
+    "similar": [
+      "open"
     ]
   },
   "arrow-up-b": {
@@ -918,12 +985,15 @@
   "channel": {
     "searchTerms": [
       "channel",
+      "pound",
       "hashtag",
-      "team"
+      "team",
+      "group"
     ],
     "similar": [
       "managed-folder",
-      "group"
+      "group",
+      "pound-box-outline"
     ]
   },
   "chatbubbles": {
@@ -965,6 +1035,22 @@
       "checkmark-box-checked",
       "checkmark-circled-outlined",
       "checkmark-circled"
+    ]
+  },
+  "checkbox-mark-outline": {
+    "searchTerms": [
+      "check",
+      "mark",
+      "box",
+      "unchecked",
+      "unselected",
+      "selected"
+    ],
+    "similar": [
+      "checkmark-box-checked",
+      "checkmark-circled-outlined",
+      "checkmark-circled",
+      "checkmark"
     ]
   },
   "checkmark-box": {
@@ -1115,6 +1201,21 @@
       "trash-b-open",
       "trash-b",
       "minus",
+      "minus-circled",
+      "close-circle"
+    ]
+  },
+  "close-circle": {
+    "searchTerms": [
+      "close",
+      "cancel",
+      "dismiss",
+      "delete"
+    ],
+    "similar": [
+      "close",
+      "android-close",
+      "minus",
       "minus-circled"
     ]
   },
@@ -1136,7 +1237,8 @@
     "similar": [
       "android-download",
       "upload-circled",
-      "upload"
+      "upload",
+      "download-outline"
     ]
   },
   "code": {
@@ -1152,6 +1254,23 @@
     ],
     "similar": [
       "images"
+    ]
+  },
+  "cog-outline": {
+    "searchTerms": [
+      "setting",
+      "menu",
+      "ellipsis",
+      "option",
+      "cog",
+      "gear"
+    ],
+    "similar": [
+      "ellipsis",
+      "navicon",
+      "grid",
+      "option",
+      "gear-a"
     ]
   },
   "company": {
@@ -1254,6 +1373,18 @@
     ],
     "similar": [
       "ellipsis"
+    ]
+  },
+  "download-outline": {
+    "searchTerms": [
+      "download",
+      "save",
+      "file"
+    ],
+    "similar": [
+      "android-download",
+      "upload",
+      "save"
     ]
   },
   "drag": {
@@ -1377,8 +1508,36 @@
       "see"
     ],
     "similar": [
+      "eye-outline",
       "eye-disabled",
       "person-blocked"
+    ]
+  },
+  "eye-outline": {
+    "searchTerms": [
+      "eye",
+      "show",
+      "password",
+      "see",
+      "disable"
+    ],
+    "similar": [
+      "eye",
+      "eye-disabled"
+    ]
+  },
+  "eye-off-outline": {
+    "searchTerms": [
+      "eye",
+      "disabled",
+      "hide",
+      "password",
+      "see"
+    ],
+    "similar": [
+      "eye",
+      "person-blocked",
+      "eye-disabled"
     ]
   },
   "eye-disabled": {
@@ -1447,7 +1606,33 @@
       "file-document-multiple",
       "menu-files-default",
       "menu-files-active",
-      "search"
+      "search",
+      "file-tree"
+    ]
+  },
+  "file-tree": {
+    "searchTerms": [
+      "file",
+      "search",
+      "tree",
+      "directory"
+    ],
+    "similar": [
+      "search",
+      "files-document-outline"
+    ]
+  },
+  "file-upload-outline": {
+    "searchTerms": [
+      "file",
+      "upload",
+      "cloud",
+      "sync",
+      "import"
+    ],
+    "similar": [
+      "upload-circled",
+      "upload-file"
     ]
   },
   "film-marker": {
@@ -1554,6 +1739,18 @@
       "font-strikethrough"
     ]
   },
+  "form-textbox": {
+    "searchTerms": [
+      "textbox",
+      "text",
+      "edit",
+      "form",
+      "input"
+    ],
+    "similar": [
+      "pencil"
+    ]
+  },
   "forward": {
     "searchTerms": [
       "forward",
@@ -1561,7 +1758,19 @@
     ],
     "similar": [
       "reply",
-      "reply-all"
+      "reply-all",
+      "forward-outline"
+    ]
+  },
+  "forward-outline": {
+    "searchTerms": [
+      "forward",
+      "email"
+    ],
+    "similar": [
+      "reply",
+      "reply-all",
+      "forward"
     ]
   },
   "fullscreen": {
@@ -1699,7 +1908,8 @@
       "help",
       "question",
       "mark",
-      "assist"
+      "assist",
+      "info"
     ],
     "similar": [
       "alert-send",
@@ -1758,6 +1968,29 @@
     ],
     "similar": [
       "home"
+    ]
+  },
+  "id": {
+    "searchTerms": [
+      "profile",
+      "input",
+      "form",
+      "id",
+      "number"
+    ],
+    "similar": [
+      "form-textbox"
+    ]
+  },
+  "invoice-edit-outline": {
+    "searchTerms": [
+      "invoice",
+      "report",
+      "survey",
+      "receipt"
+    ],
+    "similar": [
+      "form-textbox"
     ]
   },
   "images": {
@@ -2100,12 +2333,32 @@
     "searchTerms": [
       "lock",
       "private",
-      "locked"
+      "locked",
+      "secure",
+      "security",
+      "privacy",
+      "restricted"
     ],
     "similar": [
       "locked",
       "unlock",
       "link"
+    ]
+  },
+  "lock-outline": {
+    "searchTerms": [
+      "lock",
+      "private",
+      "locked",
+      "secure",
+      "security",
+      "privacy",
+      "restricted"
+    ],
+    "similar": [
+      "lock",
+      "locked",
+      "unlock"
     ]
   },
   "locked": {
@@ -2137,6 +2390,21 @@
     ],
     "similar": [
       "log-in"
+    ]
+  },
+  "loop": {
+    "searchTerms": [
+      "refresh",
+      "reload",
+      "loop",
+      "infinity",
+      "repeat",
+      "arrow",
+      "load"
+    ],
+    "similar": [
+      "recent",
+      "refresh"
     ]
   },
   "managed-folder": {
@@ -2313,6 +2581,55 @@
       "webcam"
     ]
   },
+  "microphone": {
+    "searchTerms": [
+      "microphone",
+      "audio",
+      "silence",
+      "speak",
+      "talk",
+      "voice"
+    ],
+    "similar": [
+      "microphone",
+      "microphone-off",
+      "android-microphone",
+      "speakerphone"
+    ]
+  },
+  "microphone-outline": {
+    "searchTerms": [
+      "microphone",
+      "audio",
+      "silence",
+      "speak",
+      "talk",
+      "voice"
+    ],
+    "similar": [
+      "microphone",
+      "microphone-off",
+      "android-microphone",
+      "speakerphone"
+    ]
+  },
+  "microphone-off": {
+    "searchTerms": [
+      "microphone",
+      "mute",
+      "audio",
+      "silence",
+      "speak",
+      "talk",
+      "voice"
+    ],
+    "similar": [
+      "microphone",
+      "microphone-off",
+      "android-microphone",
+      "speakerphone"
+    ]
+  },
   "minus": {
     "searchTerms": [
       "minus",
@@ -2344,6 +2661,23 @@
       "ios-close-empty"
     ]
   },
+  "minus-outline": {
+    "searchTerms": [
+      "minus",
+      "substract",
+      "remove",
+      "close"
+    ],
+    "similar": [
+      "minus",
+      "plus",
+      "plus-circled",
+      "minus-circled",
+      "close",
+      "android-close",
+      "ios-close-empty"
+    ]
+  },
   "monitor": {
     "searchTerms": [
       "monitor",
@@ -2352,6 +2686,26 @@
     ],
     "similar": [
       "easel"
+    ]
+  },
+  "move-vertical": {
+    "searchTerms": [
+      "swap",
+      "arrow",
+      "move",
+      "vertical",
+      "exchange",
+      "change",
+      "switch",
+      "up",
+      "down"
+    ],
+    "similar": [
+      "arrow-swap",
+      "chevron-down",
+      "chevron-up",
+      "chevron-right",
+      "chevron-left"
     ]
   },
   "navicon": {
@@ -2441,15 +2795,17 @@
   },
   "open": {
     "searchTerms": [
+      "link",
+      "new",
       "open",
       "preview",
       "popup",
+      "arrow",
       "enlarge"
     ],
     "similar": [
       "share",
-      "forward",
-      "log-out"
+      "forward"
     ]
   },
   "option": {
@@ -2514,10 +2870,46 @@
       "pencil",
       "pen",
       "edit",
-      "write"
+      "write",
+      "settings",
+      "update",
+      "change"
     ],
     "similar": [
-      "paperclip"
+      "pencil-outline",
+      "edit",
+      "cog"
+    ]
+  },
+  "pencil-outline": {
+    "searchTerms": [
+      "pencil",
+      "pen",
+      "edit",
+      "write",
+      "settings",
+      "update",
+      "change"
+    ],
+    "similar": [
+      "pencil",
+      "edit",
+      "cog"
+    ]
+  },
+  "pencil-ruler-outline": {
+    "searchTerms": [
+      "pencil",
+      "edit",
+      "write",
+      "template",
+      "wizard"
+    ],
+    "similar": [
+      "pencil",
+      "pencil-outline",
+      "edit",
+      "cog"
     ]
   },
   "people-circle": {
@@ -2699,6 +3091,39 @@
       "scout-external-person"
     ]
   },
+  "phone": {
+    "searchTerms": [
+      "phone",
+      "telephone",
+      "call",
+      "meeting",
+      "call",
+      "conference"
+    ],
+    "similar": [
+      "phone",
+      "phone-outline",
+      "ios-telephone",
+      "announcement",
+      "speakerphone"
+    ]
+  },
+  "phone-outline": {
+    "searchTerms": [
+      "phone",
+      "telephone",
+      "call",
+      "meeting",
+      "call",
+      "conference"
+    ],
+    "similar": [
+      "phone",
+      "ios-telephone",
+      "announcement",
+      "speakerphone"
+    ]
+  },
   "pie-graph": {
     "searchTerms": [
       "pie",
@@ -2714,7 +3139,19 @@
   "pin": {
     "searchTerms": [
       "pin",
-      "paperclip"
+      "paperclip",
+      "favorite"
+    ],
+    "similar": [
+      "paperclip",
+      "location"
+    ]
+  },
+  "pin-outline": {
+    "searchTerms": [
+      "pin",
+      "paperclip",
+      "favorite"
     ],
     "similar": [
       "paperclip",
@@ -2785,6 +3222,21 @@
       "android-person-add",
       "ios-personadd",
       "person-add"
+    ]
+  },
+  "pound-box-outline": {
+    "searchTerms": [
+      "channel",
+      "pound",
+      "hashtag",
+      "team",
+      "group"
+    ],
+    "similar": [
+      "channel",
+      "pound-box-outline",
+      "managed-folder",
+      "group"
     ]
   },
   "profile-avatar": {
@@ -2896,6 +3348,7 @@
     ],
     "similar": [
       "reply-all",
+      "reply-all-outline",
       "forward"
     ]
   },
@@ -2908,7 +3361,42 @@
     ],
     "similar": [
       "reply",
+      "reply-all",
+      "reply-all-outline",
       "forward"
+    ]
+  },
+  "reply-all-outline": {
+    "searchTerms": [
+      "reply",
+      "reply all",
+      "back",
+      "reverse",
+      "revert",
+      "reset"
+    ],
+    "similar": [
+      "reply",
+      "reply-all",
+      "forward"
+    ]
+  },
+  "restore": {
+    "searchTerms": [
+      "restore",
+      "clear",
+      "cancel",
+      "reset"
+    ],
+    "similar": [
+      "restore",
+      "close",
+      "trash-a",
+      "trash-b-open",
+      "trash-b",
+      "minus",
+      "minus-circled",
+      "android-close"
     ]
   },
   "save": {
@@ -2918,6 +3406,21 @@
       "disks"
     ],
     "similar": [
+      "save",
+      "save-outline",
+      "android-share-alt",
+      "android-share",
+      "share"
+    ]
+  },
+  "save-outline": {
+    "searchTerms": [
+      "save",
+      "floppy",
+      "disks"
+    ],
+    "similar": [
+      "save",
       "android-share-alt",
       "android-share",
       "share"
@@ -2978,6 +3481,7 @@
   "share": {
     "searchTerms": [
       "share",
+      "reshare",
       "send"
     ],
     "similar": [
@@ -2985,6 +3489,19 @@
       "android-share",
       "paper-airplane",
       "share-variant"
+    ]
+  },
+  "share-outline": {
+    "searchTerms": [
+      "reshare",
+      "share",
+      "send"
+    ],
+    "similar": [
+      "android-share-alt",
+      "android-share",
+      "share-variant",
+      "share"
     ]
   },
   "share-variant": {
@@ -3252,6 +3769,28 @@
       "aol"
     ]
   },
+  "sort-ascending": {
+    "searchTerms": [
+      "filter",
+      "sort",
+      "order"
+    ],
+    "similar": [
+      "sort-ascending",
+      "sort-descending"
+    ]
+  },
+  "sort-descending": {
+    "searchTerms": [
+      "filter",
+      "sort",
+      "order"
+    ],
+    "similar": [
+      "sort-ascending",
+      "sort-descending"
+    ]
+  },
   "spacebar": {
     "searchTerms": [
       "space",
@@ -3277,6 +3816,7 @@
   "star": {
     "searchTerms": [
       "star",
+      "pin",
       "favorite"
     ],
     "similar": [
@@ -3286,9 +3826,25 @@
       "android-favorite"
     ]
   },
+  "star-circle": {
+    "searchTerms": [
+      "star",
+      "pin",
+      "favorite"
+    ],
+    "similar": [
+      "star",
+      "pin",
+      "star-outline",
+      "heart",
+      "android-favorite-outline",
+      "android-favorite"
+    ]
+  },
   "star-outline": {
     "searchTerms": [
       "star",
+      "pin",
       "outline",
       "favorite"
     ],
@@ -3313,8 +3869,7 @@
     "searchTerms": [
       "status",
       "active",
-      "solid",
-      "filled",
+      "circle",
       "online"
     ],
     "similar": [
@@ -3323,6 +3878,7 @@
       "record-outlined",
       "record",
       "status-inactive",
+      "status-progress",
       "status-disconnected",
       "checkmark-circled-outlined",
       "checkmark-circled"
@@ -3333,6 +3889,7 @@
       "status",
       "disconnected",
       "inactive",
+      "circle",
       "outlined",
       "offline"
     ],
@@ -3351,6 +3908,7 @@
     "searchTerms": [
       "status",
       "inactive",
+      "circl",
       "offline"
     ],
     "similar": [
@@ -3362,6 +3920,42 @@
       "status-disconnected",
       "checkmark-circled-outlined",
       "checkmark-circled"
+    ]
+  },
+  "status-in-progress": {
+    "searchTerms": [
+      "status",
+      "active",
+      "progress",
+      "circle",
+      "update"
+    ],
+    "similar": [
+      "status-active",
+      "status-inactive",
+      "status-in-progress",
+      "status-disconnected",
+      "checkmark-circled-outlined",
+      "checkmark-circled",
+      "task"
+    ]
+  },
+  "status-outline": {
+    "searchTerms": [
+      "status",
+      "active",
+      "progress",
+      "circle",
+      "update",
+      "completed"
+    ],
+    "similar": [
+      "status-active",
+      "status-inactive",
+      "status-disconnected",
+      "checkmark-circled-outlined",
+      "checkmark-circled",
+      "task"
     ]
   },
   "stop": {
@@ -3387,9 +3981,11 @@
   "stream": {
     "searchTerms": [
       "stream",
-      "matter",
+      "workstream",
+      "group",
+      "loop",
       "dashboard",
-      "workstream"
+      "infinity"
     ],
     "similar": [
       "folder",
@@ -3421,9 +4017,15 @@
   "task": {
     "searchTerms": [
       "task",
-      "agenda"
+      "agenda",
+      "project",
+      "calendar",
+      "checkbox",
+      "activity",
+      "tracker"
     ],
     "similar": [
+      "task",
       "ios-calendar",
       "android-calendar"
     ]
@@ -3440,6 +4042,37 @@
       "heart",
       "star-outline",
       "star"
+    ]
+  },
+  "thumb-up": {
+    "searchTerms": [
+      "thumb",
+      "emoticon",
+      "thumbsup",
+      "good",
+      "like"
+    ],
+    "similar": [
+      "android-favorite",
+      "android-favorite-outline",
+      "heart",
+      "star-outline",
+      "star"
+    ]
+  },
+  "timer-outline": {
+    "searchTerms": [
+      "time",
+      "timer",
+      "analog",
+      "counter",
+      "clock",
+      "schedule",
+      "task"
+    ],
+    "similar": [
+      "ios-time",
+      "android-time"
     ]
   },
   "toggle-default": {
@@ -3503,6 +4136,22 @@
     "similar": [
       "trash-a",
       "trash-b-open",
+      "android-close",
+      "close",
+      "ios-close-empty"
+    ]
+  },
+  "trashcan-outline": {
+    "searchTerms": [
+      "trash",
+      "delete",
+      "garbage",
+      "remove",
+      "close"
+    ],
+    "similar": [
+      "trash-b-open",
+      "trash-b",
       "android-close",
       "close",
       "ios-close-empty"
@@ -3714,6 +4363,38 @@
     ],
     "similar": [
       "webhooks-incoming"
+    ]
+  },
+  "wizard": {
+    "searchTerms": [
+      "wizard",
+      "wand",
+      "create",
+      "magic",
+      "guide",
+      "add",
+      "template"
+    ],
+    "similar": [
+      "wizard",
+      "plus-circled",
+      "add",
+      "pencil-ruler-outline"
+    ]
+  },
+  "workspace": {
+    "searchTerms": [
+      "grid",
+      "layout",
+      "workspace",
+      "shape",
+      "collage",
+      "block"
+    ],
+    "similar": [
+      "grid-layout",
+      "grid",
+      "add-to-workspace"
     ]
   },
   "workstorm": {
