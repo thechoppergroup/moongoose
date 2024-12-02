@@ -1307,6 +1307,20 @@
       "stop"
     ]
   },
+  "dashboard": {
+    "searchTerms": [
+      "dashboard",
+      "shape",
+      "box",
+      "collage",
+      "block"
+    ],
+    "similar": [
+      "grid-layout",
+      "grid",
+      "workspace"
+    ]
+  },
   "description": {
     "searchTerms": [
       "description",

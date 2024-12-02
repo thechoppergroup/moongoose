@@ -105,6 +105,7 @@ module.exports = [
 'company',
 'crown',
 'cube',
+'dashboard',
 'description',
 'disc',
 'disconnected',
