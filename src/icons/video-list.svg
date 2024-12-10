@@ -1,3 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path fill-rule="evenodd" d="M419 37v438H93V37zm-47 303.918H140v89.388h232zm0-129.612H140v89.388h232zm0-129.612H140v89.388h232z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="st0" d="M417.5,25v450H82.5V25h334.9ZM369.2,337.2h-238.4v91.8h238.4v-91.8ZM369.2,204.1h-238.4v91.8h238.4v-91.8ZM369.2,70.9h-238.4v91.8h238.4v-91.8Z"/>
 </svg>

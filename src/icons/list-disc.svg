@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M216 190.5h223v32H216zm0-96h223v32H216zm4.5 337.8h223v32h-223zm0-96h223v32h-223z"/>
-    <circle cx="98.9" cy="157.8" r="63.4"/>
-    <circle cx="98.9" cy="399.7" r="63.4"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <path d="M224.1,152h246v35.3h-246v-35.3ZM224.1,46.1h246v35.3h-246v-35.3ZM229,418.7h246v35.3h-246v-35.3ZM229,312.8h246v35.3h-246v-35.3ZM94.9,46c38.6,0,69.9,31.3,69.9,69.9s-31.3,69.9-69.9,69.9S25,154.6,25,115.9,56.3,46,94.9,46ZM94.9,312.8c38.6,0,69.9,31.3,69.9,69.9s-31.3,69.9-69.9,69.9-69.9-31.3-69.9-69.9,31.3-69.9,69.9-69.9Z"/>
 </svg>

@@ -1,13 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <style>
-        .st0{font-family:&quot;ProximaNova-Semibold&quot;}.st1{font-size:273px}
-    </style>
-    <path d="M239 190.5h247v32H239zm0-96h247v32H239z"/>
-    <text class="st0 st1" transform="translate(69.353 230.225)">
-        i
-    </text>
-    <path d="M244 432.3h247v32H244zm0-96h247v32H244z"/>
-    <text class="st0 st1" transform="translate(36.457 472)">
-        ii
-    </text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <path d="M217,182.4h252.9v32.8h-252.9v-32.8ZM217,84.1h252.9v32.8h-252.9v-32.8ZM58.7,47.6c0-10.1,8.4-18.2,18.2-18.2s18.2,8.1,18.2,18.2-8.1,18.2-18.2,18.2-18.2-8.1-18.2-18.2ZM62.3,88.1h29.3v135h-29.3V88.1ZM222.1,430h252.9v32.8h-252.9v-32.8ZM222.1,331.7h252.9v32.8h-252.9v-32.8ZM25,295.1c0-10.1,8.4-18.2,18.2-18.2s18.2,8.1,18.2,18.2-8.1,18.2-18.2,18.2-18.2-8.1-18.2-18.2ZM28.6,335.6h29.3v135h-29.3v-135ZM92.4,295.1c0-10.1,8.4-18.2,18.2-18.2s18.2,8.1,18.2,18.2-8.1,18.2-18.2,18.2-18.2-8.1-18.2-18.2ZM96,335.6h29.3v135h-29.3v-135Z"/>
 </svg>

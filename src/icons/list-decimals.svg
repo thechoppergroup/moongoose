@@ -1,13 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <style>
-        .st0{font-family:&quot;ProximaNova-Semibold&quot;}.st1{font-size:300px}
-    </style>
-    <path d="M216 190.5h223v32H216zm0-96h223v32H216z"/>
-    <text class="st0 st1" transform="translate(45.251 230.225)">
-        1
-    </text>
-    <path d="M220.5 432.3h223v32h-223zm0-96h223v32h-223z"/>
-    <text class="st0 st1" transform="translate(13.002 472)">
-        2
-    </text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <path d="M231.3,188.3h227.1v32.6h-227.1v-32.6ZM231.3,90.6h227.1v32.6h-227.1v-32.6ZM116,71.4l-33.3,34.5-20.8-21.7,58.7-59.3h31.2v203.8h-35.7V71.4ZM235.8,434.6h227.1v32.6h-227.1v-32.6ZM235.8,336.8h227.1v32.6h-227.1v-32.6ZM39.8,446.9c79.1-59.9,110-86.5,110-115.8s-18.3-31.2-37-31.2-42.2,9.8-55,24.4l-20.8-23.5c18-21.7,46.7-32.7,75.2-32.7s73.9,22.3,73.9,62.9-34.5,71.2-89.2,112.4h90.4v31.5H39.8v-28.1Z"/>
 </svg>
