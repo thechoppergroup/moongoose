@@ -2531,6 +2531,36 @@
       "media-text"
     ]
   },
+  "member-add": {
+    "searchTerms": [
+      "person",
+      "add",
+      "member",
+      "attendee",
+      "guest",
+      "invite"
+    ],
+    "similar": [
+      "android-person-add",
+      "ios-personadd",
+      "member-add-outline"
+    ]
+  },
+  "member-add-outline": {
+    "searchTerms": [
+      "person",
+      "add",
+      "member",
+      "attendee",
+      "guest",
+      "invite"
+    ],
+    "similar": [
+      "android-person-add",
+      "ios-personadd",
+      "member-add"
+    ]
+  },
   "menu-connections-active": {
     "searchTerms": [
       "menu-connections-default"
@@ -4042,6 +4072,58 @@
       "task",
       "ios-calendar",
       "android-calendar"
+    ]
+  },
+  "team": {
+    "searchTerms": [
+      "channel",
+      "people",
+      "team",
+      "group",
+      "member"
+    ],
+    "similar": [
+      "ios-personadd",
+      "team-outline"
+    ]
+  },
+  "team-outline": {
+    "searchTerms": [
+      "channel",
+      "people",
+      "team",
+      "group",
+      "member"
+    ],
+    "similar": [
+      "ios-personadd",
+      "team"
+    ]
+  },
+  "team-add": {
+    "searchTerms": [
+      "team",
+      "member",
+      "people",
+      "channel",
+      "group",
+      "add"
+    ],
+    "similar": [
+      "person-add"
+    ]
+  },
+  "team-add-outline": {
+    "searchTerms": [
+      "team",
+      "member",
+      "people",
+      "channel",
+      "group",
+      "add"
+    ],
+    "similar": [
+      "person-add"
     ]
   },
   "thumbsup": {
