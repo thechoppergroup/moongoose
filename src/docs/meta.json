@@ -378,6 +378,22 @@
       "account"
     ]
   },
+  "account-single-outline": {
+    "searchTerms": [
+      "person",
+      "member",
+      "attendee",
+      "account",
+      "profile"
+    ],
+    "similar": [
+      "people-circle",
+      "people-circle-outline",
+      "person-circle-outline",
+      "person",
+      "account"
+    ]
+  },
   "add-circle": {
     "searchTerms": [
       "plus",
@@ -1009,6 +1025,20 @@
       "chat-message-text"
     ]
   },
+  "chat-comment-outline": {
+    "searchTerms": [
+      "chat",
+      "comment",
+      "conversation",
+      "message",
+      "text",
+      "group"
+    ],
+    "similar": [
+      "add-chatbubbles",
+      "chat-message-text"
+    ]
+  },
   "chat-message-text": {
     "searchTerms": [
       "chat",
@@ -1021,6 +1051,21 @@
     "similar": [
       "add-chatbubbles",
       "chatbubbles"
+    ]
+  },
+  "check-circle-outline": {
+    "searchTerms": [
+      "check",
+      "circle",
+      "status",
+      "task",
+      "selected"
+    ],
+    "similar": [
+      "checkmark-box-checked",
+      "checkmark-circled-outlined",
+      "checkmark-circled",
+      "checkmark"
     ]
   },
   "checkmark": {
@@ -1239,6 +1284,20 @@
       "upload-circled",
       "upload",
       "download-outline"
+    ]
+  },
+  "cloud-download-outline": {
+    "searchTerms": [
+      "cloud",
+      "download",
+      "save",
+      "file"
+    ],
+    "similar": [
+      "android-download",
+      "download-outline",
+      "upload",
+      "save"
     ]
   },
   "code": {
@@ -1617,6 +1676,23 @@
       "search"
     ],
     "similar": [
+      "file-search",
+      "file-search-outline",
+      "file-document-multiple",
+      "menu-files-default",
+      "menu-files-active",
+      "search",
+      "file-tree"
+    ]
+  },
+  "file-search-outline": {
+    "searchTerms": [
+      "file",
+      "search"
+    ],
+    "similar": [
+      "file-search",
+      "file-search-outline",
       "file-document-multiple",
       "menu-files-default",
       "menu-files-active",
@@ -1632,6 +1708,7 @@
       "directory"
     ],
     "similar": [
+      "file-search-outline",
       "search",
       "files-document-outline"
     ]
@@ -1688,6 +1765,32 @@
       "star",
       "star-outline",
       "flag"
+    ]
+  },
+  "folder-outline": {
+    "searchTerms": [
+      "organize",
+      "folder",
+      "directory"
+    ],
+    "similar": [
+      "folder-add-outline",
+      "folder",
+      "android-folder"
+    ]
+  },
+  "folder-add-outline": {
+    "searchTerms": [
+      "organize",
+      "folder",
+      "add",
+      "new",
+      "directory"
+    ],
+    "similar": [
+      "folder-add-outline",
+      "folder",
+      "android-folder"
     ]
   },
   "folder-open": {
@@ -1818,6 +1921,19 @@
       "navicon",
       "grid",
       "option"
+    ]
+  },
+  "google": {
+    "searchTerms": [
+      "google",
+      "brand",
+      "logo",
+      "connect",
+      "integration"
+    ],
+    "similar": [
+      "google",
+      "company"
     ]
   },
   "grid": {
@@ -2005,6 +2121,41 @@
     ],
     "similar": [
       "form-textbox"
+    ]
+  },
+  "image": {
+    "searchTerms": [
+      "image",
+      "media",
+      "picture",
+      "photo",
+      "file"
+    ],
+    "similar": [
+      "media-image",
+      "media-excel",
+      "media-pdf",
+      "media-powerpoint",
+      "media-text",
+      "media-word"
+    ]
+  },
+  "image-group": {
+    "searchTerms": [
+      "image",
+      "media",
+      "picture",
+      "photo",
+      "file",
+      "placeholder"
+    ],
+    "similar": [
+      "media-image",
+      "media-excel",
+      "media-pdf",
+      "media-powerpoint",
+      "media-text",
+      "media-word"
     ]
   },
   "images": {
@@ -2284,7 +2435,10 @@
   "link": {
     "searchTerms": [
       "link",
-      "chain"
+      "chain",
+      "web",
+      "share",
+      "connection"
     ],
     "similar": [
       "paperclip",
@@ -2689,10 +2843,41 @@
       "ios-close-empty"
     ]
   },
+  "microsoft-365": {
+    "searchTerms": [
+      "microsoft",
+      "365",
+      "brand",
+      "logo",
+      "connect",
+      "integration"
+    ],
+    "similar": [
+      "microsoft-365",
+      "company"
+    ]
+  },
+  "minus-circle": {
+    "searchTerms": [
+      "minus",
+      "circle",
+      "remove",
+      "decrease",
+      "subtract",
+      "delete"
+    ],
+    "similar": [
+      "minus-circle",
+      "minus-circle-outline",
+      "minus",
+      "close"
+    ]
+  },
   "minus-circled": {
     "searchTerms": [
       "minus",
       "circled",
+      "subtract",
       "decrease",
       "close"
     ],
@@ -2703,6 +2888,22 @@
       "close",
       "android-close",
       "ios-close-empty"
+    ]
+  },
+  "minus-circle-outline": {
+    "searchTerms": [
+      "minus",
+      "circle",
+      "remove",
+      "subtract",
+      "decrease",
+      "delete"
+    ],
+    "similar": [
+      "minus-circle",
+      "minus-circle-outline",
+      "minus",
+      "close"
     ]
   },
   "minus-outline": {
@@ -2732,6 +2933,27 @@
       "easel"
     ]
   },
+  "move-horizontal": {
+    "searchTerms": [
+      "swap",
+      "arrow",
+      "move",
+      "horizontal",
+      "exchange",
+      "change",
+      "switch",
+      "up",
+      "down"
+    ],
+    "similar": [
+      "move-horizontal",
+      "arrow-swap",
+      "chevron-down",
+      "chevron-up",
+      "chevron-right",
+      "chevron-left"
+    ]
+  },
   "move-vertical": {
     "searchTerms": [
       "swap",
@@ -2745,6 +2967,7 @@
       "down"
     ],
     "similar": [
+      "move-vertical",
       "arrow-swap",
       "chevron-down",
       "chevron-up",
@@ -3268,6 +3491,20 @@
       "person-add"
     ]
   },
+  "plus-circle-outline": {
+    "searchTerms": [
+      "plus",
+      "minus",
+      "circle",
+      "add",
+      "increase"
+    ],
+    "similar": [
+      "plus-circle",
+      "plus-circle-outline",
+      "plus"
+    ]
+  },
   "pound-box-outline": {
     "searchTerms": [
       "channel",
@@ -3425,6 +3662,20 @@
       "forward"
     ]
   },
+  "report-outline": {
+    "searchTerms": [
+      "report",
+      "graph",
+      "chart",
+      "dashboard",
+      "template"
+    ],
+    "similar": [
+      "report-outline",
+      "task",
+      "stream"
+    ]
+  },
   "restore": {
     "searchTerms": [
       "restore",
@@ -3520,6 +3771,19 @@
       "email",
       "scout-external-email",
       "scout-external-people"
+    ]
+  },
+  "section-outline": {
+    "searchTerms": [
+      "section",
+      "box",
+      "group",
+      "section",
+      "task"
+    ],
+    "similar": [
+      "section-outline",
+      "task"
     ]
   },
   "share": {
@@ -4087,19 +4351,6 @@
       "team-outline"
     ]
   },
-  "team-outline": {
-    "searchTerms": [
-      "channel",
-      "people",
-      "team",
-      "group",
-      "member"
-    ],
-    "similar": [
-      "ios-personadd",
-      "team"
-    ]
-  },
   "team-add": {
     "searchTerms": [
       "team",
@@ -4476,6 +4727,20 @@
       "plus-circled",
       "add",
       "pencil-ruler-outline"
+    ]
+  },
+  "workflow": {
+    "searchTerms": [
+      "task",
+      "agenda",
+      "workflow",
+      "automation",
+      "template"
+    ],
+    "similar": [
+      "task",
+      "ios-calendar",
+      "android-calendar"
     ]
   },
   "workspace": {
