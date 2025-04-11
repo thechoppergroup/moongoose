@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .st0 {fill: url(%23radial-gradient);}
+      .st1 {fill: url(%23radial-gradient1);}
+      .st2 {fill: url(%23radial-gradient2);}
+    </style>
+    <radialGradient id="radial-gradient" cx="-1914.3" cy="230.2" fx="-1914.3" fy="230.2" r="9.6" gradientTransform="translate(-9670.1 64624.9) rotate(110.5) scale(33.4 58.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="%23bf8af6"/>
+      <stop offset=".5" stop-color="%233079d6"/>
+      <stop offset="1" stop-color="%2311408c"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient1" cx="-1838.6" cy="303.4" fx="-1838.6" fy="303.4" r="10.2" gradientTransform="translate(55687.1 -14089) rotate(-8.4) scale(31.1 20.5)" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="%23bf8af6"/>
+      <stop offset="1" stop-color="%23591c96"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient2" cx="-1992.9" cy="268.8" fx="-1992.9" fy="268.8" r="12.2" gradientTransform="translate(-50492.3 -998) rotate(-165.8) scale(24.9 42)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="%2350e6ff"/>
+      <stop offset=".7" stop-color="%233079d6"/>
+      <stop offset="1" stop-color="%2311408c"/>
+    </radialGradient>
+  </defs>
+    <path class="st0" d="M209.9,35.5l-2.3,1.4c-3.7,2.2-7.1,4.7-10.3,7.4l6.6-4.7h56.3l10.2,77.4-51.1,51.1-51.1,35.5v41c0,28.6,15,55.2,39.4,70l53.8,32.6-113.7,66.4h-21.9l-40.9-24.8c-24.5-14.8-39.4-41.4-39.4-70v-137.8c0-28.6,15-55.2,39.5-70l122.7-74.2c.8-.5,1.5-.9,2.3-1.3Z"/>
+    <path class="st1" d="M331.8,198.9v45.8c0,28.6-15,55.2-39.4,70l-122.7,74.3c-25.1,15.2-56.3,15.8-81.9,1.6l119.9,72.6c26,15.8,58.7,15.8,84.7,0l122.7-74.3c24.5-14.8,39.4-41.4,39.4-70v-33.1l-10.2-15.3-112.5-71.6Z"/>
+    <path class="st2" d="M415.1,111.1l-122.7-74.2c-25.2-15.3-56.6-15.7-82.3-1.4l-2.4,1.5c-24.5,14.8-39.5,41.4-39.5,70v97l39.5-23.9c26-15.8,58.7-15.8,84.7,0l122.7,74.2c23.7,14.4,38.5,39.7,39.4,67.3,0-.9,0-1.8,0-2.7v-137.8c0-28.6-15-55.2-39.5-70Z"/>
+</svg>
