@@ -2,19 +2,19 @@
   <defs>
     <style>
       .st0 {
-        fill: #34a353;
+        fill: %2334a353;
       }
 
       .st1 {
-        fill: #e54335;
+        fill: %23e54335;
       }
 
       .st2 {
-        fill: #f6b704;
+        fill: %23f6b704;
       }
 
       .st3 {
-        fill: #4280ef;
+        fill: %234280ef;
       }
     </style>
   </defs>

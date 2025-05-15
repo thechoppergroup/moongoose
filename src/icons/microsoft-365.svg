@@ -2,30 +2,30 @@
   <defs>
     <style>
       .st0 {
-        fill: url(#radial-gradient);
+        fill: url(%23radial-gradient);
       }
 
       .st1 {
-        fill: url(#radial-gradient1);
+        fill: url(%23radial-gradient1);
       }
 
       .st2 {
-        fill: url(#radial-gradient2);
+        fill: url(%23radial-gradient2);
       }
     </style>
     <radialGradient id="radial-gradient" cx="-1859.285" cy="224.561" fx="-1859.285" fy="224.561" r="9.6" gradientTransform="translate(-33817.604 53634.723) rotate(110.5) scale(33.4 -58.2)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#bf8af6"/>
-      <stop offset=".5" stop-color="#3079d6"/>
-      <stop offset="1" stop-color="#11408c"/>
+      <stop offset="0" stop-color="%23bf8af6"/>
+      <stop offset=".5" stop-color="%233079d6"/>
+      <stop offset="1" stop-color="%2311408c"/>
     </radialGradient>
     <radialGradient id="radial-gradient1" cx="-1784.118" cy="155.705" fx="-1784.118" fy="155.705" r="10.2" gradientTransform="translate(55385.769 -4530.864) rotate(-8.4) scale(31.1 -20.5)" gradientUnits="userSpaceOnUse">
-      <stop offset=".2" stop-color="#bf8af6"/>
-      <stop offset="1" stop-color="#591c96"/>
+      <stop offset=".2" stop-color="%23bf8af6"/>
+      <stop offset="1" stop-color="%23591c96"/>
     </radialGradient>
     <radialGradient id="radial-gradient2" cx="-1934.167" cy="186.233" fx="-1934.167" fy="186.233" r="12.2" gradientTransform="translate(-44386.38 -19166.761) rotate(-165.8) scale(24.9 -42)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#50e6ff"/>
-      <stop offset=".7" stop-color="#3079d6"/>
-      <stop offset="1" stop-color="#11408c"/>
+      <stop offset="0" stop-color="%2350e6ff"/>
+      <stop offset=".7" stop-color="%233079d6"/>
+      <stop offset="1" stop-color="%2311408c"/>
     </radialGradient>
   </defs>
   <path class="st0" d="M220.352,65.254l-2.045,1.245c-3.289,1.956-6.312,4.178-9.156,6.578l5.867-4.178h50.049l9.067,68.806-45.426,45.426-45.426,31.558v36.448c0,25.424,13.335,49.071,35.025,62.228l47.826,28.98-101.076,59.027h-19.468l-36.359-22.046c-21.78-13.157-35.025-36.803-35.025-62.228v-122.5c0-25.424,13.335-49.071,35.114-62.228l109.076-65.961c.711-.444,1.333-.8,2.045-1.156h-.089.001Z"/>
