@@ -524,25 +524,6 @@
       "ios-calendar"
     ]
   },
-  "android-close": {
-    "searchTerms": [
-      "android",
-      "close",
-      "x",
-      "cancel",
-      "delete",
-      "dismiss"
-    ],
-    "similar": [
-      "close",
-      "arrow-left-c",
-      "ios-close-empty",
-      "trash-a",
-      "trash-b-open",
-      "trash-b",
-      "minus"
-    ]
-  },
   "android-copy": {
     "searchTerms": [
       "android",
@@ -1308,8 +1289,6 @@
     ],
     "similar": [
       "circle-outline",
-      "circle-plus",
-      "circle-plus-outline",
       "circle-checked",
       "circle-checked-outline"
     ]
@@ -1325,80 +1304,6 @@
     ],
     "similar": [
       "circle-outline",
-      "circle-plus",
-      "circle-plus-outline",
-      "circle-checked",
-      "circle-checked-outline"
-    ]
-  },
-  "circle-minus": {
-    "searchTerms": [
-      "circle",
-      "round",
-      "shape",
-      "minus",
-      "subtract",
-      "remove",
-      "close",
-      "decrease"
-    ],
-    "similar": [
-      "circle-outline",
-      "circle-minus",
-      "circle-minus-outline"
-    ]
-  },
-  "circle-minus-outline": {
-    "searchTerms": [
-      "circle",
-      "round",
-      "shape",
-      "minus",
-      "subtract",
-      "remove",
-      "close",
-      "decrease"
-    ],
-    "similar": [
-      "circle-outline",
-      "circle-minus",
-      "circle-minus-outline"
-    ]
-  },
-  "circle-plus": {
-    "searchTerms": [
-      "circle",
-      "round",
-      "shape",
-      "plus",
-      "add",
-      "radio",
-      "checked",
-      "selected"
-    ],
-    "similar": [
-      "circle-outline",
-      "circle-plus",
-      "circle-plus-outline",
-      "circle-checked",
-      "circle-checked-outline"
-    ]
-  },
-    "circle-plus-outline": {
-    "searchTerms": [
-      "circle",
-      "round",
-      "plus",
-      "add",
-      "shape",
-      "radio",
-      "checked",
-      "selected"
-    ],
-    "similar": [
-      "circle-outline",
-      "circle-plus",
-      "circle-plus-outline",
       "circle-checked",
       "circle-checked-outline"
     ]
@@ -1422,7 +1327,8 @@
       "close",
       "cancel",
       "dismiss",
-      "delete"
+      "delete",
+      "remove"
     ],
     "similar": [
       "android-close",
@@ -1434,7 +1340,9 @@
       "minus",
       "circle-minus",
       "circle-minus-outline",
-      "close-circle"
+      "close",
+      "close-outline",
+      "close-circle-outline"
     ]
   },
   "close-circle": {
@@ -1442,10 +1350,31 @@
       "close",
       "cancel",
       "dismiss",
-      "delete"
+      "delete",
+      "remove"
     ],
     "similar": [
       "close",
+      "close-outline",
+      "close-circle-outline",
+      "android-close",
+      "minus",
+      "circle-minus",
+      "circle-minus-outline"
+    ]
+  },
+  "close-circle-outline": {
+    "searchTerms": [
+      "close",
+      "cancel",
+      "dismiss",
+      "delete",
+      "remove"
+    ],
+    "similar": [
+      "close",
+      "close-outline",
+      "close-circle-outline",
       "android-close",
       "minus",
       "circle-minus",
@@ -1558,13 +1487,33 @@
       "dashboard",
       "shape",
       "box",
+      "grid",
+      "layout",
       "collage",
       "block"
     ],
     "similar": [
       "grid-layout",
       "grid",
-      "workspace"
+      "workspace",
+      "dashboard-outline"
+    ]
+  },
+    "dashboard-outline": {
+    "searchTerms": [
+      "dashboard",
+      "shape",
+      "box",
+      "grid",
+      "layout",
+      "collage",
+      "block"
+    ],
+    "similar": [
+      "grid-layout",
+      "grid",
+      "workspace",
+      "dashboard"
     ]
   },
   "description": {
@@ -2087,6 +2036,20 @@
       "folks",
       "person",
       "webcam"
+    ]
+  },
+  "function-variant": {
+    "searchTerms": [
+      "formula",
+      "function",
+      "equation",
+      "math",
+      "calculation"
+    ],
+    "similar": [
+      "formula",
+      "add",
+      "report-outline"
     ]
   },
   "gear-a": {
@@ -3575,17 +3538,53 @@
   "plus": {
     "searchTerms": [
       "plus",
-      "circled",
+      "circle",
+      "shape",
       "add",
       "increase"
     ],
     "similar": [
-      "circle-plus",
-      "circle-plus-outline",
+      "circle-outline",
+      "plus-circle",
+      "plus-circle-outline",
       "add-chatbubbles",
       "android-person-add",
       "ios-personadd",
       "person-add"
+    ]
+  },
+  "plus-circle": {
+    "searchTerms": [
+      "circle",
+      "round",
+      "shape",
+      "plus",
+      "add",
+      "radio",
+      "checked",
+      "selected"
+    ],
+    "similar": [
+      "circle-outline",
+      "plus-circle",
+      "plus-circle-outline"
+    ]
+  },
+    "plus-circle-outline": {
+    "searchTerms": [
+      "circle",
+      "round",
+      "plus",
+      "add",
+      "shape",
+      "radio",
+      "checked",
+      "selected"
+    ],
+    "similar": [
+      "circle-outline",
+      "plus-circle",
+      "plus-circle-outline"
     ]
   },
   "pound-box-outline": {
@@ -3623,6 +3622,19 @@
     ],
     "similar": [
       "box-outline"
+    ]
+  },
+  "pulse": {
+    "searchTerms": [
+      "pulse",
+      "activity",
+      "feed",
+      "log",
+      "history"
+    ],
+    "similar": [
+      "pulse",
+      "notification"
     ]
   },
   "quote": {
