@@ -1161,6 +1161,24 @@
       "chatbubbles"
     ]
   },
+    "check": {
+    "searchTerms": [
+      "check",
+      "checkbox",
+      "shape",
+      "selected"
+    ],
+    "similar": [
+      "check",
+      "checkbox",
+      "checklist",
+      "box-plus",
+      "box-plus-outline",
+      "box-checked",
+      "box-checked-outline",
+      "checkbox-intermediate"
+    ]
+  },
   "checkbox-intermediate": {
     "searchTerms": [
       "box",
