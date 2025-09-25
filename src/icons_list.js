@@ -90,6 +90,7 @@ module.exports = [
 'chat-comment-outline',
 'chat-message-text',
 'chatbubbles',
+'check',
 'checkbox-intermediate',
 'checklist',
 'chevron-down',
