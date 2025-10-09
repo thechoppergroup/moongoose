@@ -344,6 +344,19 @@
       "4x4"
     ]
   },
+  "analytics": {
+    "searchTerms": [
+      "analytics",
+      "report",
+      "graph",
+      "chart",
+      "widget"
+    ],
+    "similar": [
+      "task",
+      "stream"
+    ]
+  },
   "account-multiple-outline": {
     "searchTerms": [
       "people",
@@ -3781,20 +3794,6 @@
       "reply",
       "reply-all",
       "forward"
-    ]
-  },
-  "report-outline": {
-    "searchTerms": [
-      "report",
-      "graph",
-      "chart",
-      "dashboard",
-      "template"
-    ],
-    "similar": [
-      "report-outline",
-      "task",
-      "stream"
     ]
   },
   "restore": {
