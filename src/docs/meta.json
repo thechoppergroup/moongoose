@@ -535,6 +535,10 @@
     "searchTerms": ["bug", "ladybird", "beetle"],
     "similar": ["earth"]
   },
+  "calendar-month": {
+    "searchTerms": ["calendar", "agenda", "schedule", "date"],
+    "similar": ["android-calendar"]
+  },
   "camera": {
     "searchTerms": ["camera", "shoot", "picture"],
     "similar": ["images"]
@@ -595,6 +599,10 @@
       "box-checked-outline",
       "checkbox-intermediate"
     ]
+  },
+  "check-all": {
+    "searchTerms": ["check", "check all", "select", "mark", "read", "done"],
+    "similar": ["check", "checkbox", "checklist", "check-all"]
   },
   "checkbox-intermediate": {
     "searchTerms": [
@@ -740,9 +748,24 @@
       "download-outline"
     ]
   },
+  "cloud-check-outline": {
+    "searchTerms": [
+      "cloud",
+      "online",
+      "connection",
+      "sync",
+      "server",
+      "internet"
+    ],
+    "similar": ["cloud-check-outline", "cloud"]
+  },
   "cloud-download-outline": {
     "searchTerms": ["cloud", "download", "save", "file"],
     "similar": ["android-download", "download-outline", "upload", "save"]
+  },
+  "cloud-remove-outline": {
+    "searchTerms": ["cloud", "offline", "connection", "sync", "internet"],
+    "similar": ["cloud-check-outline", "cloud-remove-outline"]
   },
   "code": {
     "searchTerms": ["code"],
@@ -1019,6 +1042,19 @@
     "searchTerms": ["setting", "menu", "more", "ellipsis", "navicon", "option"],
     "similar": ["ellipsis", "navicon", "grid", "option"]
   },
+  "glacier-stream": {
+    "searchTerms": [
+      "glacier",
+      "stream",
+      "workstorm",
+      "logo",
+      "rfq",
+      "triggercell",
+      "trading"
+    ],
+    "similar": ["stream"]
+  },
+
   "google": {
     "searchTerms": ["google", "brand", "logo", "connect", "integration"],
     "similar": ["google", "company"]
@@ -2479,6 +2515,10 @@
       "close",
       "ios-close-empty"
     ]
+  },
+  "tray-arrow-up": {
+    "searchTerms": ["upload, attachment, file, share, cloud"],
+    "similar": ["upload-circled", "upload"]
   },
   "trophy-outline": {
     "searchTerms": ["trophy", "award"],
