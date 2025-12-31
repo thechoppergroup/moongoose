@@ -406,6 +406,10 @@
   },
   "bell-badge-outline": {
     "searchTerms": ["bell", "alert", "notification", "important", "attention"],
+    "similar": ["bell-outline", "alert-circle-outline", "alert-circled"]
+  },
+  "bell-outline": {
+    "searchTerms": ["bell", "alert", "notification", "outline"],
     "similar": ["bell-badge-outline", "alert-circle-outline", "alert-circled"]
   },
   "bookmark": {
@@ -1042,9 +1046,9 @@
     "searchTerms": ["setting", "menu", "more", "ellipsis", "navicon", "option"],
     "similar": ["ellipsis", "navicon", "grid", "option"]
   },
-  "glacier-stream": {
+  "glacial-stream": {
     "searchTerms": [
-      "glacier",
+      "glacial",
       "stream",
       "workstorm",
       "logo",
@@ -2517,7 +2521,7 @@
     ]
   },
   "tray-arrow-up": {
-    "searchTerms": ["upload, attachment, file, share, cloud"],
+    "searchTerms": ["arrow", "tray", "upload", "attachment", "file", "share", "cloud"],
     "similar": ["upload-circled", "upload"]
   },
   "trophy-outline": {

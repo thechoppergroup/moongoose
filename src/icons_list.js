@@ -178,7 +178,7 @@ module.exports = [
 'fullscreen',
 'function-variant',
 'gear-a',
-'glacier-stream',
+'glacial-stream',
 'google',
 'grid-layout',
 'grid',
