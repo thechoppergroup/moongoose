@@ -1900,10 +1900,13 @@
       "chevron-right-double",
       "chevron-right",
       "stop",
-      "forward",
-      "reply",
-      "reply-all"
+      "pause",
+      "play-circle-outline"
     ]
+  },
+  "play-circle-outline": {
+    "searchTerms": ["play", "continue", "start", "sound", "music", "volume"],
+    "similar": ["play", "stop", "pause"]
   },
   "plus": {
     "searchTerms": ["plus", "circle", "shape", "add", "increase"],
@@ -2521,7 +2524,15 @@
     ]
   },
   "tray-arrow-up": {
-    "searchTerms": ["arrow", "tray", "upload", "attachment", "file", "share", "cloud"],
+    "searchTerms": [
+      "arrow",
+      "tray",
+      "upload",
+      "attachment",
+      "file",
+      "share",
+      "cloud"
+    ],
     "similar": ["upload-circled", "upload"]
   },
   "trophy-outline": {
@@ -2565,7 +2576,7 @@
     ]
   },
   "volume-high": {
-    "searchTerms": ["volume", "high", "up", "on"],
+    "searchTerms": ["volume", "sound", "audio", "alert"],
     "similar": [
       "volume-mute",
       "android-microphone",
@@ -2575,7 +2586,7 @@
     ]
   },
   "volume-mute": {
-    "searchTerms": ["volume", "none", "mute", "off"],
+    "searchTerms": ["volume", "mute", "silent"],
     "similar": [
       "volume-high",
       "android-microphone",

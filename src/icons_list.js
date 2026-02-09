@@ -294,6 +294,7 @@ module.exports = [
 'pip-out',
 'pip',
 'pizza',
+'play-circle-outline',
 'play',
 'plus-circle-outline',
 'plus-circle',
