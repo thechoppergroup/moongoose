@@ -174,6 +174,19 @@
     "searchTerms": ["address", "book", "contact"],
     "similar": ["bookmark", "ios-book", "ios-personadd", "ios-list-outline"]
   },
+  "ai-agent-outline": {
+    "searchTerms": [
+      "ai",
+      "agent",
+      "prompt",
+      "automation",
+      "wizard",
+      "assistant",
+      "stars",
+      "magic"
+    ],
+    "similar": ["ai-agent-outline", "grok", "perplexity", "claude", "openai"]
+  },
   "alert": {
     "searchTerms": ["alert", "urgent", "warning"],
     "similar": ["alert-send", "alert-circled", "help-circled", "help"]
@@ -356,6 +369,10 @@
     "searchTerms": ["archive"],
     "similar": ["archive"]
   },
+  "arrow-down": {
+    "searchTerms": ["arrow", "down", "move", "navigate", "direction"],
+    "similar": ["arrow-down"]
+  },
   "arrow-down-b": {
     "searchTerms": ["down", "arrow"],
     "similar": ["android-download", "arrow-down-c", "chevron-down"]
@@ -363,6 +380,10 @@
   "arrow-down-c": {
     "searchTerms": ["down", "arrow"],
     "similar": ["android-download", "arrow-down-b", "chevron-down"]
+  },
+  "arrow-left": {
+    "searchTerms": ["arrow", "left", "move", "navigate", "direction"],
+    "similar": ["arrow-left"]
   },
   "arrow-left-b": {
     "searchTerms": ["left", "arrow"],
@@ -387,6 +408,10 @@
   "arrow-top-right": {
     "searchTerms": ["link", "new", "open", "preview", "popup", "arrow"],
     "similar": ["open"]
+  },
+  "arrow-up": {
+    "searchTerms": ["arrow", "up", "move", "navigate", "direction"],
+    "similar": ["arrow-up"]
   },
   "arrow-up-b": {
     "searchTerms": ["arrow", "up"],
@@ -688,6 +713,20 @@
     "searchTerms": ["circle", "round", "shape", "radio", "checked", "selected"],
     "similar": ["circle-outline", "circle-checked", "circle-checked-outline"]
   },
+  "claude": {
+    "searchTerms": [
+      "claude",
+      "anthropic",
+      "generated",
+      "ai",
+      "agent",
+      "prompt",
+      "automation",
+      "wizard",
+      "assistant"
+    ],
+    "similar": ["ai-agent-outline", "grok", "perplexity", "claude", "openai"]
+  },
   "clipboard": {
     "searchTerms": ["clipboard", "survey", "feedback"],
     "similar": [
@@ -783,6 +822,10 @@
     "searchTerms": ["setting", "menu", "ellipsis", "option", "cog", "gear"],
     "similar": ["ellipsis", "navicon", "grid", "option", "gear-a"]
   },
+  "connect-link": {
+    "searchTerms": ["connect", "link", "relationship", "dependency"],
+    "similar": ["connect-link"]
+  },
   "content-copy": {
     "searchTerms": ["copy", "duplicate"],
     "similar": ["content-copy", "android-copy"]
@@ -798,6 +841,10 @@
   "cube": {
     "searchTerms": ["star", "box", "d3", "cube"],
     "similar": ["stop"]
+  },
+  "cursor-pointer-clicked": {
+    "searchTerms": ["cursor", "mouse", "pointer", "click"],
+    "similar": ["cursor-pointer-clicked"]
   },
   "dashboard": {
     "searchTerms": [
@@ -858,6 +905,10 @@
   "drag-up": {
     "searchTerms": ["drag", "position", "up", "down"],
     "similar": ["arrow-up-b", "arrow-down-b", "chevron-up", "chevron-down"]
+  },
+  "dropbox": {
+    "searchTerms": ["dropbox", "cloud", "storage", "folder", "service"],
+    "similar": ["dropbox"]
   },
   "dropdown-menu": {
     "searchTerms": ["dropdown", "menu", "dropdown-menu", "down"],
@@ -967,6 +1018,19 @@
       "upload-file"
     ]
   },
+  "file-pdf-box": {
+    "searchTerms": ["pdf", "file", "adobe", "media", "reader"],
+    "similar": [
+      "pdf",
+      "media-pdf",
+      "images",
+      "media-excel",
+      "media-image",
+      "media-powerpoint",
+      "media-text",
+      "media-word"
+    ]
+  },
   "file-upload-outline": {
     "searchTerms": ["file", "upload", "import", "cloud"],
     "similar": ["file-upload-outline", "upload-circled", "upload-file"]
@@ -1021,6 +1085,10 @@
   "font-underline": {
     "searchTerms": ["font", "text", "editor"],
     "similar": ["font-bold", "font-italic", "font-strikethrough"]
+  },
+  "form-select": {
+    "searchTerms": ["form", "menu", "dropbox", "type", "input", "field"],
+    "similar": ["form-select", "task"]
   },
   "form-textbox": {
     "searchTerms": ["textbox", "text", "edit", "form", "input"],
@@ -1081,6 +1149,20 @@
     "searchTerms": ["grid", "layout", "workspace"],
     "similar": ["grid", "navicon", "1x1", "2x2", "3x3", "4x4", "5x5"]
   },
+  "grok": {
+    "searchTerms": [
+      "grok",
+      "x",
+      "twitter",
+      "ai",
+      "agent",
+      "prompt",
+      "automation",
+      "wizard",
+      "assistant"
+    ],
+    "similar": ["ai-agent-outline", "grok", "perplexity", "claude", "openai"]
+  },
   "hammer": {
     "searchTerms": ["hammer", "edit", "change", "break", "setting"],
     "similar": ["ellipsis", "navicon", "grid", "edit", "gear-a"]
@@ -1106,6 +1188,10 @@
   "help": {
     "searchTerms": ["help", "question", "mark", "assist"],
     "similar": ["alert-send", "alert", "alert-circled", "help-circled"]
+  },
+  "help-circle-question-outline": {
+    "searchTerms": ["help", "question", "information", "detail"],
+    "similar": ["help-circle-question-outline"]
   },
   "help-circled": {
     "searchTerms": ["help", "question", "mark", "assist", "info"],
@@ -1288,6 +1374,10 @@
     "searchTerms": ["link", "chain", "web", "share", "connection"],
     "similar": ["paperclip", "disconnected"]
   },
+  "list-box-outline": {
+    "searchTerms": ["list", "text", "form", "input", "table", "layout", "view"],
+    "similar": ["list-box-outline"]
+  },
   "list-decimals": {
     "searchTerms": ["list"],
     "similar": ["ios-list-outline", "list-lower-alpha", "list-roman-numerals"]
@@ -1466,6 +1556,10 @@
     "searchTerms": ["menu-meetings-active"],
     "similar": ["webcam"]
   },
+  "menu-right-arrow": {
+    "searchTerms": ["menu", "dropdown", "option", "chat", "expand", "textbox"],
+    "similar": ["menu-right-arrow"]
+  },
   "microphone": {
     "searchTerms": ["microphone", "audio", "silence", "speak", "talk", "voice"],
     "similar": [
@@ -1524,6 +1618,10 @@
       "integration"
     ],
     "similar": ["microsoft-365", "company"]
+  },
+  "milestone": {
+    "searchTerms": ["milestone", "sub-task", "task", "project", "management"],
+    "similar": ["milestone", "sub-task", "task", "stream"]
   },
   "minus-circle": {
     "searchTerms": [
@@ -1657,6 +1755,19 @@
     ],
     "similar": ["share", "forward"]
   },
+  "openai": {
+    "searchTerms": [
+      "openai",
+      "chatgpt",
+      "ai",
+      "agent",
+      "prompt",
+      "automation",
+      "wizard",
+      "assistant"
+    ],
+    "similar": ["ai-agent-outline", "grok", "perplexity", "claude", "openai"]
+  },
   "option": {
     "searchTerms": ["ellipsis", "setting", "more", "menu", "navicon", "option"],
     "similar": ["ellipsis", "navicon", "gear-a"]
@@ -1738,6 +1849,18 @@
       "person",
       "scout-external-person"
     ]
+  },
+  "perplexity": {
+    "searchTerms": [
+      "perplexity",
+      "ai",
+      "agent",
+      "prompt",
+      "automation",
+      "wizard",
+      "assistant"
+    ],
+    "similar": ["ai-agent-outline", "grok", "perplexity", "claude", "openai"]
   },
   "person": {
     "searchTerms": [
@@ -1946,6 +2069,10 @@
     ],
     "similar": ["circle-outline", "plus-circle", "plus-circle-outline"]
   },
+  "pound": {
+    "searchTerms": ["pound", "channel", "hashtag", "team", "group"],
+    "similar": ["pound", "channel", "pound-box-outline", "pound-box-outline"]
+  },
   "pound-box-outline": {
     "searchTerms": ["channel", "pound", "hashtag", "team", "group"],
     "similar": ["channel", "pound-box-outline", "managed-folder", "group"]
@@ -2085,9 +2212,9 @@
     "searchTerms": ["search", "find", "magnifying", "glass"],
     "similar": ["email", "scout-external-email", "scout-external-people"]
   },
-  "section-outline": {
-    "searchTerms": ["section", "box", "group", "section", "task"],
-    "similar": ["section-outline", "task"]
+  "phase-outline": {
+    "searchTerms": ["phase", "box", "group", "section", "task", "workflow"],
+    "similar": ["phase-outline", "task"]
   },
   "share": {
     "searchTerms": ["share", "reshare", "send"],
@@ -2411,6 +2538,10 @@
     ],
     "similar": ["folder", "managed-folder"]
   },
+  "sub-task": {
+    "searchTerms": ["sub-task", "task", "agenda", "project", "to-do"],
+    "similar": ["sub-task", "task", "stream"]
+  },
   "survey": {
     "searchTerms": ["survey", "clipboard", "feedback"],
     "similar": ["document", "images", "clipboard", "address"]
@@ -2418,6 +2549,10 @@
   "sync": {
     "searchTerms": ["sync", "synchronize"],
     "similar": ["sync"]
+  },
+  "tag-outline": {
+    "searchTerms": ["tag", "group", "organize", "management", "category"],
+    "similar": ["tag-ouline", "task"]
   },
   "task": {
     "searchTerms": [
@@ -2442,6 +2577,17 @@
   "team-add-outline": {
     "searchTerms": ["team", "member", "people", "channel", "group", "add"],
     "similar": ["person-add"]
+  },
+  "text": {
+    "searchTerms": [
+      "text",
+      "line",
+      "paragraph",
+      "description",
+      "input",
+      "form"
+    ],
+    "similar": ["text"]
   },
   "thumbsup": {
     "searchTerms": ["thumbsup", "good", "like"],
