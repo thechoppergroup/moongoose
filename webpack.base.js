@@ -1,6 +1,7 @@
 const { merge } = require('webpack-merge')
 const path = require('path');
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
+// [Vue 3 Migration] vue-loader 17 exports VueLoaderPlugin from the package root
+const { VueLoaderPlugin } = require('vue-loader');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = (env) => {
@@ -41,8 +42,13 @@ module.exports = (env) => {
                 test: /\.vue$/,
                 loader: 'vue-loader',
                 options: {
-                    loaders: {
-                        scss: 'vue-style-loader!css-loader!sass-loader?'
+                    // [Vue 3 Migration] Run in Vue 2 compat mode so existing
+                    // templates compile without changes. Deprecation warnings
+                    // appear at runtime to guide incremental migration.
+                    compilerOptions: {
+                        compatConfig: {
+                            MODE: 2
+                        }
                     }
                 }
             }, {
@@ -64,6 +70,9 @@ module.exports = (env) => {
         },
         resolve: {
             alias: {
+                // [Vue 3 Migration] Route all vue imports through @vue/compat
+                // so Vue 3 runs in Vue 2 compatibility mode
+                vue: '@vue/compat',
                 Docs: path.resolve(__dirname, 'src/docs/'),
                 Moongoose: path.resolve(__dirname, 'src')
             }
