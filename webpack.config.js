@@ -20,6 +20,17 @@ module.exports = (env) => {
                 libraryTarget: 'umd',
                 library: 'moongoose',
                 umdNamedDefine: true
+            },
+            // [Vue 3 Migration — Phase 5.5] Externalize vue so moongoose uses the
+            // consuming app's Vue instance instead of bundling its own copy.
+            // This prevents duplicate Vue runtimes and keeps the bundle small.
+            externals: {
+                vue: {
+                    commonjs: 'vue',
+                    commonjs2: 'vue',
+                    amd: 'vue',
+                    root: 'Vue'
+                }
             }
         }),
 

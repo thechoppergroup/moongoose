@@ -41,16 +41,8 @@ module.exports = (env) => {
             }, {
                 test: /\.vue$/,
                 loader: 'vue-loader',
-                options: {
-                    // [Vue 3 Migration] Run in Vue 2 compat mode so existing
-                    // templates compile without changes. Deprecation warnings
-                    // appear at runtime to guide incremental migration.
-                    compilerOptions: {
-                        compatConfig: {
-                            MODE: 2
-                        }
-                    }
-                }
+                // [Vue 3 Migration — Phase 5.5] Native Vue 3 template compilation.
+            // compatConfig removed — templates compile natively.
             }, {
                 test: /\.css$/,
                 use: [
@@ -70,9 +62,7 @@ module.exports = (env) => {
         },
         resolve: {
             alias: {
-                // [Vue 3 Migration] Route all vue imports through @vue/compat
-                // so Vue 3 runs in Vue 2 compatibility mode
-                vue: '@vue/compat',
+                // [Vue 3 Migration — Phase 5.5] Native Vue 3 — @vue/compat removed.
                 Docs: path.resolve(__dirname, 'src/docs/'),
                 Moongoose: path.resolve(__dirname, 'src')
             }
