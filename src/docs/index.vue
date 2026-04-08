@@ -184,7 +184,7 @@ import 'thin.css';
 
 export default {
     name: 'preview',
-    el: '#app',
+    // [Vue 3 Migration] Removed `el: '#app'` — Vue 3 uses createApp().mount('#app') in preview.js
 
     components: {
         Icon,
