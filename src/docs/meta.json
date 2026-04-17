@@ -2137,7 +2137,7 @@
     "similar": ["record", "status-active", "status-disconnected"]
   },
   "refresh": {
-    "searchTerms": ["refresh", "reload", "redo"],
+    "searchTerms": ["refresh", "reload", "redo", "reset"],
     "similar": [
       "load-d",
       "recent",
