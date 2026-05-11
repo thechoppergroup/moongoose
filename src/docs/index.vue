@@ -1,6 +1,6 @@
 <style lang="scss">
-@import '../scss/functions.scss';
-@import '../scss/color.scss';
+@use '../scss/functions' as *;
+@use '../scss/color' as *;
 
 $identity-width: 3rem;
 $bottombar-height: 10rem;

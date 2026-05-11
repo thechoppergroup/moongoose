@@ -45,7 +45,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../scss/color.scss';
+@use '../scss/color' as *;
 .flx-fill {
     flex: 1 0 auto;
 }

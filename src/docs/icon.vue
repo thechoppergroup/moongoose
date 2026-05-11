@@ -1,5 +1,6 @@
 <style lang="scss" scoped>
-    @import '../scss/color.scss';
+    @use 'sass:color';
+    @use '../scss/color' as *;
 
     [role="button"],
     input[type="submit"],
@@ -111,7 +112,7 @@
                 
 
                 &:hover {
-                    background-color: scale-color($primary-color, $lightness: 90%);
+                    background-color: color.scale($primary-color, $lightness: 90%);
                 }
 
                 &.is-successful {

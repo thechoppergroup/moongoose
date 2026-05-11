@@ -56,7 +56,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../scss/color.scss';
+@use 'sass:color';
+@use '../scss/color' as *;
 
 .snippet {
     width: 100%;
@@ -81,7 +82,7 @@ export default {
             color: #ffffff;
 
             &:hover {
-                background-color: darken($primary-color, 10%);
+                background-color: color.adjust($primary-color, $lightness: -10%);
             }
         }
     }

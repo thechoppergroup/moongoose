@@ -1,6 +1,8 @@
+@use "sass:list";
+
 // Index check function
 @function z($list, $element) {
-  $z-index: index($list, $element);
+  $z-index: list.index($list, $element);
 
   @if $z-index {
     @return $z-index;

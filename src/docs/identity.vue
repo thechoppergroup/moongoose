@@ -1,5 +1,5 @@
 <style lang="scss" scoped>
-@import '../scss/color.scss';
+@use '../scss/color' as *;
 
     .identity {
         color: $secondary-color;

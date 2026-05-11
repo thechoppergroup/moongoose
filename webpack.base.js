@@ -56,7 +56,13 @@ module.exports = (env) => {
                 }, {
                     loader: "css-loader" // translates CSS into CommonJS
                 }, {
-                    loader: "sass-loader"
+                    loader: "sass-loader",
+                    // [Vue 3 Migration — Build warnings] Use the modern Sass JS API.
+                    // The legacy JS API is deprecated in Dart Sass and slated for
+                    // removal in 2.0; modern API is the supported path in sass-loader 13+.
+                    options: {
+                        api: "modern"
+                    }
                 }]
             }]
         },
