@@ -24,7 +24,16 @@ SVG Icon Library
 - `scripts/resize-svg.js` is used to format the SVG files for consistency
 - `scripts/svg-to-module.js` is used to bundle all SVG files into a JS module
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/56a6a3b1-7d7e-4102-9aa2-157f27b16ddd/deploy-status)](https://app.netlify.com/sites/moongoose/deploys)
+## Browsing docs locally
+
+The docs are not hosted anywhere — run them on your own machine:
+
+```
+npm install
+npm run serve
+```
+
+This rebuilds on file change and serves via browser-sync.
 
 ## Adding icon to docs
 - Drop your new SVG icon into `src/icons/`

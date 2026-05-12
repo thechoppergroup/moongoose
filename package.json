@@ -12,10 +12,10 @@
   "scripts": {
     "clean": "node scripts/clean.js",
     "build": "npm run clean && node scripts/svg-to-module.js && webpack --config webpack.config.js --env disable=browser-sync",
-    "watch": "node scripts/svg-to-module.js && webpack --config webpack.config.js --watch",
+    "serve": "node scripts/svg-to-module.js && webpack --config webpack.config.js --watch",
+    "watch": "npm run serve",
     "release": "npm run build && npm version patch && npm publish",
-    "build-docs": "npm run build",
-    "deploy-docs": "npm run build && netlify deploy --dir=docs --prod"
+    "build-docs": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -38,7 +38,6 @@
     "css-loader": "^6.10.0",
     "fs": "^0.0.1-security",
     "lodash": "^4.17.10",
-    "netlify-cli": "^17.19.2",
     "path": "^0.12.7",
     "sass": "^1.69.0",
     "sass-loader": "^13.3.2",
