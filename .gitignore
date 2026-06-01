@@ -73,3 +73,8 @@ docs/preview.min.js.map
 .idea
 
 .yarnrc
+
+# Claude — personal/local layers (shared CLAUDE.md, .claude/settings.json,
+# and .claude/docs/ ARE checked in; these per-developer files are not).
+CLAUDE.local.md
+.claude/settings.local.json
