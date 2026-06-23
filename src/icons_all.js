@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     "1x1": '<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">  <path d="M56,56h400v400H56V56Z"/></svg>',
     "1x2": '<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">  <path d="M56,56h179.75v400H56V56ZM276.25,56h179.75v400h-179.75V56Z"/></svg>',
     "1x3": '<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">  <path d="M56,56h106.75v400H56V56ZM203.5,56h106.75v400h-106.75V56ZM349.25,56h106.75v400h-106.75V56Z"/></svg>',

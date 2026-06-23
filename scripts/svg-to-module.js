@@ -20,7 +20,7 @@ function writeIcons(output_js, module_str) {
 
 function filesToList(files) {
     var strAry = [];
-    strAry.push("module.exports = [");
+    strAry.push("export default [");
     files.forEach(function (f) {
         var contents = f.contents.replace(/\n/g, '');
         strAry.push(`'${f.name}',`);
@@ -32,7 +32,7 @@ function filesToList(files) {
 
 function filesToModule(files) {
     var strAry = [];
-    strAry.push("module.exports = {");
+    strAry.push("export default {");
     files.forEach(function (f) {
         var contents = f.contents.replace(/\n/g, '');
         strAry.push(`    "${f.name}": '${contents}',`);

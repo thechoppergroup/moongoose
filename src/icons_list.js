@@ -1,4 +1,4 @@
-module.exports = [
+export default [
 '1x1',
 '1x2',
 '1x3',

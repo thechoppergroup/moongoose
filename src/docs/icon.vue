@@ -169,6 +169,11 @@ import Icons from '../icons_all';
 
 export default {
     name: 'icon-preview',
+    // [Vue 3 Migration] Declare emitted events so `@click`/`@copiedToClipboard`
+    // are NOT also applied as native DOM listeners on the root element. Without
+    // this, the parent's handler fires twice — once with the emit payload and
+    // once with the native MouseEvent — which broke setCurrentIcon (Meta[event]).
+    emits: ['click', 'copiedToClipboard'],
     props: {
         name: '',
         size: '',
