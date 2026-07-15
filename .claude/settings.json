@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
   "env": {
-    "ANTHROPIC_CUSTOM_HEADERS": "x-headroom-project-id: moongoose"
+    "ANTHROPIC_CUSTOM_HEADERS": "x-headroom-project-id: moongoose\nx-headroom-project: moongoose"
   },
   "permissions": {
     "deny": [
@@ -23,6 +23,19 @@
       "Bash(git rm:*)",
       "Bash(git mv:*)",
       "Bash(git clean:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "rtk hook claude"
+          }
+        ]
+      }
     ]
   }
 }
