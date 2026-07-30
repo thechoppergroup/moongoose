@@ -46,6 +46,6 @@ chain** — `moonscape` and every app (`web`, `moonshine`, `wsmobile`,
   because every app renders them.
 
 ## Deeper docs (`.claude/docs/`, on demand)
-- `gotchas.md` — landmines (publish/version flow, generated files).
+- `pitfalls.md` — known pitfalls (publish/version flow, generated files).
 - `cross-repo-state.md` — where moongoose sits in the dependency chain.
 - `lessons/` — one dated file per painful lesson.
