@@ -3,10 +3,10 @@
 On-demand reference for agents and humans working in `moongoose`. Unlike the
 root `CLAUDE.md` (auto-loaded into every session, kept lean), nothing here loads
 automatically — Claude reads these files only when pointed at them. So this is
-the home for durable, accreting knowledge: gotchas, lessons, cross-repo state.
+the home for durable, accreting knowledge: pitfalls, lessons, cross-repo state.
 
 ## What lives here
-- `gotchas.md` — the hard-won landmines. The durable home for them; the root
+- `pitfalls.md` — the known pitfalls. The durable home for them; the root
   `CLAUDE.md` only carries a short pointer.
 - `cross-repo-state.md` — how this repo depends on / is depended on by its
   siblings.

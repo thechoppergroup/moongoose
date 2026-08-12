@@ -54,6 +54,6 @@ CSS is inlined into the JS (no separate `.css`). The lib entry is `src/index.js`
   because every app renders them.
 
 ## Deeper docs (`.claude/docs/`, on demand)
-- `gotchas.md` — landmines (publish/version flow, generated files).
+- `pitfalls.md` — known pitfalls (publish/version flow, generated files).
 - `cross-repo-state.md` — where moongoose sits in the dependency chain.
 - `lessons/` — one dated file per painful lesson.

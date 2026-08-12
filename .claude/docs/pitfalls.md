@@ -1,6 +1,6 @@
-# Gotchas — earned by pain
+# Known pitfalls
 
-Durable home for the landmines. The root `CLAUDE.md` carries a short pointer;
+Durable home for the known pitfalls. The root `CLAUDE.md` carries a short pointer;
 this is the full version. Add an entry whenever something costs real time.
 
 ## Generated files are not hand-edited
@@ -15,4 +15,4 @@ icon only shows up in `moonscape`/`moonshine`/etc. after `npm run release`
 (build + version patch + publish) **and** the consumer reinstalls. Don't expect
 a local edit here to appear downstream without that round-trip.
 
-<!-- Add new landmines below as you hit them. -->
+<!-- Add new pitfalls below as you encounter them. -->

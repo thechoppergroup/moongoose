@@ -15,7 +15,7 @@ npm registry; consumers pull a published version, not a local path.
 ## Impact of changes here
 A breaking change to an icon name or the module shape ripples up to every
 consumer. Because consumers pin a published version, the ripple only happens
-after a release + reinstall (see `gotchas.md`).
+after a release + reinstall (see `pitfalls.md`).
 
 ## No inbound dependencies
 Nothing internal is imported by `moongoose`. There is no cross-repo uncommitted
