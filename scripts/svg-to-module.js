@@ -64,4 +64,9 @@ function getName(filename) {
     return filename;
 }
 
-main();
+// Run when invoked as a script; tests require() the helpers without regenerating files.
+if (require.main === module) {
+    main();
+}
+
+module.exports = { icons_path, getName, readFiles, filesToModule, filesToList };

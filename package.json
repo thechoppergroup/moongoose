@@ -28,7 +28,9 @@
     "serve": "node scripts/svg-to-module.js && vite --config vite.docs.config.mjs",
     "watch": "npm run serve",
     "release": "npm run build && npm version patch && npm publish",
-    "build-docs": "node scripts/svg-to-module.js && vite build --config vite.docs.config.mjs"
+    "build-docs": "node scripts/svg-to-module.js && vite build --config vite.docs.config.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "repository": {
     "type": "git",
@@ -43,14 +45,17 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.7",
     "@vue/compiler-sfc": "^3.5.0",
+    "@vue/test-utils": "^2.5.1",
     "copy-to-clipboard": "^3.3.3",
     "cross-env": "^7.0.3",
+    "jsdom": "^29.1.1",
     "lodash": "^4.17.10",
     "sass": "^1.69.0",
     "svg-to-dataurl": "^1.0.0",
     "svgo": "^3.0.2",
     "thin.css": "^1.0.2",
     "vite": "^8.0.0",
+    "vitest": "^5.0.1",
     "vue": "^3.5.0"
   }
 }
