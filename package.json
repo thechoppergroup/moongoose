@@ -30,7 +30,9 @@
     "release": "npm run build && npm version patch && npm publish",
     "build-docs": "node scripts/svg-to-module.js && vite build --config vite.docs.config.mjs",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:visual": "sh tests/visual/run.sh",
+    "test:visual:update": "sh tests/visual/run.sh --update-snapshots"
   },
   "repository": {
     "type": "git",
@@ -43,6 +45,8 @@
   },
   "homepage": "https://github.com/thechoppergroup/moongoose#readme",
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "1.63.0",
     "@vitejs/plugin-vue": "^6.0.7",
     "@vue/compiler-sfc": "^3.5.0",
     "@vue/test-utils": "^2.5.1",

@@ -1,21 +1,22 @@
 <template lang="html">
   <fieldset>
-      <input ref="slider" @input="input" type="range" min="8" max="72" :value="value" />
+      <input ref="slider" @input="input" type="range" min="8" max="72" :value="modelValue" aria-label="Preview size" />
   </fieldset>
 </template>
 
 <script>
 export default {
     name: 'slider',
+    emits: ['update:modelValue'],
     props: {
-            value: {
+            modelValue: {
                 type: String,
                 default: '24'
             }
     },
     methods: {
         input: function () {
-            this.$emit('input', this.$refs.slider.value);
+            this.$emit('update:modelValue', this.$refs.slider.value);
         }
     }
 }
