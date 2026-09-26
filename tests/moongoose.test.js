@@ -34,10 +34,17 @@ describe('<moongoose>', () => {
         expect(wrapper.element.innerHTML).toBe('');
     });
 
-    // Pins today's markup: no aria-hidden / role. Update when the a11y fix lands.
-    test('renders no accessibility attributes', () => {
+    test('is decorative by default: hidden from assistive technology', () => {
         const wrapper = mount(Moongoose, { props: { name: '1x1' } });
-        expect(wrapper.attributes()).toEqual({ class: 'moongoose' });
+        expect(wrapper.attributes()).toEqual({ class: 'moongoose', 'aria-hidden': 'true' });
+    });
+
+    test('a label makes it a named image', async () => {
+        const wrapper = mount(Moongoose, { props: { name: 'close', label: 'Close' } });
+        expect(wrapper.attributes()).toEqual({ class: 'moongoose', role: 'img', 'aria-label': 'Close' });
+
+        await wrapper.setProps({ label: '' });
+        expect(wrapper.attributes()).toEqual({ class: 'moongoose', 'aria-hidden': 'true' });
     });
 });
 

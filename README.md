@@ -11,6 +11,17 @@ SVG Icon Library
 
 - `<script src="moon-goose/dist/moongoose.min.js"></script>`
 
+## Usage
+
+```html
+<moongoose name="trash-b" />
+<button @click="remove"><moongoose name="close" label="Remove" /></button>
+```
+
+Icons are decorative by default and rendered with `aria-hidden="true"`. When an icon is the only
+content of a control, give it a `label`: it renders as `role="img"` with that `aria-label`, which
+becomes the control's accessible name. (Labeling the control itself works too.)
+
 ## Adding new Icons
 
 - Run `yarn install`

@@ -18,8 +18,9 @@ Node 22.12+ is required (`.nvmrc`).
   `src/icons/` (a failure here usually means `npm run build` wasn't run after adding an icon);
   every SVG is well-formed, script-free (the component renders with `v-html`) and free of single
   quotes (the generator doesn't escape them); `src/docs/meta.json` only names real icons.
-- **`moongoose.test.js`** — the `<moongoose>` component renders and swaps icons, and the lib entry
-  and plugin export what consumers import.
+- **`moongoose.test.js`** — the `<moongoose>` component renders and swaps icons, is `aria-hidden`
+  unless given a `label` (then `role="img"` + `aria-label`), and the lib entry and plugin export
+  what consumers import.
 
 ## Baselines
 

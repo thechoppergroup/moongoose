@@ -156,7 +156,7 @@
         </button>
 
         <div v-show="name === currentIcon" class="icon-menu abs--top-right rst--list flx--default">
-            <button class="icon-menu-copy" @click="copyToClipboard" :class="{'is-successful': success}"><moongoose name="code" class="c0" /></button>
+            <button class="icon-menu-copy" @click="copyToClipboard" :class="{'is-successful': success}"><moongoose name="code" label="Copy icon code" class="c0" /></button>
         </div>
     </div>
 </template>

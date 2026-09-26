@@ -144,7 +144,7 @@ main {
             <div class="flx--default header-headers">
                 <div class="origin flx-fill">
                     <input class="header-headers-search" v-model="filter" :placeholder="placeholder"/>
-                    <button v-show="filter" class="header-inputClear abs--center-right a1 rst--button" @click="clearSearch"><moongoose name="close"></moongoose></button>
+                    <button v-show="filter" class="header-inputClear abs--center-right a1 rst--button" @click="clearSearch"><moongoose name="close" label="Clear search"></moongoose></button>
                 </div>
 
                 <div class="flx--default origin">

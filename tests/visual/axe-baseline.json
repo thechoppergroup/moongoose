@@ -1,9 +1,5 @@
 {
-  "search": [
-    "button-name"
-  ],
   "selected": [
-    "button-name",
     "color-contrast",
     "label"
   ]
