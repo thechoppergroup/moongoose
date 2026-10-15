@@ -23,15 +23,14 @@ module. It is the **bottom of the dependency chain** — `moonscape` and every a
 (`web`, `moonshine`, `wsmobile`, `ws_desktop`) consume it. Published to the
 private npm registry.
 
-**Build tooling is branch-dependent** (`git branch --show-current`): on
-`main`/`master` it's Webpack; on **`vue3` it's Vite 8** (Rolldown). On `vue3` the
-lib build emits BOTH `dist/moongoose.js` (UMD, `main`) and `dist/moongoose.mjs`
+The build is **Vite 8** (Rolldown). The lib build emits BOTH
+`dist/moongoose.js` (UMD, `main`) and `dist/moongoose.mjs`
 (clean ESM, `module`/`exports`) — the ESM imports named symbols from `vue`
 (no `require`), which is what lets moonscape consume it without CJS interop hacks.
 CSS is inlined into the JS (no separate `.css`). The lib entry is `src/index.js`
 (default export only — a named export alongside it trips Rollup `MIXED_EXPORTS`).
 
-## Commands (vue3 / Vite 8)
+## Commands
 - `npm run build` — `clean` → `scripts/svg-to-module.js` (bundle SVGs) →
   `vite build --config vite.lib.config.mjs`. Output to `dist/`.
 - `npm run serve` / `npm run watch` — svg-to-module → Vite docs dev server.
