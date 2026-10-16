@@ -11,7 +11,9 @@ startup) — this file is the auto-loaded contract.
   `.claude/settings.json`.)
 - **Show code before applying.** Propose edits and wait for approval; don't
   write unprompted.
-- **Plan before coding.** Major changes get a plan first.
+- **Plan before coding.** Major changes get a plan first. Always suggest
+  consolidating duplicated code where possible (shown as a diff for approval,
+  like any other change).
 - **Verify, don't guess.** Re-read the source to confirm files, exports, and
   build behavior before asserting. Flag any guess out loud.
 - American English throughout.
